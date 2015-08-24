@@ -1,0 +1,141 @@
+@import "_base.scss";
+
+//WRITE YOUR CSS HERE
+
+.dollar-sign{
+	font-size: 40px;
+}
+
+#button-container {
+	text-align: center;
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+	.income-box {
+		height: 60px;
+		font-size: 40px;
+		border-bottom: 1px dashed $border-gray;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		width: 180px;
+		margin-right: 1em;
+		text-align: center;
+		
+		&::-webkit-input-placeholder {
+			font-weight: 300;
+			text-align: left;
+			line-height: 2em;
+			font-size: 30px;
+		}
+
+		&:focus {
+			outline: 0;
+
+			&::-webkit-input-placeholder{
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+.error {
+	height: auto;
+	width: 50%;
+	display: none;
+	margin: 1px auto;
+	text-align: center;
+
+
+	.error-message {
+		background: $red;
+		padding: 0.25em;
+	}
+}
+
+
+#house-choice {
+	margin: 2.5em 0;
+	text-align: center;
+
+	#ck-button {
+	    margin: 0px auto;
+	    background-color:#EFEFEF;
+	    border-radius:4px;
+	    border:1px solid #D0D0D0;
+	    overflow:hidden;
+	    width: 200px;
+	    height: 45px;
+	    display: inline-block;
+	}
+
+	#ck-button:hover {
+	    background:red;
+	}
+
+	#ck-button label {
+	    float:left;
+	    width: 100%;
+	}
+
+	#ck-button label span {
+	    text-align:center;
+	    display:block;
+	    padding: 0.35em;
+	    font-size: $lg;
+	    font-family: $sans-serif-condensed;
+	}
+
+	#ck-button label input {
+	    position:absolute;
+	    top:-20px;
+	}
+
+	#ck-button input:checked + span {
+	    background-color: #911;
+	    color: #fff;
+	}
+
+
+}
+
+.info {
+	border: 1px solid;
+	padding-right: 1em; 
+
+
+	.income {
+		font-weight: bold;	
+		color: $green;
+	}
+
+	h2 {
+
+	}	
+}
+
+#map-container {
+	height: 575px;
+	width: 475px;
+	border: 1px solid;
+}
+
+
+.section:nth-child(2) {
+	margin-top: 2em;
+}
+
+#hover-box {
+	width: 260px;
+	position: absolute;
+	min-height: 20px;
+	background: #fff;
+	color: #000;
+	padding: 8px;
+	box-shadow: 0px 0px 10px #999;
+	-moz-box-shadow: 0px 0px 10px #999;
+	display: none;
+	z-index: 9999;
+}

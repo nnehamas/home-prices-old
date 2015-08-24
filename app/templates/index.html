@@ -1,0 +1,98 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+	<!-- HEADLINE AND BYLINE -->
+	
+	<div id="fullpage">
+   
+    <div class="section">
+
+		<span class="graphic-label">{{ COPY.label }}</span>
+		<div class="headline">{{ COPY.headline }}</div>
+		<div class="byline">
+			<span class="name">By <span class="upper">{{ COPY.reporter_name }}</span> and <span class="upper">{{ COPY.reporter_name_two }} </span></span>
+			<a href="mailto:{{ COPY.email }}"><span class="email">{{ COPY.email }}@MiamiHerald.com</span></a>
+			<span class="date">Published: {{ COPY.date }}</span>
+		</div>
+
+		<!-- READOUT -->
+		<div class="readout">
+			<p>{{ COPY.readout }}</p>		
+		</div>
+
+		<div class="readout">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloribus ipsum saepe ex aperiam maxime reiciendis doloremque cum voluptatem tempora laudantium itaque iste repellat eaque et, numquam, nobis, nam. Nisi.</p>
+
+		</div>
+		
+		<div id="house-choice">
+			
+			<h3>Do you want to buy a house or condo? </h3>
+
+			 <div id="ck-button">
+			   <label>
+			      <input class='house' type="checkbox" value="1"><span><i class="fa fa-home"></i> House</span>
+			   </label>
+			</div>
+
+			<div id="ck-button">
+			   <label>
+			      <input class='condo' type="checkbox" value="1"><span><i class="fa fa-building"></i> Condo</span>
+			   </label>
+			</div>
+
+		</div>
+
+		<div id="button-container">
+
+			<h3>What is your annual salary?</h3>
+			
+			<span class="dollar-sign">$ </span><input name="income-box" class="income-box" type="text" placeholder="Enter income" />
+
+			<button class='income-button button' type="button" value="Execute">Submit</button>
+			
+			<button class='reset button' type="button" value="Reset">Reset</button>
+
+		</div>
+
+		<div class="error">
+			<div class="alert alert-danger" role="alert">
+			  <i class="fa fa-info-circle"></i>
+			  <span class="sr-only">Error:</span>
+			   Enter a valid number
+			</div>
+		</div>
+
+	</div>
+
+	<br class="stop-scroll">
+
+	<!-- SECOND SECTION -->
+	<div class="section">
+	
+		<div class="info col-sm-6">
+			<h2>With <span class="income"></span>, you can afford to buy a house in <span class="zip-count"></span> ZIP codes.</h2>
+
+
+			<h3 class="zipcode"></h3>
+			
+		</div>
+
+		<div class="map col-sm-6">
+			<div id="map-container">
+				<!-- <div id="hover-box">
+					<h3><span class="from-layer"></span></h3>
+				</div> -->
+			</div>
+			
+		</div>
+	
+	</div>
+
+</div>
+
+
+
+
+
+{% endblock %}

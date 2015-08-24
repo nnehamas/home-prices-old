@@ -1,0 +1,171 @@
+<!---
+  _______ _____  ________  _      _____   ____  __ _________  ____
+ / ___/ // / _ \/  _/ __/ | | /| / / _ | / __/ / // / __/ _ \/ __/
+/ /__/ _  / , __/ /_\ \   | |/ |/ / __ |_\ \  / _  / _// , _/ _/  
+\___/_//_/_/|_/___/___/   |__/|__/_/ |_/___/ /_//_/___/_/|_/___/  
+                                                                                                                            
+Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- META TAGS and CSS -->
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="Chris Alcantara">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="keywords" content="">
+<meta name="copyright" content="&copy; 2015 Miami Herald">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Graphic: Finding affordable housing in Miami-Dade County"/>
+<meta property="og:type" content="article"/> 
+<meta property="og:description" content=""/>
+<meta property="og:image" content=""/>
+<meta property="og:url" content=""/>
+<meta property="og:site_name " content="Miami Herald"/> 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MiamiHerald">
+<meta name="twitter:creator" content="@MiamiHerald">
+<meta name="twitter:title" content="Graphic: Finding affordable housing in Miami-Dade County">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+
+<link rel="icon" type="image/jpg" href="http://www.miamiherald.com/static/theme/miamiherald/base/ico/favicon.png"/>
+<link rel="image_src" href="" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/libs/bootstrap.css">
+<link rel="stylesheet" href="css/libs/leaflet.css">
+
+<link rel="stylesheet" href="css/jquery-fullPage.css">
+
+<link rel="stylesheet" href="css/styles.css">
+
+    <title>Finding affordable housing in Miami-Dade County | Miami Herald</title>
+  </head>
+  <body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation"><div class="navbar-header"><a class="navbar-brand-img large-img" href="http://miamiherald.com"><img src="http://pubsys.miamiherald.com/static/media/projects/libraries/images/logo_b.png" class="logo"></a> <a class="navbar-brand-img mobile-img" href="http://miamiherald.com"><img src="http://pubsys.miamiherald.com/static/media/projects/libraries/images/h_b.png" class="logo"></a> <a class="navbar-brand sig">Real Estate</a></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-right"><li><a href=""><i class="fa fa-facebook"></i></a></li><li><a onclick="popUp=window.open('https://twitter.com/home?status=This%20is%20a%20test%20tweet%20for%20the%20home%20price%20project','popupwindow','scrollbars=yes,width=500,height=320');popUp.focus();return false"><i class="fa fa-twitter"></i></a></li><li><a href=""><i class="fa fa-google-plus"></i></a></li></ul></div></nav>
+
+      <!-- CONTENT -->
+      <div class="container">
+        
+	<!-- HEADLINE AND BYLINE -->
+	
+	<div id="fullpage">
+   
+    <div class="section">
+
+		<span class="graphic-label">The housing market</span>
+		<div class="headline">Finding affordable housing in Miami-Dade County</div>
+		<div class="byline">
+			<span class="name">By <span class="upper">Chris Alcantara</span> and <span class="upper">Nicolas Nehamas </span></span>
+			<a href="mailto:calcantara"><span class="email">calcantara@MiamiHerald.com</span></a>
+			<span class="date">Published: August 1, 2015</span>
+		</div>
+
+		<!-- READOUT -->
+		<div class="readout">
+			<p></p>		
+		</div>
+
+		<div class="readout">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloribus ipsum saepe ex aperiam maxime reiciendis doloremque cum voluptatem tempora laudantium itaque iste repellat eaque et, numquam, nobis, nam. Nisi.</p>
+
+		</div>
+		
+		<div id="house-choice">
+			
+			<h3>Do you want to buy a house or condo? </h3>
+
+			 <div id="ck-button">
+			   <label>
+			      <input class='house' type="checkbox" value="1"><span><i class="fa fa-home"></i> House</span>
+			   </label>
+			</div>
+
+			<div id="ck-button">
+			   <label>
+			      <input class='condo' type="checkbox" value="1"><span><i class="fa fa-building"></i> Condo</span>
+			   </label>
+			</div>
+
+		</div>
+
+		<div id="button-container">
+
+			<h3>What is your annual salary?</h3>
+			
+			<span class="dollar-sign">$ </span><input name="income-box" class="income-box" type="text" placeholder="Enter income" />
+
+			<button class='income-button button' type="button" value="Execute">Submit</button>
+			
+			<button class='reset button' type="button" value="Reset">Reset</button>
+
+		</div>
+
+		<div class="error">
+			<div class="alert alert-danger" role="alert">
+			  <i class="fa fa-info-circle"></i>
+			  <span class="sr-only">Error:</span>
+			   Enter a valid number
+			</div>
+		</div>
+
+	</div>
+
+	<br class="stop-scroll">
+
+	<!-- SECOND SECTION -->
+	<div class="section">
+	
+		<div class="info col-sm-6">
+			<h2>With <span class="income"></span>, you can afford to buy a house in <span class="zip-count"></span> ZIP codes.</h2>
+
+
+			<h3 class="zipcode"></h3>
+			
+		</div>
+
+		<div class="map col-sm-6">
+			<div id="map-container">
+				<!-- <div id="hover-box">
+					<h3><span class="from-layer"></span></h3>
+				</div> -->
+			</div>
+			
+		</div>
+	
+	</div>
+
+</div>
+
+
+
+
+
+
+        <div id="sources">
+	<p>Sources: </p>
+</div>
+        <!-- <h3 class="comments">Comments</h3>
+<div id="fb-root"></div><div class="fb-comments" data-href="" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
+ -->
+      </div>
+      <!-- JS LIBRARIES -->
+      <script src="js/libs/d3/d3.min.js"></script>
+<script src="js/libs/jquery/jquery.min.js"></script>
+<script src="js/libs/jquery/jquery.number.min.js"></script>
+<script src="js/libs/jquery/jquery.fullPage.min.js"></script>
+<script src="js/libs/modernizr/modernizr.js"></script>
+<script src="js/libs/bootstrap/bootstrap.min.js"></script>
+<script src="js/libs/sinclair.js"></script>
+<script src="js/libs/leaflet/leaflet.js"></script>
+<script src="js/libs/leaflet/tile.stamen.js"></script>
+<script src="js/main.js"></script>
+      <!-- ANALYTICS -->
+      <!-- <div id="mistatstag" style="display:none"><script type="text/javascript" src="http://media.miamiherald.com/misites/mia/miamiherald.js"></script><script type="text/javascript" src="http://media.miamiherald.com/mistats/products/pubsys_s_code.js"></script><script type="text/javascript">mistats.pagename="Static: Finding affordable housing in Miami-Dade County",mistats.pagelevel="Static",mistats.channel="Static: News",mistats.contentsource=mistats.sitename+": Static: Miami Herald",mistats.taxonomy="News|National|GovtPolitics|Elections|";</script><script type="text/javascript" src="http://media.miamiherald.com/mistats/products/pubsys.js"></script><script type="text/javascript" src="http://media.miamiherald.com/mistats/finalizestats.js"></script></div> -->
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "COPY": {
+    "key": "value",
+    "sig": "Sig goes here",
+    "label": "Label goes here",
+    "headline": "This is a dummy headline for the new Miami Herald news app template",
+    "reporter_name": "Chris Alcantara and Kara Dapena",
+    "email": "calcantara@miamiherald.com",
+    "date": "April 30, 2015",
+    "readout": "This is the readout for the Miami Herald app template.This is the readout for the Miami Herald app template. This is the readout for the Miami Herald app template. This is the readout for the Miami Herald app template.",
+    "sources": "FBI, DEA and Miami-Dade County",
+    "seo_description": "",
+    "key_words": "",
+    "fb_img": "",
+    "url": ""
+  }
+}

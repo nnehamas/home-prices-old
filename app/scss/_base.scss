@@ -1,0 +1,451 @@
+// MIAMI HERALD STYLESHEET
+// Made with love by Chris Alcantara (@chrisalcantara)
+
+// ===========
+// TYPOGRAPHY
+// ===========
+
+// Roboto Slab: Default serif
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300");
+
+//Raleway: Subheds and labels
+@import url("http://fonts.googleapis.com/css?family=Raleway:900");
+
+// Roboto Condensed: Mini heds
+@import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300");
+
+// Roboto: Default sans-serif for graphics, captions and sources
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900");
+
+//FONT VARIABLES
+$sans-serif: "Roboto", "Helvetica Nueue", Helvetica, Arial, sans-serif;
+
+$sans-serif-condensed: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
+
+$serif: "Roboto Slab", "Times New Roman", Times, serif;
+
+$raleway: "Raleway", "Helvetica Nueue", Helvetica, Arial, sans-serif;
+
+
+//STANDARD FONT SIZES
+$base: 16px;
+$xxl: 36px;
+$xl: 28px;
+$lg: 22px;
+$md: 18px;
+$sm: 14px;
+$xs: 12px;
+$xxs: 10px;
+
+//CUSTOM SIZES
+$headline: 50px;
+
+//FONT SIZE CLASS MIXINS
+@mixin font-size($f, $pct:1) {
+	font-size: $f; // for IE8
+}
+
+// These classes can be applied to any element
+// to set the font-size.
+%font-xxl,
+.font-xxl {
+	@include font-size($xxl, .9);
+}
+
+%font-xl,
+.font-xl {
+	@include font-size($xl, .9);
+}
+
+%font-lg,
+.font-lg {
+	@include font-size($lg, .9);
+}
+
+%font-md,
+.font-md {
+	@include font-size($md, .9);
+}
+
+%font-base,
+.font-base {
+	@include font-size($base, .9);
+}
+
+%font-sm,
+.font-sm {
+	@include font-size($sm, .9);
+}
+
+%font-xs,
+.font-xs {
+	@include font-size($xs, .9);
+}
+
+//HEADERS
+h1,h2,h3,h4,h5,h6 {
+	font-family: $sans-serif-condensed;
+}
+
+//========
+//COLORS
+//========
+
+//STANDARD COLORS
+$black: #000;
+$red: #aa0000;
+$yellow: #ffea00;
+$green: #2ca25f;
+$herald-blue: #006DBD;
+$white: #ffffff;
+
+//SHADES OF GRAY
+$bodytext-black: #282828;
+$text-gray: #666;
+$text-gray-source: #9b9b9b;
+$line-gray: #bbb;
+$border-gray: #ccc;
+$href-offwhite: #ddd;
+$background-gray: #f5f5f5;
+
+//POLITICAL PARTY COLORS
+$dem-blue: #1775AE;
+$rep-red: #D64946;
+
+//================
+//PAGE COMPONENTS
+//================
+
+//BODY
+body,html {
+	color: $bodytext-black;
+	padding-top: 40px;
+	background-color: $white;
+}
+
+//NAVIGATION
+.mobile-img {
+	display: none;
+}
+
+.sig {
+	font-weight: bold;
+	font-family: $raleway;
+	text-transform: uppercase; 
+}
+
+.navbar-collapse.collapse {
+	display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+	float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+	margin-right: 0px !important;
+}
+
+.navbar-right {
+	float: right!important;
+}
+
+//LABEL
+.graphic-label {
+  font-family: $raleway;
+  color: $red;
+  display: block;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center; 
+}
+
+//HEADLINE
+.headline {
+  font-family: $serif;
+  font-size: $headline;
+  line-height: 1em;
+  margin: 5px auto 10px auto;
+  font-weight: 700;
+  text-align: center;
+  max-width: 775px;
+
+}
+
+//BYLINE
+.byline {
+	display: table;
+	font-size: $sm;
+	display: block;
+	text-align: center;
+	
+	.name {
+		font-weight: bold;
+		display: block;
+		font-family: $sans-serif;
+
+		.upper {
+			text-transform: uppercase;
+		}
+	}
+
+	.email{
+		display: inline-block;
+		font-family: $serif;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.date {
+		display: block;
+		font-family: $serif;
+		font-size: $xs;
+		color: $text-gray; 
+	}
+}
+
+//TEXT
+.readout {
+	margin: 1em auto;
+	display: block;
+	font-family: $serif;
+	font-size: $base;
+	line-height: 1.4;
+	text-align: center;
+	max-width: 700px;
+
+	a {
+		color: $red;
+		
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	//PHOTOS
+	.single-photo, .double-photo {
+		width: 100%;
+	}
+
+	img {
+		display: block;
+		width: 100%;
+	}
+
+	.photog {
+		font-family: $sans-serif;
+		margin: 0.25em 0;
+		font-size: $xs;
+		color: $text-gray;
+		text-align: right;
+		display: block;
+		width: 100%;
+	}
+
+	.caption {
+		font-family: $sans-serif;
+		margin: 0.25em 0;
+		font-size: $sm;
+		color: $text-gray;
+		display: block;
+	}
+
+	.double-photo {
+
+		img {
+			border: 2px solid $white; 
+		}	
+	}
+}
+
+.photog {
+	font-family: $sans-serif;
+	margin: 0.25em 0 0 0;
+	font-size: $xxs;
+	color: $text-gray;
+	text-align: right;
+	display: block;
+	width: 100%;
+}
+
+.caption {
+	font-family: $sans-serif;
+	margin: 0.5em 0 0.5em 0;
+	font-size: $xs;
+	color: $text-gray;
+	display: block;
+}
+//SUBHED
+.subhed {
+	font-family: $raleway;
+	font-size: $lg;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 1em 0;
+}
+
+//TINYHED
+.tinyhed {
+	font-family: $sans-serif-condensed;
+	font-size: $md;
+	margin: 1em 0 0.5em 0;
+}
+
+//INSTRUCTIONS
+.instructions {
+	background: whitesmoke;
+	font-family: $sans-serif;
+	font-size: $sm;
+	font-weight: 300;
+	line-height: 1.3;
+	padding: 1em;
+	margin-bottom: 1em; 
+}
+
+//DIVIDER
+hr {
+	border-top: 1.5px solid $border-gray;
+}
+
+.dotted {
+	border-top: 1.5px dashed $border-gray;
+}
+
+//SOURCES
+#sources {
+	font-family: $sans-serif;
+	font-size: $xs;
+	max-width: 485px;
+	color: $text-gray-source;
+	display: table;
+	border-top: 1px solid $border-gray;
+
+	p {
+		padding: 0.5em 0 0 0;
+	}
+}
+
+//COMMENTS
+.comments {
+	margin-top: 1em;
+	background: whitesmoke;
+	padding: 0.25em;
+}
+
+//FOOTER
+.footer-list {
+	text-align: center;
+	padding: 0px 0 20px 0;
+
+	a {
+    	display: inline; 
+    }
+    
+    img {
+	    display: block;
+	    margin: 1em auto;
+	    box-shadow: none; 
+	}
+	.footer-text {
+		margin-right: 1em;
+		font-family: $raleway;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: $xs;
+	}
+}
+
+//BUTTONS
+@mixin btn($color, $type: null) {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $sans-serif;
+	letter-spacing: .03rem;
+	margin: 0 0 0.3em;
+	text-align: center;
+	vertical-align: middle;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+
+  @if $type == ghost {
+    background: transparent;
+    border: 2px solid $color;
+    color: $color;
+    padding: 7px 12px;
+  } @else {
+    background: $color;
+    @if $color == $herald-blue {
+     color: $white;
+    } @else {
+      color: $bodytext-black;
+    }
+    border: 0px;
+    padding: 7px 12px;
+  }
+
+  &:active,
+  &:hover {
+    @if $type == ghost {
+      background-color: transparentize($color, 0.95);
+      -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); 
+      -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    } @else {
+    	background-color: transparentize($color, .3);
+    	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+    	-webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+    	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.button {
+	@include btn($herald-blue);
+}
+
+.ghost-button {
+	@include btn($text-gray, ghost);
+}
+
+//===========
+//RESPONSIVE
+//===========
+
+//BREAKPOINTS
+$large-display: 1200px;
+$medium-display: 992px;
+$small-display: 767px;
+$tiny-display: 400px;
+
+@media (max-width: $small-display) {
+	.large-img {
+    	display: none;
+    }
+
+    .mobile-img {
+    	display: block; 
+	}
+
+	.headline {
+		font-size: 25px;
+	}
+
+	.subhed {
+		font-size: $base;
+	}
+
+	.readout {
+		font-size: $sm;
+	}
+
+	.fa-facebook, .fa-twitter, .fa-google-plus {
+		font-size: $md;
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "name": "herald-app-template",
+  "version": "1.0.0",
+  "homepage": "https://github.com/chrisalcantara/herald-app-template",
+  "authors": [
+    "Chris Alcantara <calcantara@miamiherald.com>"
+  ],
+  "description": "Template for all Miami Herald interactive graphics",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "d3": "latest",
+    "modernizr": "latest"
+  },
+  "install" : {
+    "path" : {
+      "css" : "css/libs",
+      "js": "js/libs"
+    },
+    "sources" : {
+      "bootstrap" : [
+        "bower_components/bootstrap/dist/js/bootstrap.min.js"
+      ],
+      "d3" : [
+        "bower_components/d3/d3.min.js"
+      ],
+      "jquery": [
+        "bower_components/jquery/dist/jquery.min.js"
+      ],      
+      "modernizr" : [
+        "bower_components/modernizr/modernizr.js"
+      ]
+    }
+  }
+}
