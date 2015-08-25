@@ -226,7 +226,7 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33015,
-                "cities" : "Hialeah",
+                "cities" : "Country Club",
                 "house_price" : 278200,
                 "condo_price" : 139200,
                 "crime" : 90
@@ -6165,7 +6165,12 @@
                 "cities" : "Dania Beach",
                 "house_price" : 222900,
                 "condo_price" : 138100,
-                "crime" : 266               
+                "crime" : 266,
+                "schools" : [{
+                    "schoolA" : "A",
+                    "schoolB" : "B",
+                    "schoolC" : "C"
+                }]              
             },
             "geometry": {
                 "type": "Polygon",
