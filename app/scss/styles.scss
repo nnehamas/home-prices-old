@@ -3,25 +3,54 @@
 //WRITE YOUR CSS HERE
 
 .dollar-sign{
-	font-size: 40px;
+	font-size: 35px;
 }
 
 #button-container {
-	text-align: center;
-	width: 100%;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin: 1em 0;
+	text-align: left;
+	height: auto;
+	
+	h3 {
+
+		text-align: center;
+	}
+
+	.input-holder {
+
+		text-align: center;
+	}
+
+	.button-holder{
+
+		text-align: center;
+
+	}
+
+	.income-btn {
+		margin: 5px auto;
+	    background-color: #EFEFEF;
+	    border-radius: 4px;
+	    border: 1px solid #D0D0D0;
+	    overflow: hidden;
+	    width: 110px;
+	    height: 40px;
+	    display: inline-block;
+		font-size: $lg;
+		font-family:  $sans-serif-condensed;
+		font-weight: bold;
+	}
 
 	.income-box {
-		height: 60px;
+		font-family: $sans-serif-condensed;
 		font-size: 40px;
 		border-bottom: 1px dashed $border-gray;
 		border-top: none;
 		border-left: none;
 		border-right: none;
-		width: 180px;
+		width: 155px;
 		margin-right: 1em;
-		text-align: center;
+		text-align: left;
 		
 		&::-webkit-input-placeholder {
 			font-weight: 300;
@@ -57,10 +86,15 @@
 
 
 #house-choice {
-	margin: 2.5em 0;
+	margin: 1em 0;
 	text-align: center;
+	height: auto;
 
-	#ck-button {
+	h3 {
+		padding-bottom: 8px;
+	}
+
+	#check-button-house, #check-button-condo {
 	    margin: 0px auto;
 	    background-color:#EFEFEF;
 	    border-radius:4px;
@@ -69,41 +103,124 @@
 	    width: 200px;
 	    height: 45px;
 	    display: inline-block;
+
+	    &:hover {
+	    	background: red;
+	    }
+
+	    & label {
+	    	float:left;
+	   		width: 100%;
+
+	   		& span {
+	   			text-align:center;
+			    display:block;
+			    padding: 0.35em;
+			    font-size: $lg;
+			    font-family: $sans-serif-condensed;
+			}
+
+
+			& input {
+				display: none;
+
+				&:checked + span {
+					background-color: #911;
+	    			color: #fff;
+				}
+			}
+	    }
+
 	}
 
-	#ck-button:hover {
-	    background:red;
-	}
+	.disabled {
 
-	#ck-button label {
-	    float:left;
-	    width: 100%;
-	}
+		&:hover {
+			 background-color: #efefef !important;
+		}
 
-	#ck-button label span {
-	    text-align:center;
-	    display:block;
-	    padding: 0.35em;
-	    font-size: $lg;
-	    font-family: $sans-serif-condensed;
-	}
-
-	#ck-button label input {
-	    position:absolute;
-	    top:-20px;
-	}
-
-	#ck-button input:checked + span {
-	    background-color: #911;
-	    color: #fff;
 	}
 
 
 }
 
 .info {
-	border: 1px solid;
-	padding-right: 1em; 
+	padding: 0em 0 0 1.25em; 
+
+	
+	#list-container {
+		background: #f8f5f2;
+		height: 600px;
+
+		& header {
+			padding: 10px;
+			display: block;
+			position: relative;
+
+			#srcbox{
+				font-family: 'Roboto Slab', Georgia, Times, Serif;
+			    font-size: 16px;
+			    width: 78%;
+			    padding: 14px 10.5% 14px 2.5%;
+			    margin: 15px auto 25px auto;
+			    display: block;
+			    border: none;
+			    background: #EEE;
+			    box-shadow: inset 0px 0px 10px #CCC;
+			    border-radius: 3px;
+			}
+
+			#srcbox-button {
+				background: rgba(0, 0, 0, 0) url('http://media.miamiherald.com/static/media/projects/2014/school-demographics/img/src.png') no-repeat scroll center center;
+			    width: 35px;
+			    height: 25px;
+			    position: absolute;
+			    right: 15%;
+			    top: 35px;
+			}
+
+			#reset {
+			    padding: 4px;
+			    position: absolute;
+			    right: 7%;
+			    top: 78px;
+			    display: inline-block;
+			    cursor: pointer;
+			 }
+		}
+
+		#zip-list {
+			border-top: 2px solid #AAA;
+		    width: 100%;
+		    height: 500px;
+		    overflow-y: scroll;
+		    box-shadow: inset 0px 0px 10px #CCC;
+			
+			ul {
+				padding: 0px;
+			}
+			
+			.active-listing { 
+				background: #fff; 
+				display: block !important; 
+				cursor: default !important 
+			}
+			
+		    .listing {
+		    	padding: 20px;
+		    	list-style-type: none;
+			    cursor: pointer;
+			    border-bottom: 1px solid #AAA;
+			    font-family: $serif;
+			    font-weight: bold;
+			    font-size: $md;
+		    }
+		}
+
+	}
+
+
+
 
 
 	.income {
@@ -116,10 +233,18 @@
 	}	
 }
 
+
+
+.map-section {
+	display: block;
+	margin-top: 1em;
+	height: 650px;
+
+}
+
+
 #map-container {
-	height: 575px;
-	width: 475px;
-	border: 1px solid;
+	height: 602px;
 }
 
 
@@ -138,4 +263,21 @@
 	-moz-box-shadow: 0px 0px 10px #999;
 	display: none;
 	z-index: 9999;
+}
+
+
+@media (max-width: 991px) {
+
+
+	.input-holder {
+		width: 100%;
+	}
+
+	.button-holder {
+		width: 100%;
+	}
+
+
+
+
 }

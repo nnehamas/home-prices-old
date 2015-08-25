@@ -5,10 +5,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33056,
-                "percent" : 0.082,
-                "price" : 138700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Gardens",
+                "house_price" : 145500,
+                "condo_price" : null,
+                "crime" : 230
             },
             "geometry": {
                 "type": "Polygon",
@@ -42,10 +42,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33055,
-                "percent" : 0.174,
-                "price" : 147600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Gardens",
+                "house_price" : 169300,
+                "condo_price" : null,
+                "crime" : 176
             },
             "geometry": {
                 "type": "Polygon",
@@ -87,10 +87,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33179,
-                "percent" : 0.034,
-                "price" : 126100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Ives Estates",
+                "house_price" : 256700,
+                "condo_price" : 100000,
+                "crime" : 92
             },
             "geometry": {
                 "type": "Polygon",
@@ -132,10 +132,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33013,
-                "percent" : 0.111,
-                "price" : 210000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hialeah",
+                "house_price" : 212500,
+                "condo_price" : 107200,
+                "crime" : 153
             },
             "geometry": {
                 "type": "Polygon",
@@ -181,10 +181,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33016,
-                "percent" : 0.127,
-                "price" : 128900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hialeah",
+                "house_price" : 246700,
+                "condo_price" : 117800,
+                "crime" : 119
             },
             "geometry": {
                 "type": "Polygon",
@@ -226,10 +226,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33015,
-                "percent" : 0.12,
-                "price" : 189000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hialeah",
+                "house_price" : 278200,
+                "condo_price" : 139200,
+                "crime" : 90
             },
             "geometry": {
                 "type": "Polygon",
@@ -271,10 +271,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33181,
-                "percent" : 0.081,
-                "price" : 191400,
-                "crime" : null,
-                "school" : null
+                "cities" : "North Miami",
+                "house_price" : 739200,
+                "condo_price" : 158400,
+                "crime" : 105
             },
             "geometry": {
                 "type": "Polygon",
@@ -383,10 +383,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33165,
-                "percent" : 0.099,
-                "price" : 280800,
-                "crime" : null,
-                "school" : null
+                "cities" : "University Park",
+                "house_price" : 290300,
+                "condo_price" : null,
+                "crime" : 260
             },
             "geometry": {
                 "type": "Polygon",
@@ -424,10 +424,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33141,
-                "percent" : 0.071,
-                "price" : 262100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Beach",
+                "house_price" : 815400,
+                "condo_price" : 236200,
+                "crime" : 217
             },
             "geometry": {
                 "type": "Polygon",
@@ -485,10 +485,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33155,
-                "percent" : 0.099,
-                "price" : 304400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coral Terrace",
+                "house_price" : 317500,
+                "condo_price" : 151900,
+                "crime" : 341
             },
             "geometry": {
                 "type": "Polygon",
@@ -530,10 +530,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33161,
-                "percent" : 0.102,
-                "price" : 162600,
-                "crime" : null,
-                "school" : null
+                "cities" : "North Miami",
+                "house_price" : 200100,
+                "condo_price" : 75200,
+                "crime" : 228
             },
             "geometry": {
                 "type": "Polygon",
@@ -575,10 +575,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33182,
-                "percent" : 0.1,
-                "price" : 301200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Tamiami",
+                "house_price" : 313100,
+                "condo_price" : 178300,
+                "crime" : 75
             },
             "geometry": {
                 "type": "Polygon",
@@ -616,10 +616,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33178,
-                "percent" : 0.032,
-                "price" : 321000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Doral",
+                "house_price" : 502800,
+                "condo_price" : 277900,
+                "crime" : 84
             },
             "geometry": {
                 "type": "Polygon",
@@ -703,10 +703,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33184,
-                "percent" : 0.062,
-                "price" : 254600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Tamiami",
+                "house_price" : 309500,
+                "condo_price" : 157800,
+                "crime" : 84
             },
             "geometry": {
                 "type": "Polygon",
@@ -744,10 +744,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33180,
-                "percent" : 0.054,
-                "price" : 391800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Aventura",
+                "house_price" : 796100,
+                "condo_price" : 369300,
+                "crime" : 66
             },
             "geometry": {
                 "type": "Polygon",
@@ -781,10 +781,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33175,
-                "percent" : 0.085,
-                "price" : 266900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Tamiami",
+                "house_price" : 303900,
+                "condo_price" : 150400,
+                "crime" : 115
             },
             "geometry": {
                 "type": "Polygon",
@@ -818,10 +818,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33135,
-                "percent" : 0.122,
-                "price" : 206500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 260300,
+                "condo_price" : 102100,
+                "crime" : 379
             },
             "geometry": {
                 "type": "Polygon",
@@ -906,10 +906,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33150,
-                "percent" : 0.028,
-                "price" : 109700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 115600,
+                "condo_price" : null,
+                "crime" : 412
             },
             "geometry": {
                 "type": "Polygon",
@@ -951,10 +951,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33154,
-                "percent" : 0.068,
-                "price" : 582300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Bal Harbour",
+                "house_price" : 682800,
+                "condo_price" : 502600,
+                "crime" : 78
             },
             "geometry": {
                 "type": "Polygon",
@@ -1004,10 +1004,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33194,
-                "percent" : 0.102,
-                "price" : 279800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Golden Glades",
+                "house_price" : 378400,
+                "condo_price" : 254800,
+                "crime" : 98
             },
             "geometry": {
                 "type": "Polygon",
@@ -1041,10 +1041,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33168,
-                "percent" : 0.087,
-                "price" : 128000,
-                "crime" : null,
-                "school" : null
+                "cities" : "North Miami",
+                "house_price" : 128000,
+                "condo_price" : null,
+                "crime" : 469
             },
             "geometry": {
                 "type": "Polygon",
@@ -1087,10 +1087,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33054,
-                "percent" : 0.061,
-                "price" : 97200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Gardens",
+                "house_price" : 101600,
+                "condo_price" : null,
+                "crime" : 473
             },
             "geometry": {
                 "type": "Polygon",
@@ -1181,10 +1181,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33035,
-                "percent" : 0.078,
-                "price" : 107200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Homestead",
+                "house_price" : 193600,
+                "condo_price" : 94800,
+                "crime" : 322
             },
             "geometry": {
                 "type": "Polygon",
@@ -1280,10 +1280,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33147,
-                "percent" : 0.13,
-                "price" : 106100,
-                "crime" : null,
-                "school" : null
+                "cities" : "West Little River",
+                "house_price" : 106400,
+                "condo_price" : null,
+                "crime" : 524
             },
             "geometry": {
                 "type": "Polygon",
@@ -1321,10 +1321,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33034,
-                "percent" : 0.068,
-                "price" : 86800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Florida City",
+                "house_price" : 106000,
+                "condo_price" : null,
+                "crime" : 366
             },
             "geometry": {
                 "type": "Polygon",
@@ -1378,10 +1378,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33167,
-                "percent" : 0.065,
-                "price" : 109700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Westview",
+                "house_price" : 109700,
+                "condo_price" : null,
+                "crime" : 407
             },
             "geometry": {
                 "type": "Polygon",
@@ -1435,10 +1435,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33030,
-                "percent" : 0.116,
-                "price" : 140600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Homestead",
+                "house_price" : 149200,
+                "condo_price" : 99100,
+                "crime" : 295
 
             },
             "geometry": {
@@ -1477,10 +1477,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33033,
-                "percent" : 0.105,
-                "price" : 136200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Homestead",
+                "house_price" : 151900,
+                "condo_price" : 113800,
+                "crime" : 278
             },
             "geometry": {
                 "type": "Polygon",
@@ -1590,10 +1590,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33173,
-                "percent" : 0.093,
-                "price" : 263500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Kendall",
+                "house_price" : 329200,
+                "condo_price" : 169000,
+                "crime" : 83
             },
             "geometry": {
                 "type": "Polygon",
@@ -1639,10 +1639,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33032,
-                "percent" : 0.141,
-                "price" : 156800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Princeton",
+                "house_price" : 158700,
+                "condo_price" : null,
+                "crime" : 308
             },
             "geometry": {
                 "type": "Polygon",
@@ -1724,10 +1724,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33140,
-                "percent" : 0.047,
-                "price" : 457100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Beach",
+                "house_price" : 1533600,
+                "condo_price" : 408300,
+                "crime" : 224
             },
             "geometry": {
                 "type": "Polygon",
@@ -1781,10 +1781,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33177,
-                "percent" : 0.131,
-                "price" : 203500,
-                "crime" : null,
-                "school" : null
+                "cities" : "South Miami Heights",
+                "house_price" : 214400,
+                "condo_price" : null,
+                "crime" : 98
             },
             "geometry": {
                 "type": "Polygon",
@@ -1830,10 +1830,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33187,
-                "percent" : 0.112,
-                "price" : 284400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Richmond West",
+                "house_price" : 294400,
+                "condo_price" : null,
+                "crime" : 124
             },
             "geometry": {
                 "type": "Polygon",
@@ -1883,10 +1883,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33109,
-                "percent" : 0.071,
-                "price" : 3106900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fisher Island",
+                "house_price" : null,
+                "condo_price" : 3102400,
+                "crime" : "N/A"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1920,10 +1920,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33149,
-                "percent" : 0.05,
-                "price" : 1092000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Key Biscayne",
+                "house_price" : 2807400,
+                "condo_price" : 907100,
+                "crime" : 41
             },
             "geometry": {
                 "type": "Polygon",
@@ -2009,10 +2009,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33131,
-                "percent" : -0.007,
-                "price" : 435600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : null,
+                "condo_price" : 435600,
+                "crime" : 262
             },
             "geometry": {
                 "type": "Polygon",
@@ -2058,10 +2058,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33018,
-                "percent" : 0.104,
-                "price" : 231600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hialeah",
+                "house_price" : 258200,
+                "condo_price" : 145800,
+                "crime" : 112
             },
             "geometry": {
                 "type": "Polygon",
@@ -2103,10 +2103,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33158,
-                "percent" : 0.066,
-                "price" : 625100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Village of Palmetto Bay",
+                "house_price" : 606500,
+                "condo_price" : 1256400,
+                "crime" : 51
             },
             "geometry": {
                 "type": "Polygon",
@@ -2144,10 +2144,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33146,
-                "percent" : 0.128,
-                "price" : 859500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coral Gables",
+                "house_price" : 930700,
+                "condo_price" : 299100,
+                "crime" : 86
             },
             "geometry": {
                 "type": "Polygon",
@@ -2189,10 +2189,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33196,
-                "percent" : 0.094,
-                "price" : 26400,
-                "crime" : null,
-                "school" : null
+                "cities" : "The Hammocks",
+                "house_price" : 300400,
+                "condo_price" : 152500,
+                "crime" : 151
             },
             "geometry": {
                 "type": "Polygon",
@@ -2246,10 +2246,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33172,
-                "percent" : 0.109,
-                "price" : 145000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fountainbleau",
+                "house_price" : 415600,
+                "condo_price" : 142500,
+                "crime" : 150
             },
             "geometry": {
                 "type": "Polygon",
@@ -2295,10 +2295,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33174,
-                "percent" : 0.09,
-                "price" : 210200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fountainbleau",
+                "house_price" : 282400,
+                "condo_price" : 142000,
+                "crime" : 116
             },
             "geometry": {
                 "type": "Polygon",
@@ -2332,10 +2332,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33186,
-                "percent" : 0.084,
-                "price" : 244400,
-                "crime" : null,
-                "school" : null
+                "cities" : "The Crossings",
+                "house_price" : 293300,
+                "condo_price" : 181500,
+                "crime" : 108
             },
             "geometry": {
                 "type": "Polygon",
@@ -2377,10 +2377,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33129,
-                "percent" : 0.066,
-                "price" : 446200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 584800,
+                "condo_price" : 391300,
+                "crime" : 253
             },
             "geometry": {
                 "type": "Polygon",
@@ -2438,10 +2438,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33130,
-                "percent" : -0.01,
-                "price" : 298700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : null,
+                "condo_price" : 302400,
+                "crime" : 440
             },
             "geometry": {
                 "type": "Polygon",
@@ -2479,10 +2479,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33160,
-                "percent" : 0.079,
-                "price" : 333600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Sunny Isles Beach",
+                "house_price" : 1755300,
+                "condo_price" : 321200,
+                "crime" : 73
             },
             "geometry": {
                 "type": "Polygon",
@@ -2536,10 +2536,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33162,
-                "percent" : 0.117,
-                "price" : 161100,
-                "crime" : null,
-                "school" : null
+                "cities" : "North Miami Beach",
+                "house_price" : 175400,
+                "condo_price" : 76200,
+                "crime" : 259
             },
             "geometry": {
                 "type": "Polygon",
@@ -2585,10 +2585,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33133,
-                "percent" : 0.03,
-                "price" : 512800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 731100,
+                "condo_price" : 404000,
+                "crime" : 362
             },
             "geometry": {
                 "type": "Polygon",
@@ -2650,10 +2650,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33169,
-                "percent" : 0.082,
-                "price" : 149200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Gardens",
+                "house_price" : 181900,
+                "condo_price" : 85800,
+                "crime" : 224
             },
             "geometry": {
                 "type": "Polygon",
@@ -2699,10 +2699,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33143,
-                "percent" : 0.086,
-                "price" : 412500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Glenvar Heights",
+                "house_price" : 750600,
+                "condo_price" : 144300,
+                "crime" : 207
             },
             "geometry": {
                 "type": "Polygon",
@@ -2756,10 +2756,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33125,
-                "percent" : 0.047,
-                "price" : 175300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 200900,
+                "condo_price" : 109200,
+                "crime" : 346
             },
             "geometry": {
                 "type": "Polygon",
@@ -2805,10 +2805,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33193,
-                "percent" : 0.088,
-                "price" : 200800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Kendall West",
+                "house_price" : 289500,
+                "condo_price" : 134100,
+                "crime" : 0
             },
             "geometry": {
                 "type": "Polygon",
@@ -2858,10 +2858,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33138,
-                "percent" : 0.081,
-                "price" : 359500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 504700,
+                "condo_price" : 223700,
+                "crime" : 254
             },
             "geometry": {
                 "type": "Polygon",
@@ -2908,10 +2908,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33142,
-                "percent" : 0.131,
-                "price" : 96700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 97100,
+                "condo_price" : 87500,
+                "crime" : 512
             },
             "geometry": {
                 "type": "Polygon",
@@ -2965,10 +2965,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33183,
-                "percent" : 0.108,
-                "price" : 175800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Kendale Lakes",
+                "house_price" : 295800,
+                "condo_price" : 151900,
+                "crime" : 68
             },
             "geometry": {
                 "type": "Polygon",
@@ -3010,10 +3010,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33166,
-                "percent" : 0.086,
-                "price" : 276700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Springs",
+                "house_price" : 340200,
+                "condo_price" : 140500,
+                "crime" : 181
             },
             "geometry": {
                 "type": "Polygon",
@@ -3108,10 +3108,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33170,
-                "percent" : 0.097,
-                "price" : 179600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Goulds",
+                "house_price" : 187100,
+                "condo_price" : null,
+                "crime" : 413
             },
             "geometry": {
                 "type": "Polygon",
@@ -3173,10 +3173,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33190,
-                "percent" : 0.08,
-                "price" : 188200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Cutler Bay",
+                "house_price" : 230100,
+                "condo_price" : null,
+                "crime" : 375
             },
             "geometry": {
                 "type": "Polygon",
@@ -3214,10 +3214,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33128,
-                "percent" : 0.27,
-                "price" : 139100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : null,
+                "condo_price" : 119900,
+                "crime" : 379
             },
             "geometry": {
                 "type": "Polygon",
@@ -3263,10 +3263,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33010,
-                "percent" : 0.14,
-                "price" : 190200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hialeah",
+                "house_price" : 201100,
+                "condo_price" : null,
+                "crime" : 128
             },
             "geometry": {
                 "type": "Polygon",
@@ -3312,10 +3312,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33156,
-                "percent" : 0.095,
-                "price" : 723600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pinecrest",
+                "house_price" : 999500,
+                "condo_price" : 203600,
+                "crime" : 210
             },
             "geometry": {
                 "type": "Polygon",
@@ -3424,10 +3424,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33189,
-                "percent" : 0.108,
-                "price" : 202900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Cutler Bay",
+                "house_price" : 221900,
+                "condo_price" : 109100,
+                "crime" : 259
             },
             "geometry": {
                 "type": "Polygon",
@@ -3485,10 +3485,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33014,
-                "percent" : 0.069,
-                "price" : 162200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hialeah",
+                "house_price" : 298100,
+                "condo_price" : 138700,
+                "crime" : 104
             },
             "geometry": {
                 "type": "Polygon",
@@ -3558,10 +3558,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33012,
-                "percent" : 0.121,
-                "price" : 154200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hialeah",
+                "house_price" : 240600,
+                "condo_price" : 102100,
+                "crime" : 77
             },
             "geometry": {
                 "type": "Polygon",
@@ -3603,10 +3603,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33139,
-                "percent" : 0.108,
-                "price" : 389200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami Beach",
+                "house_price" : 3229000,
+                "condo_price" : 367400,
+                "crime" : 249
             },
             "geometry": {
                 "type": "Polygon",
@@ -3660,10 +3660,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33132,
-                "percent" : -0.002,
-                "price" : 394800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : null,
+                "condo_price" : 394500,
+                "crime" : 297
             },
             "geometry": {
                 "type": "Polygon",
@@ -3721,10 +3721,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33137,
-                "percent" : 0.04,
-                "price" : 327600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 663000,
+                "condo_price" : 301100,
+                "crime" : 265
             },
             "geometry": {
                 "type": "Polygon",
@@ -3762,10 +3762,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33185,
-                "percent" : 0.064,
-                "price" : 308900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Kendall West",
+                "house_price" : 332700,
+                "condo_price" : 225900,
+                "crime" : 100
             },
             "geometry": {
                 "type": "Polygon",
@@ -3807,10 +3807,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33134,
-                "percent" : 0.057,
-                "price" : 444200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coral Gables",
+                "house_price" : 528500,
+                "condo_price" : 342700,
+                "crime" : 170
             },
             "geometry": {
                 "type": "Polygon",
@@ -3919,10 +3919,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33144,
-                "percent" : 0.061,
-                "price" : 257800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 265600,
+                "condo_price" : null,
+                "crime" : 310
             },
             "geometry": {
                 "type": "Polygon",
@@ -3956,10 +3956,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33126,
-                "percent" : 0.087,
-                "price" : 157800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 241100,
+                "condo_price" : 140100,
+                "crime" : 258
             },
             "geometry": {
                 "type": "Polygon",
@@ -4017,10 +4017,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33176,
-                "percent" : 0.126,
-                "price" : 252000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Kendall",
+                "house_price" : 418500,
+                "condo_price" : 127300,
+                "crime" : 125
             },
             "geometry": {
                 "type": "Polygon",
@@ -4078,10 +4078,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33127,
-                "percent" : 0.134,
-                "price" : 101300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 98600,
+                "condo_price" : null,
+                "crime" : 455
             },
             "geometry": {
                 "type": "Polygon",
@@ -4123,10 +4123,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33157,
-                "percent" : 0.127,
-                "price" : 220400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Village of Palmetto Bay",
+                "house_price" : 238500,
+                "condo_price" : 85900,
+                "crime" : 199
             },
             "geometry": {
                 "type": "Polygon",
@@ -4192,10 +4192,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33145,
-                "percent" : 0.128,
-                "price" : 325700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price" : 360800,
+                "condo_price" : 235500,
+                "crime" : 379
             },
             "geometry": {
                 "type": "Polygon",
@@ -4233,10 +4233,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33067,
-                "percent" : 0.022,
-                "price" : 387100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coral Springs",
+                "house_price" : 411000,
+                "condo_price" : null,
+                "crime" : 49
             },
             "geometry": {
                 "type": "Polygon",
@@ -4286,10 +4286,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33076,
-                "percent" : 0.022,
-                "price" : 437300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coral Springs",
+                "house_price" : 450100,
+                "condo_price" : null,
+                "crime" : 45
             },
             "geometry": {
                 "type": "Polygon",
@@ -4327,10 +4327,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33441,
-                "percent" : 0.026,
-                "price" : 179300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Deerfield Beach",
+                "house_price" : 229500,
+                "condo_price" : 117100,
+                "crime" : 152
             },
             "geometry": {
                 "type": "Polygon",
@@ -4384,10 +4384,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33442,
-                "percent" : 0.061,
-                "price" : 83000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Deerfield Beach",
+                "house_price" : 248900,
+                "condo_price" : 54300,
+                "crime" : 38
             },
             "geometry": {
                 "type": "Polygon",
@@ -4433,10 +4433,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33073,
-                "percent" : 0.048,
-                "price" : 294300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coconut Creek",
+                "house_price" : 309300,
+                "condo_price" : null,
+                "crime" : 75
             },
             "geometry": {
                 "type": "Polygon",
@@ -4486,10 +4486,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33062,
-                "percent" : 0.081,
-                "price" : 133300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pompano Beach",
+                "house_price" : 526100,
+                "condo_price" : 284500,
+                "crime" : 184
             },
             "geometry": {
                 "type": "Polygon",
@@ -4547,10 +4547,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33064,
-                "percent" : 0.089,
-                "price" : 137000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pompano Beach",
+                "house_price" : 153200,
+                "condo_price" : 74400,
+                "crime" : 137
             },
             "geometry": {
                 "type": "Polygon",
@@ -4608,10 +4608,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33065,
-                "percent" : 0.058,
-                "price" : 159800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coral Springs",
+                "house_price" : 284100,
+                "condo_price" : 80300,
+                "crime" : 62
             },
             "geometry": {
                 "type": "Polygon",
@@ -4661,10 +4661,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33069,
-                "percent" : 0.002,
-                "price" : 125000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pompano Beach",
+                "house_price" : 106100,
+                "condo_price" : 128800,
+                "crime" : 238
             },
             "geometry": {
                 "type": "Polygon",
@@ -4726,10 +4726,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33063,
-                "percent" : 0.081,
-                "price" : 133300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Margate",
+                "house_price" : 208700,
+                "condo_price" : 56000,
+                "crime" : 57
             },
             "geometry": {
                 "type": "Polygon",
@@ -4779,10 +4779,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33066,
-                "percent" : 0.081,
-                "price" : 101400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coconut Creek",
+                "house_price" : 230000,
+                "condo_price" : 87300,
+                "crime" : 83
             },
             "geometry": {
                 "type": "Polygon",
@@ -4824,10 +4824,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33060,
-                "percent" : 0.066,
-                "price" : 197600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pompano Beach",
+                "house_price" : 243000,
+                "condo_price" : 86900,
+                "crime" : 212
             },
             "geometry": {
                 "type": "Polygon",
@@ -4877,10 +4877,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33071,
-                "percent" : 0.028,
-                "price" : 324400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Coral Springs",
+                "house_price" : 347800,
+                "condo_price" : 118600,
+                "crime" : 37
             },
             "geometry": {
                 "type": "Polygon",
@@ -4922,10 +4922,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33068,
-                "percent" : 0.053,
-                "price" : 138300,
-                "crime" : null,
-                "school" : null
+                "cities" : "North Lauderdale",
+                "house_price" : 157600,
+                "condo_price" : 71200,
+                "crime" : 96
             },
             "geometry": {
                 "type": "Polygon",
@@ -4983,10 +4983,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33321,
-                "percent" : 0.066,
-                "price" : 139900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Tamarac",
+                "house_price" : 171600,
+                "condo_price" : 85400,
+                "crime" : 62
             },
             "geometry": {
                 "type": "Polygon",
@@ -5032,10 +5032,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33308,
-                "percent" : 0.032,
-                "price" : 376300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 587700,
+                "condo_price" : 297500,
+                "crime" : 77
             },
             "geometry": {
                 "type": "Polygon",
@@ -5081,10 +5081,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33309,
-                "percent" : 0.088,
-                "price" : 143600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Oakland Park",
+                "house_price" : 170600,
+                "condo_price" : 99900,
+                "crime" : 200
             },
             "geometry": {
                 "type": "Polygon",
@@ -5126,10 +5126,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33334,
-                "percent" : 0.106,
-                "price" : 190600,
-                "crime" : null,
-                "school" : null
+                "cities" : "Oakland Park",
+                "house_price" : 231100,
+                "condo_price" : 101200,
+                "crime" : 203
             },
             "geometry": {
                 "type": "Polygon",
@@ -5179,10 +5179,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33319,
-                "percent" : 0.046,
-                "price" : 85000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Lauderhill",
+                "house_price" : 153600,
+                "condo_price" : 58200,
+                "crime" : 98
             },
             "geometry": {
                 "type": "Polygon",
@@ -5232,10 +5232,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33351,
-                "percent" : 0.079,
-                "price" : 159100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Sunrise",
+                "house_price" : 216400,
+                "condo_price" : 87100,
+                "crime" : 104
             },
             "geometry": {
                 "type": "Polygon",
@@ -5277,10 +5277,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33323,
-                "percent" : 0.047,
-                "price" : 263500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Sunrise",
+                "house_price" : 261600,
+                "condo_price" : 292000,
+                "crime" : 89
             },
             "geometry": {
                 "type": "Polygon",
@@ -5326,10 +5326,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33306,
-                "percent" : -0.061,
-                "price" : 334700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 562700,
+                "condo_price" : 161800,
+                "crime" : 106
             },
             "geometry": {
                 "type": "Polygon",
@@ -5363,10 +5363,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33311,
-                "percent" : 0.036,
-                "price" : 113200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 122500,
+                "condo_price" : null,
+                "crime" : 286
             },
             "geometry": {
                 "type": "Polygon",
@@ -5416,10 +5416,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33313,
-                "percent" : 0.024,
-                "price" : 55900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Lauderhill",
+                "house_price" : 161300,
+                "condo_price" : 47400,
+                "crime" : 175
             },
             "geometry": {
                 "type": "Polygon",
@@ -5461,10 +5461,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33322,
-                "percent" : 0.142,
-                "price" : 119800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Sunrise",
+                "house_price" : 232700,
+                "condo_price" : 49500,
+                "crime" : 44
             },
             "geometry": {
                 "type": "Polygon",
@@ -5510,10 +5510,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33305,
-                "percent" : 0.025,
-                "price" : 358200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 456300,
+                "condo_price" : 205100,
+                "crime" : 149
             },
             "geometry": {
                 "type": "Polygon",
@@ -5555,10 +5555,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33327,
-                "percent" : 0,
-                "price" : 458000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Weston",
+                "house_price" : 458000,
+                "condo_price" : null,
+                "crime" : 43
             },
             "geometry": {
                 "type": "Polygon",
@@ -5628,10 +5628,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33304,
-                "percent" : 0.01,
-                "price" : 299500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 433500,
+                "condo_price" : 249600,
+                "crime" : 210
             },
             "geometry": {
                 "type": "Polygon",
@@ -5673,10 +5673,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33326,
-                "percent" : 0.069,
-                "price" : 289700,
-                "crime" : null,
-                "school" : null
+                "cities" : "Weston",
+                "house_price" : 370200,
+                "condo_price" : 164000,
+                "crime" : 41
             },
             "geometry": {
                 "type": "Polygon",
@@ -5738,10 +5738,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33317,
-                "percent" : 0.053,
-                "price" : 241400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Plantation",
+                "house_price" : 29950,
+                "condo_price" : 92100,
+                "crime" : 121
             },
             "geometry": {
                 "type": "Polygon",
@@ -5787,10 +5787,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33324,
-                "percent" : 0.064,
-                "price" : 180100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Plantation",
+                "house_price" : 315000,
+                "condo_price" : 130600,
+                "crime" : 61
             },
             "geometry": {
                 "type": "Polygon",
@@ -5828,10 +5828,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33325,
-                "percent" : 0.031,
-                "price" : 318200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Davie",
+                "house_price" : 336200,
+                "condo_price" : null,
+                "crime" : 54
             },
             "geometry": {
                 "type": "Polygon",
@@ -5873,10 +5873,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33301,
-                "percent" : 0.05,
-                "price" : 494100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 1051100,
+                "condo_price" : 332200,
+                "crime" : 210
             },
             "geometry": {
                 "type": "Polygon",
@@ -5922,10 +5922,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33316,
-                "percent" : 0.047,
-                "price" : 514900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 952900,
+                "condo_price" : null,
+                "crime" : 156
             },
             "geometry": {
                 "type": "Polygon",
@@ -5979,10 +5979,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33312,
-                "percent" : 0.076,
-                "price" : 205900,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 200600,
+                "condo_price" : 230000,
+                "crime" : 169
             },
             "geometry": {
                 "type": "Polygon",
@@ -6040,10 +6040,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33315,
-                "percent" : 0.09,
-                "price" : 243400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Fort Lauderdale",
+                "house_price" : 263500,
+                "condo_price" : null,
+                "crime" : 214
             },
             "geometry": {
                 "type": "Polygon",
@@ -6101,10 +6101,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33332,
-                "percent" : 0.004,
-                "price" : 539000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Weston",
+                "house_price" : 554200,
+                "condo_price" : 440500,
+                "crime" : 45
             },
             "geometry": {
                 "type": "Polygon",
@@ -6162,10 +6162,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33004,
-                "percent" : 0.032,
-                "price" : 156500,
-                "crime" : 0.50,
-                "school" : 1
+                "cities" : "Dania Beach",
+                "house_price" : 222900,
+                "condo_price" : 138100,
+                "crime" : 266               
             },
             "geometry": {
                 "type": "Polygon",
@@ -6243,10 +6243,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33314,
-                "percent" : 0.063,
-                "price" : 152000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Davie",
+                "house_price" : 197100,
+                "condo_price" : 112800,
+                "crime" : 173
             },
             "geometry": {
                 "type": "Polygon",
@@ -6296,10 +6296,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33331,
-                "percent" : 0.006,
-                "price" : 419000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Weston",
+                "house_price" : 432600,
+                "condo_price" : 316400,
+                "crime" : 33
             },
             "geometry": {
                 "type": "Polygon",
@@ -6349,10 +6349,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33328,
-                "percent" : 0.033,
-                "price" : 309800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Davie",
+                "house_price" : 325600,
+                "condo_price" : 138600,
+                "crime" : 44
             },
             "geometry": {
                 "type": "Polygon",
@@ -6390,10 +6390,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33330,
-                "percent" : 0.085,
-                "price" : 561500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Cooper City",
+                "house_price" : 560700,
+                "condo_price" : null,
+                "crime" : 35
             },
             "geometry": {
                 "type": "Polygon",
@@ -6435,10 +6435,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33019,
-                "percent" : 0.039,
-                "price" : 354800,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hollywood",
+                "house_price" : 502500,
+                "condo_price" : 299300,
+                "crime" : 51
             },
             "geometry": {
                 "type": "Polygon",
@@ -6488,10 +6488,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33020,
-                "percent" : 0.092,
-                "price" : 162300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Holywood",
+                "house_price" : 179100,
+                "condo_price" : 91600,
+                "crime" : 149
             },
             "geometry": {
                 "type": "Polygon",
@@ -6533,10 +6533,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33021,
-                "percent" : 0.03,
-                "price" : 213300,
-                "crime" : null,
-                "school" : null
+                "cities" : "Hollywood",
+                "house_price" : 285300,
+                "condo_price" : 103400,
+                "crime" : 92
             },
             "geometry": {
                 "type": "Polygon",
@@ -6586,10 +6586,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33024,
-                "percent" : 0.1,
-                "price" : 190000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pembroke Pines",
+                "house_price" : 203200,
+                "condo_price" : 109000,
+                "crime" : 0
             },
             "geometry": {
                 "type": "Polygon",
@@ -6631,10 +6631,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33026,
-                "percent" : 0.1,
-                "price" : 211400,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pembroke Pines",
+                "house_price" : 270300,
+                "condo_price" : 105500,
+                "crime" : 46
             },
             "geometry": {
                 "type": "Polygon",
@@ -6676,10 +6676,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33028,
-                "percent" : 0.043,
-                "price" : 354500,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pembroke Pines",
+                "house_price" : 354600,
+                "condo_price" : null,
+                "crime" : 29
             },
             "geometry": {
                 "type": "Polygon",
@@ -6717,10 +6717,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33029,
-                "percent" : 0.037,
-                "price" : 363100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Pembroke Pines",
+                "house_price" : 363600,
+                "condo_price" : null,
+                "crime" : 28
             },
             "geometry": {
                 "type": "Polygon",
@@ -6762,10 +6762,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33023,
-                "percent" : 0.109,
-                "price" : 160200,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miramar",
+                "house_price" : 163600,
+                "condo_price" : null,
+                "crime" : 183
             },
             "geometry": {
                 "type": "Polygon",
@@ -6811,10 +6811,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33025,
-                "percent" : 0.081,
-                "price" : 170000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miramar",
+                "house_price" : 223800,
+                "condo_price" : 114500,
+                "crime" : 107
             },
             "geometry": {
                 "type": "Polygon",
@@ -6860,10 +6860,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33027,
-                "percent" : 0.063,
-                "price" : 283000,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miramar",
+                "house_price" : 353700,
+                "condo_price" : 107500,
+                "crime" : 0
             },
             "geometry": {
                 "type": "Polygon",
@@ -6897,10 +6897,10 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33009,
-                "percent" : 0.057,
-                "price" : 197800,
-                "crime" : 0.50,
-                "school" : 5
+                "cities" : "Hallandale Beach",
+                "house_price" : 177700,
+                "condo_price" : 203500,
+                "crime" : 157
             },
             "geometry": {
                 "type": "Polygon",
