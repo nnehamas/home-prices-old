@@ -6612,11 +6612,11 @@
                 "zipcode": 33004,
                 "cities" : "Dania Beach",
                 "house_price_fifteen" : 222900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 214100,
+                "house_pct" : 0.041,
                 "condo_price_fifteen" : 138100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
+                "condo_price_fourteen": 138100,
+                "condo_pct": 0.03,
                 "crime" : 266               
             },
             "geometry": {
