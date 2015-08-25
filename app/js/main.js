@@ -442,22 +442,12 @@
 						$('.table-head').after('<tr><td class=\'name\'>' + schoolData[i].name + '</td><td>'+ schoolData[i].grade2012 +'</td><td>' + schoolData[i].grade2011 +'</td><td>' + schoolData[i].grade2010+'</td></tr>')
 					};
 
-					// console.log(schoolData[q].name)
-
-					// $.each(schoolData, function(i) {
-
-			 	// 		// console.log(this)
-
-					// });
-
-
 				});
 	  		});
 	 
 		});
 
 	}
-
 
 
 	// LAUNCH PAD
