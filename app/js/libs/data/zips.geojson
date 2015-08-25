@@ -7,12 +7,12 @@
                 "zipcode": 33056,
                 "cities" : "Miami Gardens",
                 "house_price_fifteen" : 145500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 133800,
+                "house_pct" : 0.087,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 230
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 149
             },
             "geometry": {
                 "type": "Polygon",
@@ -48,12 +48,12 @@
                 "zipcode": 33055,
                 "cities" : "Miami Gardens",
                 "house_price_fifteen" : 169300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 140400,
+                "house_pct" : 0.206,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 176
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 110
             },
             "geometry": {
                 "type": "Polygon",
@@ -97,12 +97,12 @@
                 "zipcode": 33179,
                 "cities" : "Ives Estates",
                 "house_price_fifteen" : 256700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 222100,
+                "house_pct" : 0.156,
                 "condo_price_fifteen" : 100000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 92
+                "condo_price_fourteen": 94300,
+                "condo_pct": 0.06,
+                "crime" : 80
             },
             "geometry": {
                 "type": "Polygon",
@@ -146,12 +146,12 @@
                 "zipcode": 33013,
                 "cities" : "Hialeah",
                 "house_price_fifteen" : 212500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 191200,
+                "house_pct" : 0.111,
                 "condo_price_fifteen" : 107200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 153
+                "condo_price_fourteen": 91000,
+                "condo_pct": 0.178,
+                "crime" : 137
             },
             "geometry": {
                 "type": "Polygon",
@@ -199,12 +199,12 @@
                 "zipcode": 33016,
                 "cities" : "Hialeah",
                 "house_price_fifteen" : 246700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 240300,
+                "house_pct" : 0.027,
                 "condo_price_fifteen" : 117800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 119
+                "condo_price_fourteen": 103000,
+                "condo_pct": 0.144,
+                "crime" : 78
             },
             "geometry": {
                 "type": "Polygon",
@@ -246,14 +246,14 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33015,
-                "cities" : "Hialeah",
+                "cities" : "Country Club",
                 "house_price_fifteen" : 278200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 251000,
+                "house_pct" : 0.108,
                 "condo_price_fifteen" : 139200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 90
+                "condo_price_fourteen": 127300,
+                "condo_pct": 0.093,
+                "crime" : 96
             },
             "geometry": {
                 "type": "Polygon",
@@ -297,12 +297,12 @@
                 "zipcode": 33181,
                 "cities" : "North Miami",
                 "house_price_fifteen" : 739200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 689000,
+                "house_pct" : 0.073,
                 "condo_price_fifteen" : 158400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 105
+                "condo_price_fourteen": 150200,
+                "condo_pct": 0.055,
+                "crime" : 103
             },
             "geometry": {
                 "type": "Polygon",
@@ -413,12 +413,12 @@
                 "zipcode": 33165,
                 "cities" : "University Park",
                 "house_price_fifteen" : 290300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 264400,
+                "house_pct" : 0.098,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 260
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 221
             },
             "geometry": {
                 "type": "Polygon",
@@ -458,12 +458,12 @@
                 "zipcode": 33141,
                 "cities" : "Miami Beach",
                 "house_price_fifteen" : 815400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 742100,
+                "house_pct" : 0.099,
                 "condo_price_fifteen" : 236200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 217
+                "condo_price_fourteen": 222900,
+                "condo_pct": 0.60,
+                "crime" : 200
             },
             "geometry": {
                 "type": "Polygon",
@@ -523,12 +523,12 @@
                 "zipcode": 33155,
                 "cities" : "Coral Terrace",
                 "house_price_fifteen" : 317500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 287700,
+                "house_pct" : 0.106,
                 "condo_price_fifteen" : 151900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 341
+                "condo_price_fourteen": 154900,
+                "condo_pct": -0.019,
+                "crime" : 298
             },
             "geometry": {
                 "type": "Polygon",
@@ -572,12 +572,12 @@
                 "zipcode": 33161,
                 "cities" : "North Miami",
                 "house_price_fifteen" : 200100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 176700,
+                "house_pct" : 0.132,
                 "condo_price_fifteen" : 75200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 228
+                "condo_price_fourteen": 64700,
+                "condo_pct": 0.162,
+                "crime" : 151
             },
             "geometry": {
                 "type": "Polygon",
@@ -621,12 +621,12 @@
                 "zipcode": 33182,
                 "cities" : "Tamiami",
                 "house_price_fifteen" : 313100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 283000,
+                "house_pct" : 0.106,
                 "condo_price_fifteen" : 178300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 75
+                "condo_price_fourteen": 164200,
+                "condo_pct": 0.086,
+                "crime" : 84
             },
             "geometry": {
                 "type": "Polygon",
@@ -802,12 +802,12 @@
                 "zipcode": 33180,
                 "cities" : "Aventura",
                 "house_price_fifteen" : 796100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 745800,
+                "house_pct" : 0.067,
                 "condo_price_fifteen" : 369300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 66
+                "condo_price_fourteen": 355100,
+                "condo_pct": 0.04,
+                "crime" : 137
             },
             "geometry": {
                 "type": "Polygon",
@@ -843,12 +843,12 @@
                 "zipcode": 33175,
                 "cities" : "Tamiami",
                 "house_price_fifteen" : 303900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 285300,
+                "house_pct" : 0.065,
                 "condo_price_fifteen" : 150400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 115
+                "condo_price_fourteen": 141500,
+                "condo_pct": 0.063,
+                "crime" : 128
             },
             "geometry": {
                 "type": "Polygon",
@@ -884,12 +884,12 @@
                 "zipcode": 33135,
                 "cities" : "Miami",
                 "house_price_fifteen" : 260300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 231200,
+                "house_pct" : 0.126,
                 "condo_price_fifteen" : 102100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 379
+                "condo_price_fourteen": 92200,
+                "condo_pct": 0.107,
+                "crime" : 253
             },
             "geometry": {
                 "type": "Polygon",
@@ -976,12 +976,12 @@
                 "zipcode": 33150,
                 "cities" : "Miami",
                 "house_price_fifteen" : 115600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 114700,
+                "house_pct" : 0.008,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 412
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 244
             },
             "geometry": {
                 "type": "Polygon",
@@ -1025,12 +1025,12 @@
                 "zipcode": 33154,
                 "cities" : "Bal Harbour",
                 "house_price_fifteen" : 682800,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 617300,
+                "house_pct" : 0.016,
                 "condo_price_fifteen" : 502600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 78
+                "condo_price_fourteen": 466100,
+                "condo_pct": 0.078,
+                "crime" : 97
             },
             "geometry": {
                 "type": "Polygon",
@@ -1123,12 +1123,12 @@
                 "zipcode": 33168,
                 "cities" : "North Miami",
                 "house_price_fifteen" : 128000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 117800,
+                "house_pct" : 0.087,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 469
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 330
             },
             "geometry": {
                 "type": "Polygon",
@@ -1173,12 +1173,12 @@
                 "zipcode": 33054,
                 "cities" : "Miami Gardens",
                 "house_price_fifteen" : 101600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 93700,
+                "house_pct" : 0.084,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 473
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 308
             },
             "geometry": {
                 "type": "Polygon",
@@ -1271,12 +1271,12 @@
                 "zipcode": 33035,
                 "cities" : "Homestead",
                 "house_price_fifteen" : 193600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 172400,
+                "house_pct" : 0.123,
                 "condo_price_fifteen" : 94800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 322
+                "condo_price_fourteen": 87200,
+                "condo_pct": 0.087,
+                "crime" : 207
             },
             "geometry": {
                 "type": "Polygon",
@@ -1374,12 +1374,12 @@
                 "zipcode": 33147,
                 "cities" : "West Little River",
                 "house_price_fifteen" : 106400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 93500,
+                "house_pct" : 0.138,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 524
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 334
             },
             "geometry": {
                 "type": "Polygon",
@@ -1419,12 +1419,12 @@
                 "zipcode": 33034,
                 "cities" : "Florida City",
                 "house_price_fifteen" : 106000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 91800,
+                "house_pct" : 0.155,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 366
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 230
             },
             "geometry": {
                 "type": "Polygon",
@@ -1480,12 +1480,12 @@
                 "zipcode": 33167,
                 "cities" : "Westview",
                 "house_price_fifteen" : 109700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 103000,
+                "house_pct" : 0.065,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 407
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 267
             },
             "geometry": {
                 "type": "Polygon",
@@ -1541,12 +1541,12 @@
                 "zipcode": 33030,
                 "cities" : "Homestead",
                 "house_price_fifteen" : 149200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 132100,
+                "house_pct" : 0.129,
                 "condo_price_fifteen" : 99100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 295
+                "condo_price_fourteen": 81500,
+                "condo_pct": 0.216,
+                "crime" : 180
 
             },
             "geometry": {
@@ -1587,12 +1587,12 @@
                 "zipcode": 33033,
                 "cities" : "Homestead",
                 "house_price_fifteen" : 151900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 139300,
+                "house_pct" : 0.09,
                 "condo_price_fifteen" : 113800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 278
+                "condo_price_fourteen": 106800,
+                "condo_pct": 0.066,
+                "crime" : 190
             },
             "geometry": {
                 "type": "Polygon",
@@ -1704,12 +1704,12 @@
                 "zipcode": 33173,
                 "cities" : "Kendall",
                 "house_price_fifteen" : 329200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 306400,
+                "house_pct" : 0.074,
                 "condo_price_fifteen" : 169000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 83
+                "condo_price_fourteen": 158400,
+                "condo_pct": 0.067,
+                "crime" : 98
             },
             "geometry": {
                 "type": "Polygon",
@@ -1757,12 +1757,12 @@
                 "zipcode": 33032,
                 "cities" : "Princeton",
                 "house_price_fifteen" : 158700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 139300,
+                "house_pct" : 0.139,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 308
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 213
             },
             "geometry": {
                 "type": "Polygon",
@@ -1846,12 +1846,12 @@
                 "zipcode": 33140,
                 "cities" : "Miami Beach",
                 "house_price_fifteen" : 1533600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 1248800,
+                "house_pct" : 0.228,
                 "condo_price_fifteen" : 408300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 224
+                "condo_price_fourteen": 408300,
+                "condo_pct": 0.081,
+                "crime" : 297
             },
             "geometry": {
                 "type": "Polygon",
@@ -2058,12 +2058,12 @@
                 "zipcode": 33149,
                 "cities" : "Key Biscayne",
                 "house_price_fifteen" : 2807400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 2430700,
+                "house_pct" : 0.155,
                 "condo_price_fifteen" : 907100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 41
+                "condo_price_fourteen": 847900,
+                "condo_pct": 0.07,
+                "crime" : 76
             },
             "geometry": {
                 "type": "Polygon",
@@ -2151,12 +2151,12 @@
                 "zipcode": 33131,
                 "cities" : "Miami",
                 "house_price_fifteen" : null,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : null,
+                "house_pct" : null,
                 "condo_price_fifteen" : 435600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 262
+                "condo_price_fourteen": 438500,
+                "condo_pct": -0.07,
+                "crime" : 227
             },
             "geometry": {
                 "type": "Polygon",
@@ -2204,12 +2204,12 @@
                 "zipcode": 33018,
                 "cities" : "Hialeah",
                 "house_price_fifteen" : 258200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 232200,
+                "house_pct" : 0.112,
                 "condo_price_fifteen" : 145800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 112
+                "condo_price_fourteen": 125800,
+                "condo_pct": 0.159,
+                "crime" : 86
             },
             "geometry": {
                 "type": "Polygon",
@@ -2253,12 +2253,12 @@
                 "zipcode": 33158,
                 "cities" : "Village of Palmetto Bay",
                 "house_price_fifteen" : 606500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 566300,
+                "house_pct" : 0.071,
                 "condo_price_fifteen" : 1256400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 51
+                "condo_price_fourteen": 1190600,
+                "condo_pct": 0.055,
+                "crime" : 69
             },
             "geometry": {
                 "type": "Polygon",
@@ -2298,12 +2298,12 @@
                 "zipcode": 33146,
                 "cities" : "Coral Gables",
                 "house_price_fifteen" : 930700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 828800,
+                "house_pct" : 0.123,
                 "condo_price_fifteen" : 299100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 86
+                "condo_price_fourteen": 292200,
+                "condo_pct": 0.024,
+                "crime" : 203
             },
             "geometry": {
                 "type": "Polygon",
@@ -2408,12 +2408,12 @@
                 "zipcode": 33172,
                 "cities" : "Fountainbleau",
                 "house_price_fifteen" : 415600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 408000,
+                "house_pct" : 0.19,
                 "condo_price_fifteen" : 142500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 150
+                "condo_price_fourteen": 129200,
+                "condo_pct": 0.103,
+                "crime" : 149
             },
             "geometry": {
                 "type": "Polygon",
@@ -2461,12 +2461,12 @@
                 "zipcode": 33174,
                 "cities" : "Fountainbleau",
                 "house_price_fifteen" : 282400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 258900,
+                "house_pct" : 0.091,
                 "condo_price_fifteen" : 142000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 116
+                "condo_price_fourteen": 125800,
+                "condo_pct": 0.129,
+                "crime" : 125
             },
             "geometry": {
                 "type": "Polygon",
@@ -2551,12 +2551,12 @@
                 "zipcode": 33129,
                 "cities" : "Miami",
                 "house_price_fifteen" : 584800,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 503000,
+                "house_pct" : 0.163,
                 "condo_price_fifteen" : 391300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 253
+                "condo_price_fourteen": 370200,
+                "condo_pct": 0.057,
+                "crime" : 222
             },
             "geometry": {
                 "type": "Polygon",
@@ -2616,12 +2616,12 @@
                 "zipcode": 33130,
                 "cities" : "Miami",
                 "house_price_fifteen" : null,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : null,
+                "house_pct" : null,
                 "condo_price_fifteen" : 302400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 440
+                "condo_price_fourteen": 307200,
+                "condo_pct": -0.016,
+                "crime" : 290
             },
             "geometry": {
                 "type": "Polygon",
@@ -2661,12 +2661,12 @@
                 "zipcode": 33160,
                 "cities" : "Sunny Isles Beach",
                 "house_price_fifteen" : 1755300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 1548800,
+                "house_pct" : 0.133,
                 "condo_price_fifteen" : 321200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 73
+                "condo_price_fourteen": 297800,
+                "condo_pct": 0.079,
+                "crime" : 97
             },
             "geometry": {
                 "type": "Polygon",
@@ -2722,12 +2722,12 @@
                 "zipcode": 33162,
                 "cities" : "North Miami Beach",
                 "house_price_fifteen" : 175400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 15700,
+                "house_pct" : 0.117,
                 "condo_price_fifteen" : 76200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 259
+                "condo_price_fourteen": 70800,
+                "condo_pct": 0.076,
+                "crime" : 192
             },
             "geometry": {
                 "type": "Polygon",
@@ -2775,12 +2775,12 @@
                 "zipcode": 33133,
                 "cities" : "Miami",
                 "house_price_fifteen" : 731100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 655000,
+                "house_pct" : 0.116,
                 "condo_price_fifteen" : 404000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 362
+                "condo_price_fourteen": 379800,
+                "condo_pct": 0.064,
+                "crime" : 227
             },
             "geometry": {
                 "type": "Polygon",
@@ -2844,12 +2844,12 @@
                 "zipcode": 33169,
                 "cities" : "Miami Gardens",
                 "house_price_fifteen" : 181900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 164300,
+                "house_pct" : 0.107,
                 "condo_price_fifteen" : 85800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 224
+                "condo_price_fourteen": 77600,
+                "condo_pct": 0.106,
+                "crime" : 176
             },
             "geometry": {
                 "type": "Polygon",
@@ -2897,12 +2897,12 @@
                 "zipcode": 33143,
                 "cities" : "Glenvar Heights",
                 "house_price_fifteen" : 750600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 664300,
+                "house_pct" : 0.013,
                 "condo_price_fifteen" : 144300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 207
+                "condo_price_fourteen": 139700,
+                "condo_pct": 0.033,
+                "crime" : 168
             },
             "geometry": {
                 "type": "Polygon",
@@ -2958,12 +2958,12 @@
                 "zipcode": 33125,
                 "cities" : "Miami",
                 "house_price_fifteen" : 200900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 185000,
+                "house_pct" : 0.086,
                 "condo_price_fifteen" : 109200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 346
+                "condo_price_fourteen": 99600,
+                "condo_pct": 0.096,
+                "crime" : 202
             },
             "geometry": {
                 "type": "Polygon",
@@ -3068,12 +3068,12 @@
                 "zipcode": 33138,
                 "cities" : "Miami",
                 "house_price_fifteen" : 504700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 462000,
+                "house_pct" : 0.092,
                 "condo_price_fifteen" : 223700,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 254
+                "condo_price_fourteen": 194600,
+                "condo_pct": 0.15,
+                "crime" : 160
             },
             "geometry": {
                 "type": "Polygon",
@@ -3122,12 +3122,12 @@
                 "zipcode": 33142,
                 "cities" : "Miami",
                 "house_price_fifteen" : 97100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 85300,
+                "house_pct" : 0.138,
                 "condo_price_fifteen" : 87500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 512
+                "condo_price_fourteen": 90300,
+                "condo_pct": -0.031,
+                "crime" : 323
             },
             "geometry": {
                 "type": "Polygon",
@@ -3183,12 +3183,12 @@
                 "zipcode": 33183,
                 "cities" : "Kendale Lakes",
                 "house_price_fifteen" : 295800,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 275400,
+                "house_pct" : 0.074,
                 "condo_price_fifteen" : 151900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 68
+                "condo_price_fourteen": 135400,
+                "condo_pct": 0.122,
+                "crime" : 86
             },
             "geometry": {
                 "type": "Polygon",
@@ -3232,12 +3232,12 @@
                 "zipcode": 33166,
                 "cities" : "Miami Springs",
                 "house_price_fifteen" : 340200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 313900,
+                "house_pct" : 0.084,
                 "condo_price_fifteen" : 140500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 181
+                "condo_price_fourteen": 128100,
+                "condo_pct": 0.097,
+                "crime" : 201
             },
             "geometry": {
                 "type": "Polygon",
@@ -3334,12 +3334,12 @@
                 "zipcode": 33170,
                 "cities" : "Goulds",
                 "house_price_fifteen" : 187100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 167100,
+                "house_pct" : 0.12,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 413
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 294
             },
             "geometry": {
                 "type": "Polygon",
@@ -3448,12 +3448,12 @@
                 "zipcode": 33128,
                 "cities" : "Miami",
                 "house_price_fifteen" : null,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : null,
+                "house_pct" : null,
                 "condo_price_fifteen" : 119900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 379
+                "condo_price_fourteen": 95700,
+                "condo_pct": 0.253,
+                "crime" : 201
             },
             "geometry": {
                 "type": "Polygon",
@@ -3501,12 +3501,12 @@
                 "zipcode": 33010,
                 "cities" : "Hialeah",
                 "house_price_fifteen" : 201100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 174900,
+                "house_pct" : 0.15,
                 "condo_price_fifteen" : null,
                 "condo_price_fourteen": 0,
                 "condo_pct": 0,
-                "crime" : 128
+                "crime" : 119
             },
             "geometry": {
                 "type": "Polygon",
@@ -3554,12 +3554,12 @@
                 "zipcode": 33156,
                 "cities" : "Pinecrest",
                 "house_price_fifteen" : 999500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 891500,
+                "house_pct" : 0.121,
                 "condo_price_fifteen" : 203600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 210
+                "condo_price_fourteen": 177300,
+                "condo_pct": 0.148,
+                "crime" : 181
             },
             "geometry": {
                 "type": "Polygon",
@@ -3735,12 +3735,12 @@
                 "zipcode": 33014,
                 "cities" : "Hialeah",
                 "house_price_fifteen" : 298100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 280900,
+                "house_pct" : 0.061,
                 "condo_price_fifteen" : 138700,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 104
+                "condo_price_fourteen": 131100,
+                "condo_pct": 0.058,
+                "crime" : 100
             },
             "geometry": {
                 "type": "Polygon",
@@ -3812,12 +3812,12 @@
                 "zipcode": 33012,
                 "cities" : "Hialeah",
                 "house_price_fifteen" : 240600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 223300,
+                "house_pct" : 0.077,
                 "condo_price_fifteen" : 102100,
-                "condo_price_fourteen": 0,
+                "condo_price_fourteen": 102100,
                 "condo_pct": 0,
-                "crime" : 77
+                "crime" : 0.072
             },
             "geometry": {
                 "type": "Polygon",
@@ -3861,12 +3861,12 @@
                 "zipcode": 33139,
                 "cities" : "Miami Beach",
                 "house_price_fifteen" : 3229000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 2535300,
+                "house_pct" : 0.274,
                 "condo_price_fifteen" : 367400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 249
+                "condo_price_fourteen": 343100,
+                "condo_pct": 0.71,
+                "crime" : 294
             },
             "geometry": {
                 "type": "Polygon",
@@ -3925,9 +3925,9 @@
                 "house_price_fourteen" : 0,
                 "house_pct" : 0,
                 "condo_price_fifteen" : 394500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 297
+                "condo_price_fourteen": 395600,
+                "condo_pct": -0.03,
+                "crime" : 215
             },
             "geometry": {
                 "type": "Polygon",
@@ -3987,12 +3987,12 @@
                 "zipcode": 33137,
                 "cities" : "Miami",
                 "house_price_fifteen" : 663000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 539700,
+                "house_pct" : 0.228,
                 "condo_price_fifteen" : 301100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 265
+                "condo_price_fourteen": 292700,
+                "condo_pct": 0.107,
+                "crime" : 253
             },
             "geometry": {
                 "type": "Polygon",
@@ -4081,12 +4081,12 @@
                 "zipcode": 33134,
                 "cities" : "Coral Gables",
                 "house_price_fifteen" : 528500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 499100,
+                "house_pct" : 0.059,
                 "condo_price_fifteen" : 342700,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 170
+                "condo_price_fourteen": 331900,
+                "condo_pct": 0.033,
+                "crime" : 189
             },
             "geometry": {
                 "type": "Polygon",
@@ -4197,12 +4197,12 @@
                 "zipcode": 33144,
                 "cities" : "Miami",
                 "house_price_fifteen" : 265600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 250900,
+                "house_pct" : 0.059,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 310
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 248
             },
             "geometry": {
                 "type": "Polygon",
@@ -4238,12 +4238,12 @@
                 "zipcode": 33126,
                 "cities" : "Miami",
                 "house_price_fifteen" : 241100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 215300,
+                "house_pct" : 0.12,
                 "condo_price_fifteen" : 140100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 258
+                "condo_price_fourteen": 12500,
+                "condo_pct": 0.116,
+                "crime" : 212
             },
             "geometry": {
                 "type": "Polygon",
@@ -4368,12 +4368,12 @@
                 "zipcode": 33127,
                 "cities" : "Miami",
                 "house_price_fifteen" : 98600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 87500,
+                "house_pct" : 98600,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 455
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 252
             },
             "geometry": {
                 "type": "Polygon",
@@ -4417,12 +4417,12 @@
                 "zipcode": 33157,
                 "cities" : "Village of Palmetto Bay",
                 "house_price_fifteen" : 238500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 220300,
+                "house_pct" : 0.083,
                 "condo_price_fifteen" : 85900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 199
+                "condo_price_fourteen": 75300,
+                "condo_pct": 0.141,
+                "crime" : 129
             },
             "geometry": {
                 "type": "Polygon",
@@ -4490,12 +4490,12 @@
                 "zipcode": 33145,
                 "cities" : "Miami",
                 "house_price_fifteen" : 360800,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 312100,
+                "house_pct" : 0.156,
                 "condo_price_fifteen" : 235500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 379
+                "condo_price_fourteen": 228200,
+                "condo_pct": 0.032,
+                "crime" : 250
             },
             "geometry": {
                 "type": "Polygon",
@@ -4535,12 +4535,12 @@
                 "zipcode": 33067,
                 "cities" : "Coral Springs",
                 "house_price_fifteen" : 411000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 399500,
+                "house_pct" : 0.029,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 49
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 83
             },
             "geometry": {
                 "type": "Polygon",
@@ -4592,12 +4592,12 @@
                 "zipcode": 33076,
                 "cities" : "Coral Springs",
                 "house_price_fifteen" : 450100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 438699,
+                "house_pct" : 0.026,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 45
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 81
             },
             "geometry": {
                 "type": "Polygon",
@@ -4751,12 +4751,12 @@
                 "zipcode": 33073,
                 "cities" : "Coconut Creek",
                 "house_price_fifteen" : 309300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 296800,
+                "house_pct" : 0.042,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 75
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 135
             },
             "geometry": {
                 "type": "Polygon",
@@ -4808,12 +4808,12 @@
                 "zipcode": 33062,
                 "cities" : "Pompano Beach",
                 "house_price_fifteen" : 526100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 502300,
+                "house_pct" : 0.047,
                 "condo_price_fifteen" : 284500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 184
+                "condo_price_fourteen": 265400,
+                "condo_pct": 0.072,
+                "crime" : 140
             },
             "geometry": {
                 "type": "Polygon",
@@ -4873,12 +4873,12 @@
                 "zipcode": 33064,
                 "cities" : "Pompano Beach",
                 "house_price_fifteen" : 153200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 137800,
+                "house_pct" : 0.112,
                 "condo_price_fifteen" : 74400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 137
+                "condo_price_fourteen": 70200,
+                "condo_pct": 0.06,
+                "crime" : 101
             },
             "geometry": {
                 "type": "Polygon",
@@ -4938,12 +4938,12 @@
                 "zipcode": 33065,
                 "cities" : "Coral Springs",
                 "house_price_fifteen" : 284100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 274500,
+                "house_pct" : 0.035,
                 "condo_price_fifteen" : 80300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 62
+                "condo_price_fourteen": 75900,
+                "condo_pct": 0.058,
+                "crime" : 74
             },
             "geometry": {
                 "type": "Polygon",
@@ -4995,12 +4995,12 @@
                 "zipcode": 33069,
                 "cities" : "Pompano Beach",
                 "house_price_fifteen" : 106100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 101700,
+                "house_pct" : 0.002,
                 "condo_price_fifteen" : 128800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 238
+                "condo_price_fourteen": 127600,
+                "condo_pct": 0.09,
+                "crime" : 195
             },
             "geometry": {
                 "type": "Polygon",
@@ -5064,12 +5064,12 @@
                 "zipcode": 33063,
                 "cities" : "Margate",
                 "house_price_fifteen" : 208700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 189500,
+                "house_pct" : 0.101,
                 "condo_price_fifteen" : 56000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 57
+                "condo_price_fourteen": 53600,
+                "condo_pct": 0.045,
+                "crime" : 70
             },
             "geometry": {
                 "type": "Polygon",
@@ -5121,12 +5121,12 @@
                 "zipcode": 33066,
                 "cities" : "Coconut Creek",
                 "house_price_fifteen" : 230000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 212700,
+                "house_pct" : 0.081,
                 "condo_price_fifteen" : 87300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 83
+                "condo_price_fourteen": 83700,
+                "condo_pct": 0.043,
+                "crime" : 94
             },
             "geometry": {
                 "type": "Polygon",
@@ -5170,12 +5170,12 @@
                 "zipcode": 33060,
                 "cities" : "Pompano Beach",
                 "house_price_fifteen" : 243000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 228400,
+                "house_pct" : 0.064,
                 "condo_price_fifteen" : 86900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 212
+                "condo_price_fourteen": 79500,
+                "condo_pct": 0.093,
+                "crime" : 158
             },
             "geometry": {
                 "type": "Polygon",
@@ -5227,12 +5227,12 @@
                 "zipcode": 33071,
                 "cities" : "Coral Springs",
                 "house_price_fifteen" : 347800,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 341100,
+                "house_pct" : 0.002,
                 "condo_price_fifteen" : 118600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 37
+                "condo_price_fourteen": 114800,
+                "condo_pct": 0.033,
+                "crime" : 66
             },
             "geometry": {
                 "type": "Polygon",
@@ -5276,12 +5276,12 @@
                 "zipcode": 33068,
                 "cities" : "North Lauderdale",
                 "house_price_fifteen" : 157600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 141200,
+                "house_pct" : 0.116,
                 "condo_price_fifteen" : 71200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 96
+                "condo_price_fourteen": 63800,
+                "condo_pct": 0.116,
+                "crime" : 85
             },
             "geometry": {
                 "type": "Polygon",
@@ -6617,7 +6617,7 @@
                 "condo_price_fifteen" : 138100,
                 "condo_price_fourteen": 138100,
                 "condo_pct": 0.03,
-                "crime" : 266               
+                "crime" : 207               
             },
             "geometry": {
                 "type": "Polygon",
@@ -6905,12 +6905,12 @@
                 "zipcode": 33019,
                 "cities" : "Hollywood",
                 "house_price_fifteen" : 502500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 494400,
+                "house_pct" : 0.016,
                 "condo_price_fifteen" : 299300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 51
+                "condo_price_fourteen": 284200,
+                "condo_pct": 0.053,
+                "crime" : 119
             },
             "geometry": {
                 "type": "Polygon",
@@ -6962,12 +6962,12 @@
                 "zipcode": 33020,
                 "cities" : "Holywood",
                 "house_price_fifteen" : 179100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 163800,
+                "house_pct" : 0.093,
                 "condo_price_fifteen" : 91600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 149
+                "condo_price_fourteen": 85700,
+                "condo_pct": 0.069,
+                "crime" : 190
             },
             "geometry": {
                 "type": "Polygon",
@@ -7011,12 +7011,12 @@
                 "zipcode": 33021,
                 "cities" : "Hollywood",
                 "house_price_fifteen" : 285300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 278100,
+                "house_pct" : 0.026,
                 "condo_price_fifteen" : 103400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 92
+                "condo_price_fourteen": 92800,
+                "condo_pct": 0.114,
+                "crime" : 133
             },
             "geometry": {
                 "type": "Polygon",
@@ -7068,12 +7068,12 @@
                 "zipcode": 33024,
                 "cities" : "Pembroke Pines",
                 "house_price_fifteen" : 203200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 183800,
+                "house_pct" : 0.106,
                 "condo_price_fifteen" : 109000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 0
+                "condo_price_fourteen": 103800,
+                "condo_pct": 0.05,
+                "crime" : 120
             },
             "geometry": {
                 "type": "Polygon",
@@ -7117,12 +7117,12 @@
                 "zipcode": 33026,
                 "cities" : "Pembroke Pines",
                 "house_price_fifteen" : 270300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 256200,
+                "house_pct" : 0.055,
                 "condo_price_fifteen" : 105500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 46
+                "condo_price_fourteen": 92600,
+                "condo_pct": 0.139,
+                "crime" : 80
             },
             "geometry": {
                 "type": "Polygon",
@@ -7166,12 +7166,12 @@
                 "zipcode": 33028,
                 "cities" : "Pembroke Pines",
                 "house_price_fifteen" : 354600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 340100,
+                "house_pct" : 0.043,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 29
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 94
             },
             "geometry": {
                 "type": "Polygon",
@@ -7211,12 +7211,12 @@
                 "zipcode": 33029,
                 "cities" : "Pembroke Pines",
                 "house_price_fifteen" : 363600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 350000,
+                "house_pct" : 0.039,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 28
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 74
             },
             "geometry": {
                 "type": "Polygon",
@@ -7260,12 +7260,12 @@
                 "zipcode": 33023,
                 "cities" : "Miramar",
                 "house_price_fifteen" : 163600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 146900,
+                "house_pct" : 0.114,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 183
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 143
             },
             "geometry": {
                 "type": "Polygon",
@@ -7313,12 +7313,12 @@
                 "zipcode": 33025,
                 "cities" : "Miramar",
                 "house_price_fifteen" : 223800,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 205300,
+                "house_pct" : 0.09,
                 "condo_price_fifteen" : 114500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 107
+                "condo_price_fourteen": 102100,
+                "condo_pct": 0.121,
+                "crime" : 101
             },
             "geometry": {
                 "type": "Polygon",
@@ -7366,12 +7366,12 @@
                 "zipcode": 33027,
                 "cities" : "Miramar",
                 "house_price_fifteen" : 353700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 343400,
+                "house_pct" : 0.003,
                 "condo_price_fifteen" : 107500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 0
+                "condo_price_fourteen": 95900,
+                "condo_pct": 0.121,
+                "crime" : 87
             },
             "geometry": {
                 "type": "Polygon",
@@ -7407,12 +7407,13 @@
                 "zipcode": 33009,
                 "cities" : "Hallandale Beach",
                 "house_price_fifteen" : 177700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 170200,
+                "house_pct" : 0.044,
                 "condo_price_fifteen" : 203500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 157
+                "condo_price_fourteen": 190400,
+                "condo_pct": 0.069,
+                "crime" : 207
+
             },
             "geometry": {
                 "type": "Polygon",
