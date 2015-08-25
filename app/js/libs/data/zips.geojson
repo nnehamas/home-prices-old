@@ -757,12 +757,12 @@
                 "zipcode": 33184,
                 "cities" : "Tamiami",
                 "house_price_fifteen" : 309500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 286200,
+                "house_pct" : 0.081,
                 "condo_price_fifteen" : 157800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 84
+                "condo_price_fourteen": 144700,
+                "condo_pct": 0.091,
+                "crime" : 108
             },
             "geometry": {
                 "type": "Polygon",
@@ -1082,12 +1082,12 @@
                 "zipcode": 33194,
                 "cities" : "Golden Glades",
                 "house_price_fifteen" : 378400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 357400,
+                "house_pct" : 0.059,
                 "condo_price_fifteen" : 254800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 98
+                "condo_price_fourteen": 238700,
+                "condo_pct": 0.067,
+                "crime" : 128
             },
             "geometry": {
                 "type": "Polygon",
@@ -1960,12 +1960,12 @@
                 "zipcode": 33187,
                 "cities" : "Richmond West",
                 "house_price_fifteen" : 294400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 264200,
+                "house_pct" : 0.114,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 124
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 107
             },
             "geometry": {
                 "type": "Polygon",
@@ -2347,12 +2347,12 @@
                 "zipcode": 33196,
                 "cities" : "The Hammocks",
                 "house_price_fifteen" : 300400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 278000,
+                "house_pct" : 0.081,
                 "condo_price_fifteen" : 152500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 151
+                "condo_price_fourteen": 140000,
+                "condo_pct": 0.089,
+                "crime" : 169
             },
             "geometry": {
                 "type": "Polygon",
@@ -2502,12 +2502,12 @@
                 "zipcode": 33186,
                 "cities" : "The Crossings",
                 "house_price_fifteen" : 293300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 271400,
+                "house_pct" : 0.081,
                 "condo_price_fifteen" : 181500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 108
+                "condo_price_fourteen": 163900,
+                "condo_pct": 0.107,
+                "crime" : 113
             },
             "geometry": {
                 "type": "Polygon",
@@ -3011,12 +3011,12 @@
                 "zipcode": 33193,
                 "cities" : "Kendall West",
                 "house_price_fifteen" : 289500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 274000,
+                "house_pct" : 0.057,
                 "condo_price_fifteen" : 134100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 0
+                "condo_price_fourteen": 119300,
+                "condo_pct": 0.0124,
+                "crime" : 143
             },
             "geometry": {
                 "type": "Polygon",
@@ -3403,12 +3403,12 @@
                 "zipcode": 33190,
                 "cities" : "Cutler Bay",
                 "house_price_fifteen" : 230100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 201200,
+                "house_pct" : 0.144,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 375
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 278
             },
             "geometry": {
                 "type": "Polygon",
@@ -3670,12 +3670,12 @@
                 "zipcode": 33189,
                 "cities" : "Cutler Bay",
                 "house_price_fifteen" : 221900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 200700,
+                "house_pct" : 0.106,
                 "condo_price_fifteen" : 109100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 259
+                "condo_price_fourteen": 101800,
+                "condo_pct": 0.072,
+                "crime" : 189
             },
             "geometry": {
                 "type": "Polygon",
@@ -4032,12 +4032,12 @@
                 "zipcode": 33185,
                 "cities" : "Kendall West",
                 "house_price_fifteen" : 332700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 315600,
+                "house_pct" : 0.054,
                 "condo_price_fifteen" : 225900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 100
+                "condo_price_fourteen": 208800,
+                "condo_pct": 0.082,
+                "crime" : 137
             },
             "geometry": {
                 "type": "Polygon",
@@ -4637,12 +4637,12 @@
                 "zipcode": 33441,
                 "cities" : "Deerfield Beach",
                 "house_price_fifteen" : 229500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 207300,
+                "house_pct" : 0.107,
                 "condo_price_fifteen" : 117100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 152
+                "condo_price_fourteen": 108500,
+                "condo_pct": 0.079,
+                "crime" : 128
             },
             "geometry": {
                 "type": "Polygon",
@@ -4698,12 +4698,12 @@
                 "zipcode": 33442,
                 "cities" : "Deerfield Beach",
                 "house_price_fifteen" : 248900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 235800,
+                "house_pct" : 0.056,
                 "condo_price_fifteen" : 54300,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 38
+                "condo_price_fourteen": 52800,
+                "condo_pct": 0.028,
+                "crime" : 57
             },
             "geometry": {
                 "type": "Polygon",
@@ -5341,12 +5341,12 @@
                 "zipcode": 33321,
                 "cities" : "Tamarac",
                 "house_price_fifteen" : 171600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 156200,
+                "house_pct" : 0.099,
                 "condo_price_fifteen" : 85400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 62
+                "condo_price_fourteen": 78700,
+                "condo_pct": 0.085,
+                "crime" : 64
             },
             "geometry": {
                 "type": "Polygon",
@@ -5394,12 +5394,12 @@
                 "zipcode": 33308,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 587700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 575900,
+                "house_pct" : 0.02,
                 "condo_price_fifteen" : 297500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 77
+                "condo_price_fourteen": 289600,
+                "condo_pct": 0.027,
+                "crime" : 112
             },
             "geometry": {
                 "type": "Polygon",
@@ -5447,12 +5447,12 @@
                 "zipcode": 33309,
                 "cities" : "Oakland Park",
                 "house_price_fifteen" : 170600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 152800,
+                "house_pct" : 0.116,
                 "condo_price_fifteen" : 99900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 200
+                "condo_price_fourteen": 96800,
+                "condo_pct": 0.032,
+                "crime" : 168
             },
             "geometry": {
                 "type": "Polygon",
@@ -5496,12 +5496,12 @@
                 "zipcode": 33334,
                 "cities" : "Oakland Park",
                 "house_price_fifteen" : 231100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 209700,
+                "house_pct" : 0.102,
                 "condo_price_fifteen" : 101200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 203
+                "condo_price_fourteen": 92900,
+                "condo_pct": 0.089,
+                "crime" : 204
             },
             "geometry": {
                 "type": "Polygon",
@@ -5553,12 +5553,12 @@
                 "zipcode": 33319,
                 "cities" : "Lauderhill",
                 "house_price_fifteen" : 153600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 141500,
+                "house_pct" : 0.086,
                 "condo_price_fifteen" : 58200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 98
+                "condo_price_fourteen": 56800,
+                "condo_pct": 0.025,
+                "crime" : 94
             },
             "geometry": {
                 "type": "Polygon",
@@ -5610,12 +5610,12 @@
                 "zipcode": 33351,
                 "cities" : "Sunrise",
                 "house_price_fifteen" : 216400,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 19800,
+                "house_pct" : 0.089,
                 "condo_price_fifteen" : 87100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 104
+                "condo_price_fourteen": 82500,
+                "condo_pct": 0.056,
+                "crime" : 136
             },
             "geometry": {
                 "type": "Polygon",
@@ -5659,12 +5659,12 @@
                 "zipcode": 33323,
                 "cities" : "Sunrise",
                 "house_price_fifteen" : 261600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 245400,
+                "house_pct" : 0.066,
                 "condo_price_fifteen" : 292000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 89
+                "condo_price_fourteen": 283200,
+                "condo_pct": 0.031,
+                "crime" : 142
             },
             "geometry": {
                 "type": "Polygon",
@@ -5712,12 +5712,12 @@
                 "zipcode": 33306,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 562700,
-                "house_price_fourteen" : 0,
+                "house_price_fourteen" : 562700,
                 "house_pct" : 0,
                 "condo_price_fifteen" : 161800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 106
+                "condo_price_fourteen": 153200,
+                "condo_pct": 0.056,
+                "crime" : 237
             },
             "geometry": {
                 "type": "Polygon",
@@ -5753,12 +5753,12 @@
                 "zipcode": 33311,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 122500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 116800,
+                "house_pct" : 0.049,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 286
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 184
             },
             "geometry": {
                 "type": "Polygon",
@@ -5810,12 +5810,12 @@
                 "zipcode": 33313,
                 "cities" : "Lauderhill",
                 "house_price_fifteen" : 161300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 141800,
+                "house_pct" : 0.138,
                 "condo_price_fifteen" : 47400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 175
+                "condo_price_fourteen": 46400,
+                "condo_pct": 0.022,
+                "crime" : 147
             },
             "geometry": {
                 "type": "Polygon",
@@ -5859,12 +5859,12 @@
                 "zipcode": 33322,
                 "cities" : "Sunrise",
                 "house_price_fifteen" : 232700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 21800,
+                "house_pct" : 0.067,
                 "condo_price_fifteen" : 49500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 44
+                "condo_price_fourteen": 47500,
+                "condo_pct": 0.042,
+                "crime" : 76
             },
             "geometry": {
                 "type": "Polygon",
@@ -5912,12 +5912,12 @@
                 "zipcode": 33305,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 456300,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 432800,
+                "house_pct" : 0.031,
                 "condo_price_fifteen" : 205100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 149
+                "condo_price_fourteen": 194500,
+                "condo_pct": 0.016,
+                "crime" : 187
             },
             "geometry": {
                 "type": "Polygon",
@@ -5961,12 +5961,12 @@
                 "zipcode": 33327,
                 "cities" : "Weston",
                 "house_price_fifteen" : 458000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 458200,
+                "house_pct" : 0.0,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 43
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 42
             },
             "geometry": {
                 "type": "Polygon",
@@ -6038,12 +6038,12 @@
                 "zipcode": 33304,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 433500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 420300,
+                "house_pct" : 0.031,
                 "condo_price_fifteen" : 249600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 210
+                "condo_price_fourteen": 245700,
+                "condo_pct": 0.016,
+                "crime" : 282
             },
             "geometry": {
                 "type": "Polygon",
@@ -6087,12 +6087,12 @@
                 "zipcode": 33326,
                 "cities" : "Weston",
                 "house_price_fifteen" : 370200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 358200,
+                "house_pct" : 0.034,
                 "condo_price_fifteen" : 164000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 41
+                "condo_price_fourteen": 159800,
+                "condo_pct": 0.026,
+                "crime" : 54
             },
             "geometry": {
                 "type": "Polygon",
@@ -6156,12 +6156,12 @@
                 "zipcode": 33317,
                 "cities" : "Plantation",
                 "house_price_fifteen" : 29950,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 291400,
+                "house_pct" : 0.028,
                 "condo_price_fifteen" : 92100,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 121
+                "condo_price_fourteen": 85400,
+                "condo_pct": 0.078,
+                "crime" : 155
             },
             "geometry": {
                 "type": "Polygon",
@@ -6209,12 +6209,12 @@
                 "zipcode": 33324,
                 "cities" : "Plantation",
                 "house_price_fifteen" : 315000,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 300400,
+                "house_pct" : 0.049,
                 "condo_price_fifteen" : 130600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 61
+                "condo_price_fourteen": 122400,
+                "condo_pct": 0.067,
+                "crime" : 105
             },
             "geometry": {
                 "type": "Polygon",
@@ -6254,12 +6254,12 @@
                 "zipcode": 33325,
                 "cities" : "Davie",
                 "house_price_fifteen" : 336200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 332300,
+                "house_pct" : 0.012,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 54
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 117
             },
             "geometry": {
                 "type": "Polygon",
@@ -6303,12 +6303,12 @@
                 "zipcode": 33301,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 1051100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 935300,
+                "house_pct" : 0.124,
                 "condo_price_fifteen" : 332200,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 210
+                "condo_price_fourteen": 325600,
+                "condo_pct": 0.02,
+                "crime" : 248
             },
             "geometry": {
                 "type": "Polygon",
@@ -6356,12 +6356,12 @@
                 "zipcode": 33316,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 952900,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 872300,
+                "house_pct" : 0.092,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 156
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 184
             },
             "geometry": {
                 "type": "Polygon",
@@ -6417,12 +6417,12 @@
                 "zipcode": 33312,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 200600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 184300,
+                "house_pct" : 0.088,
                 "condo_price_fifteen" : 230000,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 169
+                "condo_price_fourteen": 213700,
+                "condo_pct": 0.076,
+                "crime" : 159
             },
             "geometry": {
                 "type": "Polygon",
@@ -6482,12 +6482,12 @@
                 "zipcode": 33315,
                 "cities" : "Fort Lauderdale",
                 "house_price_fifteen" : 263500,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 245300,
+                "house_pct" : 0.074,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 214
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 336
             },
             "geometry": {
                 "type": "Polygon",
@@ -6697,12 +6697,12 @@
                 "zipcode": 33314,
                 "cities" : "Davie",
                 "house_price_fifteen" : 197100,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 18400,
+                "house_pct" : 0.071,
                 "condo_price_fifteen" : 112800,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 173
+                "condo_price_fourteen": 94700,
+                "condo_pct": 0.191,
+                "crime" : 171
             },
             "geometry": {
                 "type": "Polygon",
@@ -6754,12 +6754,12 @@
                 "zipcode": 33331,
                 "cities" : "Weston",
                 "house_price_fifteen" : 432600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 427400,
+                "house_pct" : 0.012,
                 "condo_price_fifteen" : 316400,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 33
+                "condo_price_fourteen": 278400,
+                "condo_pct": 0.0136,
+                "crime" : 51
             },
             "geometry": {
                 "type": "Polygon",
@@ -6811,12 +6811,12 @@
                 "zipcode": 33328,
                 "cities" : "Davie",
                 "house_price_fifteen" : 325600,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 317500,
+                "house_pct" : 0.026,
                 "condo_price_fifteen" : 138600,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 44
+                "condo_price_fourteen": 130800,
+                "condo_pct": 0.06,
+                "crime" : 76
             },
             "geometry": {
                 "type": "Polygon",
@@ -6856,12 +6856,12 @@
                 "zipcode": 33330,
                 "cities" : "Cooper City",
                 "house_price_fifteen" : 560700,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 516200,
+                "house_pct" : 0.086,
                 "condo_price_fifteen" : null,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
-                "crime" : 35
+                "condo_price_fourteen": null,
+                "condo_pct": null,
+                "crime" : 92
             },
             "geometry": {
                 "type": "Polygon",
