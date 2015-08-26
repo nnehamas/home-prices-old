@@ -1,8 +1,5 @@
 /* TO DO
-
 1. Duplicate buildHouseMap() to show
-
-
 */
 
 'use strict';
@@ -12,9 +9,9 @@
 	//GLOBALS
 	var $buttonContainer = $('#button-container'),
 		$errorMessage = $('.error'),
-		// $hoverBox = $('#hover-box'),
+		$hoverBox = $('#hover-box'),
 		$incomeBox = $('.income-box'),
-		// $mapContainer = $('#map-container'),
+		$mapContainer = $('#map-container'),
 		$resetButton = $('.reset');
 
 	// MAKE TILE LAYER FOR ZOOMED IN VIEW
@@ -56,56 +53,50 @@
 	  });
 
 
-	// var getPos = function (event) {
+	var getPos = function(event) {
+		var w = $('#map-container').width(),
+			h = $('#map-container').height(),
+			posX = event.pageX + 20,
+			posY = event.pageY - 150,
+			x = 0,
+			y = 0;
+
+		if (posX < w) {
+
+			x = posX - 250;
+		}
+
+		else {
+			x = posX - ($('#hover-box').outerWidth(true) + 100)
+		}
+
 		
-	// 	$hoverBox = $('#hover-box')
+		if (posY > h) {
+			y = (posY - $('#hover-box').outerHeight(true) - 350)
+		}
 
-	// 	var posX = event.pageX,
-	// 		posY = event.pageY,
-	// 		$mapContainer = $('#map-container');
-
-	// 	// Handle horizontal conditions
- //        if ( posX > ($mapContainer.width() * .75)) {
- //            $hoverBox.css({
- //                'left': posX / 4,
- //                'top': posY
- //            });
- //        } 
-
- //        else {
- //            $hoverBox.css({
- //                'left': posX / 4,
- //                'top': posY
- //            });
- //        }
+		else {
+			y = posY - 250
+		}
+			
+		$('#hover-box').css({
+			'left': x,
+			'top': y - 75
+		});
+	}
 
 
- //        // Handle vertical conditions
- //        if ( posY > ($mapContainer.height() * .50)) {
- //            $hoverBox.css({
- //                'top': posY
- //            });
- //        } 
-
- //        else {
- //            $hoverBox.css({
- //                'top':  posY
- //            });
- //        }
-	// }
-
-
-	// var initHover = function() {
-	// 	$hoverBox.show();
+	var initHover = function() {
+		$hoverBox.show();
 		
-	// 	$(document).bind('mousemove', getPos);
-	// }
+		$(document).bind('mousemove', getPos);
+	}
 
-	// var endHover = function() {
-	// 	$hoverBox.hide();
+	var endHover = function() {
+		$hoverBox.hide();
 
-	// 	$(document).unbind('mousemove', getPos);
-	// }
+		$(document).unbind('mousemove', getPos);
+	}
 
 
 	var onEachFeature = function(feature, layer) {
@@ -121,14 +112,28 @@
 
 				layer.bringToFront();
 				
-				// initHover();
+				initHover();
 
-				var zip = parseInt(layer.feature.properties.zipcode);
+				var zip = parseInt(layer.feature.properties.zipcode),
+					city = layer.feature.properties.cities,
+					housePriceFourteen = layer.feature.properties.house_price_fourteen,
+					housePriceFifteen = layer.feature.properties.house_price_fifteen,
+					housePercent = layer.feature.properties.house_pct,
+					condoFourteen = layer.feature.properties.condo_price_fourteen,
+					condoFifteen = layer.feature.properties.condo_price_fifteen,
+					condoPercent = layer.feature.properties.condo_pct;
 
-				var price = $.number(parseInt(layer.feature.properties.house_price));
+				$('.zip-code').html(zip)
+				$('.city').html(city)
 
+				$('.house-price-fourteen').html(housePriceFourteen)
+				$('.house-price-fifteen').html(housePriceFifteen)
+				$('.house-percent').html(housePercent)
 
-				$('.zipcode').html(zip + ": $" + price);
+				$('.condo-price-fourteen').html(condoPriceFourteen)
+				$('.condo-price-fifteen').html(condoPriceFifteen)
+				$('.condo-percent').html(condoPercent)
+
 			},
 
 			mouseout: function(e) {
@@ -138,7 +143,7 @@
 					color: '#fff'
 				});
 								
-				// endHover();
+				endHover();
 			},
 			click: function(e) {
 				$('#selected-crimevg').removeAttr('id');
@@ -401,14 +406,15 @@
 
 	var buildZipList = function() {
 
-		d3.csv('../js/libs/data/zips.csv', function(data) {
-	  		
+		d3.json('../js/libs/data/zipcode_test.json', function(data) {
 
-	  		data.forEach(function(d,i) {
+			
+			$.each(data, function(i, val) {
 
-	  			$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + '>' + d.zip + ' – ' + d.municipality + '</li>')
-
-	  			$('#zip-list').on('click', '.listing', function(event) {
+				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + '>' + data[i].zipcode + ' – ' + data[i].city + '</li>')
+				 
+				
+				$('#zip-list').on('click', '.listing', function(event) {
 	
 					if ( $(this).hasClass('active-listing') ) {
 						return false
@@ -422,19 +428,26 @@
 					
 					$(this).addClass('active-listing');
 					
-					console.log(data[q].zip)
-
 					$(this).append(
 					'<div class="inner">'
-					+'<address class=\'xsmall rob heavier gray upper\'>'+ data[q].zip +' – '+ data[q].municipality +', Fla.</address>'+
+					+'<table class=\'school-list\'><tr class= \'table-head\'><th class=\'name\'>School</th><th>2014-15</th><th>2013-14</th><th>2012-13</th></tr></table>'+
 					'</div>'
 					)
 
-				});
-	  	});
-		});
-	}
 
+					var schoolData = data[q].school;
+
+					for (var i = 0; i < schoolData.length; i++) {
+						
+						$('.table-head').after('<tr><td class=\'name\'>' + schoolData[i].name + '</td><td>'+ schoolData[i].grade2012 +'</td><td>' + schoolData[i].grade2011 +'</td><td>' + schoolData[i].grade2010+'</td></tr>')
+					};
+
+				});
+	  		});
+	 
+		});
+
+	}
 
 
 	// LAUNCH PAD
