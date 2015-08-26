@@ -66,9 +66,9 @@
         "house_price_fourteen": 174900,
         "house_price_fifteen": 201100,
         "house_pct": 0.15,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 119
     },
     {
@@ -196,9 +196,9 @@
         "house_price_fourteen": 146900,
         "house_price_fifteen": 163600,
         "house_pct": 0.11,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 143
     },
     {
@@ -261,9 +261,9 @@
         "house_price_fourteen": 340100,
         "house_price_fifteen": 354600,
         "house_pct": 0.04,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 94
     },
     {
@@ -274,9 +274,9 @@
         "house_price_fourteen": 350000,
         "house_price_fifteen": 363600,
         "house_pct": 0.04,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 74
     },
     {
@@ -300,9 +300,9 @@
         "house_price_fourteen": 139300,
         "house_price_fifteen": 158700,
         "house_pct": 0.14,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 213
     },
     {
@@ -326,9 +326,9 @@
         "house_price_fourteen": 91800,
         "house_price_fifteen": 106000,
         "house_pct": 0.15,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 230
     },
     {
@@ -352,9 +352,9 @@
         "house_price_fourteen": 93700,
         "house_price_fifteen": 101600,
         "house_pct": 0.08,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 308
     },
     {
@@ -365,9 +365,9 @@
         "house_price_fourteen": 140400,
         "house_price_fifteen": 169300,
         "house_pct": 0.21,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 110
     },
     {
@@ -378,9 +378,9 @@
         "house_price_fourteen": 133800,
         "house_price_fifteen": 145500,
         "house_pct": 0.09,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 149
     },
     {
@@ -469,9 +469,9 @@
         "house_price_fourteen": 399500,
         "house_price_fifteen": 411000,
         "house_pct": 0.03,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 83
     },
     {
@@ -521,9 +521,9 @@
         "house_price_fourteen": 296800,
         "house_price_fifteen": 309300,
         "house_pct": 0.04,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 135
     },
     {
@@ -534,9 +534,9 @@
         "house_price_fourteen": 438600,
         "house_price_fifteen": 450100,
         "house_pct": 0.03,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 81
     },
     {
@@ -544,13 +544,13 @@
         "city": "Fisher Island",
         "state": "Fla.",
         "county": "Miami-Dade",
-        "house_price_fourteen": null,
-        "house_price_fifteen": null,
-        "house_pct": null,
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
         "condo_price_fourteen": 2890700,
         "condo_price_fifteen": 3102400,
         "condo_pct": 0.07,
-        "crime": null
+        "crime": "N/A"
     },
     {
         "zipcode": 33125,
@@ -586,9 +586,9 @@
         "house_price_fourteen": 87500,
         "house_price_fifteen": 98600,
         "house_pct": 0.13,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 252
     },
     {
@@ -596,9 +596,9 @@
         "city": "Miami",
         "state": "Fla.",
         "county": "Miami-Dade",
-        "house_price_fourteen": null,
-        "house_price_fifteen": null,
-        "house_pct": null,
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
         "condo_price_fourteen": 95700,
         "condo_price_fifteen": 119900,
         "condo_pct": 0.25,
@@ -622,9 +622,9 @@
         "city": "Miami",
         "state": "Fla.",
         "county": "Miami-Dade",
-        "house_price_fourteen": null,
-        "house_price_fifteen": null,
-        "house_pct": null,
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
         "condo_price_fourteen": 307200,
         "condo_price_fifteen": 302400,
         "condo_pct": -0.02,
@@ -635,9 +635,9 @@
         "city": "Miami",
         "state": "Fla.",
         "county": "Miami-Dade",
-        "house_price_fourteen": null,
-        "house_price_fifteen": null,
-        "house_pct": null,
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
         "condo_price_fourteen": 438500,
         "condo_price_fifteen": 435600,
         "condo_pct": -0.01,
@@ -648,9 +648,9 @@
         "city": "Miami",
         "state": "Fla.",
         "county": "Miami-Dade",
-        "house_price_fourteen": null,
-        "house_price_fifteen": null,
-        "house_pct": null,
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
         "condo_price_fourteen": 395600,
         "condo_price_fifteen": 394500,
         "condo_pct": 0.00,
@@ -794,9 +794,9 @@
         "house_price_fourteen": 250900,
         "house_price_fifteen": 265600,
         "house_pct": 0.06,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 248
     },
     {
@@ -833,9 +833,9 @@
         "house_price_fourteen": 93500,
         "house_price_fifteen": 106400,
         "house_pct": 0.14,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 334
     },
     {
@@ -859,9 +859,9 @@
         "house_price_fourteen": 114700,
         "house_price_fifteen": 115600,
         "house_pct": 0.01,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 244
     },
     {
@@ -976,9 +976,9 @@
         "house_price_fourteen": 264400,
         "house_price_fifteen": 290300,
         "house_pct": 0.1,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 221
     },
     {
@@ -1002,9 +1002,9 @@
         "house_price_fourteen": 103000,
         "house_price_fifteen": 109700,
         "house_pct": 0.07,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 276
     },
     {
@@ -1015,9 +1015,9 @@
         "house_price_fourteen": 117800,
         "house_price_fifteen": 128000,
         "house_pct": 0.09,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 330
     },
     {
@@ -1041,9 +1041,9 @@
         "house_price_fourteen": 167100,
         "house_price_fifteen": 187100,
         "house_pct": 0.12,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 294
     },
     {
@@ -1119,9 +1119,9 @@
         "house_price_fourteen": 189900,
         "house_price_fifteen": 214400,
         "house_pct": 0.13,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 99
     },
     {
@@ -1249,9 +1249,9 @@
         "house_price_fourteen": 264200,
         "house_price_fifteen": 294400,
         "house_pct": 0.11,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 107
     },
     {
@@ -1275,9 +1275,9 @@
         "house_price_fourteen": 201200,
         "house_price_fifteen": 230100,
         "house_pct": 0.14,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 278
     },
     {
@@ -1405,9 +1405,9 @@
         "house_price_fourteen": 116800,
         "house_price_fifteen": 122500,
         "house_pct": 0.05,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 184
     },
     {
@@ -1457,9 +1457,9 @@
         "house_price_fourteen": 245300,
         "house_price_fifteen": 263500,
         "house_pct": 0.07,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 336
     },
     {
@@ -1470,9 +1470,9 @@
         "house_price_fourteen": 872300,
         "house_price_fifteen": 952900,
         "house_pct": 0.09,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 184
     },
     {
@@ -1561,9 +1561,9 @@
         "house_price_fourteen": 332300,
         "house_price_fifteen": 336200,
         "house_pct": 0.01,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 117
     },
     {
@@ -1587,9 +1587,9 @@
         "house_price_fourteen": 458200,
         "house_price_fifteen": 458000,
         "house_pct": 0,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 42
     },
     {
@@ -1613,9 +1613,9 @@
         "house_price_fourteen": 516200,
         "house_price_fifteen": 560700,
         "house_pct": 0.09,
-        "condo_price_fourteen": null,
-        "condo_price_fifteen": null,
-        "condo_pct": null,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
         "crime": 92
     },
     {

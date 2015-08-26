@@ -233,14 +233,52 @@
 
 				}
 
+				#prices-container {
+					height: 200px;
+					width: 100%;
+
+					margin-top: 0.75em;
+
+					.price {
+						text-align: center;
+						margin-bottom: 1em;
+	
+						&:last-of-type {
+							border: none;
+						}
+
+						.hed {
+							font-size: $sm;
+							display: block;
+						}
+
+						.num {
+							margin: 0.5em auto;
+							border-right: 1px dashed #ccc;
+
+							&:last-of-type {
+								border: none;
+							}
+
+							
+							.year {
+								font-family: $sans-serif-condensed;
+								font-size: $sm;
+								font-weight: bold;
+							}
+
+							.price-num {
+								display: block;
+								font-family: $serif;
+								font-size: $lg;
+								font-weight: 300;
+							}
+						}	
+					}						
+				}
 		    }
 		}
-
 	}
-
-
-
-
 
 	.income {
 		font-weight: bold;	
@@ -251,7 +289,6 @@
 
 	}	
 }
-
 
 
 .map-section {

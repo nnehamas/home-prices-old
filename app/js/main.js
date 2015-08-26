@@ -99,6 +99,104 @@
 	}
 
 
+	var numberChange = function (number) {
+
+		if (number === "N/A") {
+			return "N/A";
+		}
+
+		else{
+			return "$" + $.number(number);
+		}
+
+	}
+
+	
+	var percentChange = function(number) {
+
+		if ((number < 1) && (number >=0)) {
+			
+			var percent = Math.floor(number * 100);
+
+			if (percent > 0) {
+				return "+" + percent + "%"
+			}
+
+			else if (number == "N/A") {		
+				return "N/A"
+			}
+
+			else if (percent == 0) {
+				return 0
+			}
+
+			else {
+				return percent + "%"				
+			}
+		}
+
+		else {
+
+			var percent = Math.floor(number);
+
+			if (percent > 0) {
+				return "+" + percent + "%"
+			}
+
+			else if (number == "N/A") {
+				return "N/A"				
+			}
+
+			else if (percent == 0) {
+				return 0
+			}
+
+			else {
+				return percent + "%"
+			}
+		}
+
+		
+	}
+
+	var colorPercent = function() {
+	
+		var housePercent = $('.house-percent'),
+			condoPercent = $('.condo-percent');
+
+		if ($('.house-percent:contains(\'+\')')) {
+			
+			housePercent.css('color', 'green');
+		}
+
+
+		else if ($('.house-percent:contains(\'-\')')) {
+			housePercent.css('color', 'red');
+		}
+
+		else {
+			housePercent.css('color', 'black');
+		}
+
+
+
+		if ($('.condo-percent:contains(\'+\')')) {
+			
+			condoPercent.css('color', 'green');
+		}
+
+
+		else if ($('.condo-percent:contains(\'-\')')) {
+			condoPercent.css('color', 'red');
+		}
+
+		else {
+			condoPercent.css('color', 'black');
+		}
+
+	}
+	
+
 	var onEachFeature = function(feature, layer) {
 		
 		layer.on({
@@ -111,28 +209,40 @@
 				});
 
 				layer.bringToFront();
-				
-				initHover();
 
+				initHover();
+				
 				var zip = parseInt(layer.feature.properties.zipcode),
 					city = layer.feature.properties.cities,
+					
 					housePriceFourteen = layer.feature.properties.house_price_fourteen,
+					
 					housePriceFifteen = layer.feature.properties.house_price_fifteen,
+					
 					housePercent = layer.feature.properties.house_pct,
-					condoFourteen = layer.feature.properties.condo_price_fourteen,
-					condoFifteen = layer.feature.properties.condo_price_fifteen,
+					
+					condoPriceFourteen = layer.feature.properties.condo_price_fourteen,
+					
+					condoPriceFifteen = layer.feature.properties.condo_price_fifteen,
+					
 					condoPercent = layer.feature.properties.condo_pct;
 
+
 				$('.zip-code').html(zip)
+				
 				$('.city').html(city)
 
-				$('.house-price-fourteen').html(housePriceFourteen)
-				$('.house-price-fifteen').html(housePriceFifteen)
-				$('.house-percent').html(housePercent)
+				$('.house-price-fourteen').html(numberChange(housePriceFourteen))
+				
+				$('.house-price-fifteen').html(numberChange(housePriceFifteen))
 
-				$('.condo-price-fourteen').html(condoPriceFourteen)
-				$('.condo-price-fifteen').html(condoPriceFifteen)
-				$('.condo-percent').html(condoPercent)
+				$('.house-percent').html(percentChange(housePercent))
+
+				$('.condo-price-fourteen').html(numberChange(condoPriceFourteen))
+				
+				$('.condo-price-fifteen').html(numberChange(condoPriceFifteen))
+				
+				$('.condo-percent').html(percentChange(condoPercent))
 
 			},
 
@@ -142,9 +252,17 @@
 				layer.setStyle({
 					color: '#fff'
 				});
-								
+				
 				endHover();
+
 			},
+
+			mousemove: function(e){
+
+				colorPercent()
+
+			},
+
 			click: function(e) {
 				$('#selected-crimevg').removeAttr('id');
 				
@@ -359,7 +477,7 @@
 
 		var style = function(feature, layer) {
 		    return {
-		        fillColor: getColor(feature.properties.house_price, income),
+		        fillColor: getColor(feature.properties.house_price_fifteen, income),
 		        weight: 2,
 		        opacity: 1,
 		        color: 'white',
@@ -411,7 +529,7 @@
 			
 			$.each(data, function(i, val) {
 
-				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + '>' + data[i].zipcode + ' – ' + data[i].city + '</li>')
+				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + '  data-house-fourteen=\''+data[i].house_price_fourteen+'\' data-house-fifteen=\''+data[i].house_price_fifteen+'\' data-house-percent=\''+data[i].house_pct+'\' data-condo-fourteen=\''+data[i].condo_price_fourteen+'\' data-condo-fifteen=\''+data[i].condo_price_fifteen+'\' data-condo-percent=\''+data[i].condo_pct+'\'>' + data[i].zipcode + ' – ' + data[i].city + '</li>')
 				 
 				
 				$('#zip-list').on('click', '.listing', function(event) {
@@ -420,7 +538,19 @@
 						return false
 					}
 
-					var q = $(this).attr('data-index');
+					var houseFourteen = $(this).attr('data-house-fourteen'),
+						
+						houseFifteen = $(this).attr('data-house-fifteen'),
+
+						housePercent = $(this).attr('data-house-percent'),
+
+						condoFourteen = $(this).attr('data-condo-fourteen'),
+						
+						condoFifteen = $(this).attr('data-condo-fifteen'),
+
+						condoPercent = $(this).attr('data-condo-percent');
+
+		
 
 					$('.listing .inner').remove();
 					
@@ -428,14 +558,36 @@
 					
 					$(this).addClass('active-listing');
 					
-					$(this).append(
-					'<div class="inner">'
-					+'<table class=\'school-list\'><tr class= \'table-head\'><th class=\'name\'>School</th><th>2014-15</th><th>2013-14</th><th>2012-13</th></tr></table>'+
-					'</div>'
+					$(this).append('<div class="inner">'
+					+'<div id=\'prices-container\'>'+
+					'<div class=\'price col-sm-12 col-xs-12\'>' +
+					'<span class=\'hed\'>Average Home Prices</span>' +
+					'<div class=\'num col-sm-4 col-xs-4\'>' +
+					'<span class=\'year\'>2014</span>' +
+					'<span class=\'price-num\'>'+ numberChange(houseFourteen) +'</span></div>' +
+					'<div class=\'num col-sm-4 col-xs-4\'>' +
+					'<span class=\'year\'>2015</span>' +
+					'<span class=\'price-num\'>'+ numberChange(houseFifteen) + '</span></div>' +
+					'<div class=\'num col-sm-4 col-xs-4\'>' +
+					'<span class=\'year\'>Pct.</span>' +
+					'<span class=\'price-num\'>' + percentChange(housePercent) + '</span></div></div>'+
+					'<div class=\'price col-sm-12 col-xs-12\'>' +
+					'<span class=\'hed\'>Average Condo Prices</span>' +
+					'<div class=\'num col-sm-4 col-xs-4\'>' +
+					'<span class=\'year\'>2014</span>' +
+					'<span class=\'price-num\'>'+ numberChange(condoFourteen) + '</span></div>' +
+					'<div class=\'num col-sm-4 col-xs-4\'>' +
+					'<span class=\'year\'>2015</span>' +
+					'<span class=\'price-num\'>'+ numberChange(houseFifteen) + '</span></div>' +
+					'<div class=\'num col-sm-4 col-xs-4\'>' +
+					'<span class=\'year\'>Pct.</span>' +
+					'<span class=\'price-num\'>'+ percentChange(condoPercent) + '</span></div></div></div>'+'<table class=\'school-list\'><tr class= \'table-head\'><th class=\'name\'>School</th><th>2014-15</th><th>2013-14</th><th>2012-13</th></tr></table>'+'</div>'
 					)
 
-
+					var q = $(this).attr('data-index');
 					var schoolData = data[q].school;
+
+					console.log(q)
 
 					for (var i = 0; i < schoolData.length; i++) {
 						

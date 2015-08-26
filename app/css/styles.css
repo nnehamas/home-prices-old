@@ -418,6 +418,32 @@ hr {
             text-align: center; }
           .info #list-container #zip-list .listing .school-list .name {
             text-align: left !important; }
+        .info #list-container #zip-list .listing #prices-container {
+          height: 200px;
+          width: 100%;
+          margin-top: 0.75em; }
+          .info #list-container #zip-list .listing #prices-container .price {
+            text-align: center;
+            margin-bottom: 1em; }
+            .info #list-container #zip-list .listing #prices-container .price:last-of-type {
+              border: none; }
+            .info #list-container #zip-list .listing #prices-container .price .hed {
+              font-size: 14px;
+              display: block; }
+            .info #list-container #zip-list .listing #prices-container .price .num {
+              margin: 0.5em auto;
+              border-right: 1px dashed #ccc; }
+              .info #list-container #zip-list .listing #prices-container .price .num:last-of-type {
+                border: none; }
+              .info #list-container #zip-list .listing #prices-container .price .num .year {
+                font-family: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: bold; }
+              .info #list-container #zip-list .listing #prices-container .price .num .price-num {
+                display: block;
+                font-family: "Roboto Slab", "Times New Roman", Times, serif;
+                font-size: 22px;
+                font-weight: 300; }
   .info .income {
     font-weight: bold;
     color: #2ca25f; }

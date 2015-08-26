@@ -9,9 +9,9 @@
                 "house_price_fifteen" : 145500,
                 "house_price_fourteen" : 133800,
                 "house_pct" : 0.087,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 149
             },
             "geometry": {
@@ -50,9 +50,9 @@
                 "house_price_fifteen" : 169300,
                 "house_price_fourteen" : 140400,
                 "house_pct" : 0.206,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 110
             },
             "geometry": {
@@ -352,8 +352,14 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33039,
-                "SHAPE_AREA": 81809011.5378,
-                "SHAPE_LEN": 54347.1596586
+                "cities" : "Homestead",
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
+                "crime" : "N/A"
             },
             "geometry": {
                 "type": "Polygon",
@@ -415,9 +421,9 @@
                 "house_price_fifteen" : 290300,
                 "house_price_fourteen" : 264400,
                 "house_pct" : 0.098,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 221
             },
             "geometry": {
@@ -666,11 +672,11 @@
                 "zipcode": 33178,
                 "cities" : "Doral",
                 "house_price_fifteen" : 502800,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 490550,
+                "house_pct" : 2.5,
                 "condo_price_fifteen" : 277900,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
+                "condo_price_fourteen": 273200,
+                "condo_pct": 1.7,
                 "crime" : 84
             },
             "geometry": {
@@ -931,8 +937,14 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33192,
-                "SHAPE_AREA": 270183931.369,
-                "SHAPE_LEN": 69568.0690176
+                "cities" : "Homestead",
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
+                "crime" : "N/A"
             },
             "geometry": {
                 "type": "Polygon",
@@ -978,9 +990,9 @@
                 "house_price_fifteen" : 115600,
                 "house_price_fourteen" : 114700,
                 "house_pct" : 0.008,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 244
             },
             "geometry": {
@@ -1125,9 +1137,9 @@
                 "house_price_fifteen" : 128000,
                 "house_price_fourteen" : 117800,
                 "house_pct" : 0.087,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 330
             },
             "geometry": {
@@ -1175,9 +1187,9 @@
                 "house_price_fifteen" : 101600,
                 "house_price_fourteen" : 93700,
                 "house_pct" : 0.084,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 308
             },
             "geometry": {
@@ -1376,9 +1388,9 @@
                 "house_price_fifteen" : 106400,
                 "house_price_fourteen" : 93500,
                 "house_pct" : 0.138,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 334
             },
             "geometry": {
@@ -1421,9 +1433,9 @@
                 "house_price_fifteen" : 106000,
                 "house_price_fourteen" : 91800,
                 "house_pct" : 0.155,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 230
             },
             "geometry": {
@@ -1482,9 +1494,9 @@
                 "house_price_fifteen" : 109700,
                 "house_price_fourteen" : 103000,
                 "house_pct" : 0.065,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 267
             },
             "geometry": {
@@ -1759,9 +1771,9 @@
                 "house_price_fifteen" : 158700,
                 "house_price_fourteen" : 139300,
                 "house_pct" : 0.139,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 213
             },
             "geometry": {
@@ -1909,7 +1921,7 @@
                 "house_price_fifteen" : 214400,
                 "house_price_fourteen" : 0,
                 "house_pct" : 0,
-                "condo_price_fifteen" : null,
+                "condo_price_fifteen" : "N/A",
                 "condo_price_fourteen": 0,
                 "condo_pct": 0,
                 "crime" : 98
@@ -1962,9 +1974,9 @@
                 "house_price_fifteen" : 294400,
                 "house_price_fourteen" : 264200,
                 "house_pct" : 0.114,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 107
             },
             "geometry": {
@@ -2016,7 +2028,7 @@
             "properties": {
                 "zipcode": 33109,
                 "cities" : "Fisher Island",
-                "house_price_fifteen" : null,
+                "house_price_fifteen" : "N/A",
                 "house_price_fourteen" : 0,
                 "house_pct" : 0,
                 "condo_price_fifteen" : 3102400,
@@ -2150,9 +2162,9 @@
             "properties": {
                 "zipcode": 33131,
                 "cities" : "Miami",
-                "house_price_fifteen" : null,
-                "house_price_fourteen" : null,
-                "house_pct" : null,
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
                 "condo_price_fifteen" : 435600,
                 "condo_price_fourteen": 438500,
                 "condo_pct": -0.07,
@@ -2615,9 +2627,9 @@
             "properties": {
                 "zipcode": 33130,
                 "cities" : "Miami",
-                "house_price_fifteen" : null,
-                "house_price_fourteen" : null,
-                "house_pct" : null,
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
                 "condo_price_fifteen" : 302400,
                 "condo_price_fourteen": 307200,
                 "condo_pct": -0.016,
@@ -3287,10 +3299,14 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33136,
-                "percent" : 0.037,
-                "price" : 166100,
-                "crime" : null,
-                "school" : null
+                "cities" : "Miami",
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
+                "crime" : "N/A"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3336,9 +3352,9 @@
                 "house_price_fifteen" : 187100,
                 "house_price_fourteen" : 167100,
                 "house_pct" : 0.12,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 294
             },
             "geometry": {
@@ -3405,9 +3421,9 @@
                 "house_price_fifteen" : 230100,
                 "house_price_fourteen" : 201200,
                 "house_pct" : 0.144,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 278
             },
             "geometry": {
@@ -3447,9 +3463,9 @@
             "properties": {
                 "zipcode": 33128,
                 "cities" : "Miami",
-                "house_price_fifteen" : null,
-                "house_price_fourteen" : null,
-                "house_pct" : null,
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
                 "condo_price_fifteen" : 119900,
                 "condo_price_fourteen": 95700,
                 "condo_pct": 0.253,
@@ -3503,7 +3519,7 @@
                 "house_price_fifteen" : 201100,
                 "house_price_fourteen" : 174900,
                 "house_pct" : 0.15,
-                "condo_price_fifteen" : null,
+                "condo_price_fifteen" : "N/A",
                 "condo_price_fourteen": 0,
                 "condo_pct": 0,
                 "crime" : 119
@@ -3613,8 +3629,14 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33031,
-                "SHAPE_AREA": 830328356.222,
-                "SHAPE_LEN": 181824.758865
+                "cities" : "Homestead",
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
+                "crime" : "N/A"
             },
             "geometry": {
                 "type": "Polygon",
@@ -3921,9 +3943,9 @@
             "properties": {
                 "zipcode": 33132,
                 "cities" : "Miami",
-                "house_price_fifteen" : null,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
                 "condo_price_fifteen" : 394500,
                 "condo_price_fourteen": 395600,
                 "condo_pct": -0.03,
@@ -4136,8 +4158,14 @@
             "type": "Feature",
             "properties": {
                 "zipcode": 33122,
-                "SHAPE_AREA": 154970229.755,
-                "SHAPE_LEN": 69213.5065943
+                "cities" : "Fountainbleau",
+                "house_price_fifteen" : "N/A",
+                "house_price_fourteen" : "N/A",
+                "house_pct" : "N/A",
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
+                "crime" : "N/A"
             },
             "geometry": {
                 "type": "Polygon",
@@ -4199,9 +4227,9 @@
                 "house_price_fifteen" : 265600,
                 "house_price_fourteen" : 250900,
                 "house_pct" : 0.059,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 248
             },
             "geometry": {
@@ -4369,10 +4397,10 @@
                 "cities" : "Miami",
                 "house_price_fifteen" : 98600,
                 "house_price_fourteen" : 87500,
-                "house_pct" : 98600,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "house_pct" : 12.7,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 252
             },
             "geometry": {
@@ -4537,9 +4565,9 @@
                 "house_price_fifteen" : 411000,
                 "house_price_fourteen" : 399500,
                 "house_pct" : 0.029,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 83
             },
             "geometry": {
@@ -4594,9 +4622,9 @@
                 "house_price_fifteen" : 450100,
                 "house_price_fourteen" : 438699,
                 "house_pct" : 0.026,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 81
             },
             "geometry": {
@@ -4753,9 +4781,9 @@
                 "house_price_fifteen" : 309300,
                 "house_price_fourteen" : 296800,
                 "house_pct" : 0.042,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 135
             },
             "geometry": {
@@ -5755,9 +5783,9 @@
                 "house_price_fifteen" : 122500,
                 "house_price_fourteen" : 116800,
                 "house_pct" : 0.049,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 184
             },
             "geometry": {
@@ -5963,9 +5991,9 @@
                 "house_price_fifteen" : 458000,
                 "house_price_fourteen" : 458200,
                 "house_pct" : 0.0,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 42
             },
             "geometry": {
@@ -6155,7 +6183,7 @@
             "properties": {
                 "zipcode": 33317,
                 "cities" : "Plantation",
-                "house_price_fifteen" : 29950,
+                "house_price_fifteen" : 299950,
                 "house_price_fourteen" : 291400,
                 "house_pct" : 0.028,
                 "condo_price_fifteen" : 92100,
@@ -6256,9 +6284,9 @@
                 "house_price_fifteen" : 336200,
                 "house_price_fourteen" : 332300,
                 "house_pct" : 0.012,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 117
             },
             "geometry": {
@@ -6358,9 +6386,9 @@
                 "house_price_fifteen" : 952900,
                 "house_price_fourteen" : 872300,
                 "house_pct" : 0.092,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 184
             },
             "geometry": {
@@ -6484,9 +6512,9 @@
                 "house_price_fifteen" : 263500,
                 "house_price_fourteen" : 245300,
                 "house_pct" : 0.074,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 336
             },
             "geometry": {
@@ -6547,11 +6575,11 @@
                 "zipcode": 33332,
                 "cities" : "Weston",
                 "house_price_fifteen" : 554200,
-                "house_price_fourteen" : 0,
-                "house_pct" : 0,
+                "house_price_fourteen" : 547500,
+                "house_pct" : 1.2,
                 "condo_price_fifteen" : 440500,
-                "condo_price_fourteen": 0,
-                "condo_pct": 0,
+                "condo_price_fourteen": 448700,
+                "condo_pct": -1.8,
                 "crime" : 45
             },
             "geometry": {
@@ -6858,9 +6886,9 @@
                 "house_price_fifteen" : 560700,
                 "house_price_fourteen" : 516200,
                 "house_pct" : 0.086,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 92
             },
             "geometry": {
@@ -7168,9 +7196,9 @@
                 "house_price_fifteen" : 354600,
                 "house_price_fourteen" : 340100,
                 "house_pct" : 0.043,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 94
             },
             "geometry": {
@@ -7213,9 +7241,9 @@
                 "house_price_fifteen" : 363600,
                 "house_price_fourteen" : 350000,
                 "house_pct" : 0.039,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 74
             },
             "geometry": {
@@ -7262,9 +7290,9 @@
                 "house_price_fifteen" : 163600,
                 "house_price_fourteen" : 146900,
                 "house_pct" : 0.114,
-                "condo_price_fifteen" : null,
-                "condo_price_fourteen": null,
-                "condo_pct": null,
+                "condo_price_fifteen" : "N/A",
+                "condo_price_fourteen": "N/A",
+                "condo_pct": "N/A",
                 "crime" : 143
             },
             "geometry": {
@@ -7367,7 +7395,7 @@
                 "cities" : "Miramar",
                 "house_price_fifteen" : 353700,
                 "house_price_fourteen" : 343400,
-                "house_pct" : 0.003,
+                "house_pct" : 0.03,
                 "condo_price_fifteen" : 107500,
                 "condo_price_fourteen": 95900,
                 "condo_pct": 0.121,
