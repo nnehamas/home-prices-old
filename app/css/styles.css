@@ -290,6 +290,10 @@ hr {
     font-size: 22px;
     font-family: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
     font-weight: bold; }
+    #button-container .income-btn:hover {
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
   #button-container .income-box {
     font-family: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
     font-size: 40px;
@@ -336,7 +340,9 @@ hr {
     height: 45px;
     display: inline-block; }
     #house-choice #check-button-house:hover, #house-choice #check-button-condo:hover {
-      background: red; }
+      -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
     #house-choice #check-button-house label, #house-choice #check-button-condo label {
       float: left;
       width: 100%; }
@@ -349,104 +355,103 @@ hr {
       #house-choice #check-button-house label input, #house-choice #check-button-condo label input {
         display: none; }
         #house-choice #check-button-house label input:checked + span, #house-choice #check-button-condo label input:checked + span {
-          background-color: #911;
-          color: #fff; }
+          background-color: #aaa;
+          color: #000; }
   #house-choice .disabled:hover {
     background-color: #efefef !important; }
 
-.info {
-  padding: 0em 0 0 1.25em; }
-  .info #list-container {
-    background: #f8f5f2;
-    height: 600px; }
-    .info #list-container header {
-      padding: 10px;
+.info #list-container {
+  background: #f8f5f2;
+  height: 600px; }
+  .info #list-container header {
+    padding: 10px;
+    display: block;
+    position: relative; }
+    .info #list-container header #srcbox {
+      font-family: 'Roboto Slab', Georgia, Times, Serif;
+      font-size: 16px;
+      width: 78%;
+      padding: 14px 10.5% 14px 2.5%;
+      margin: 15px auto 25px auto;
       display: block;
-      position: relative; }
-      .info #list-container header #srcbox {
-        font-family: 'Roboto Slab', Georgia, Times, Serif;
-        font-size: 16px;
-        width: 78%;
-        padding: 14px 10.5% 14px 2.5%;
-        margin: 15px auto 25px auto;
-        display: block;
-        border: none;
-        background: #EEE;
-        box-shadow: inset 0px 0px 10px #CCC;
-        border-radius: 3px; }
-      .info #list-container header #srcbox-button {
-        background: transparent url("http://media.miamiherald.com/static/media/projects/2014/school-demographics/img/src.png") no-repeat scroll center center;
-        width: 35px;
-        height: 25px;
-        position: absolute;
-        right: 15%;
-        top: 35px; }
-      .info #list-container header #reset {
-        padding: 4px;
-        position: absolute;
-        right: 7%;
-        top: 78px;
-        display: inline-block;
-        cursor: pointer; }
-    .info #list-container #zip-list {
-      border-top: 2px solid #AAA;
-      width: 100%;
-      height: 500px;
-      overflow-y: scroll;
-      box-shadow: inset 0px 0px 10px #CCC; }
-      .info #list-container #zip-list ul {
-        padding: 0px; }
-      .info #list-container #zip-list .active-listing {
-        background: #fff;
-        display: block !important;
-        cursor: default !important; }
-      .info #list-container #zip-list .listing {
-        padding: 20px;
-        list-style-type: none;
-        cursor: pointer;
-        border-bottom: 1px solid #AAA;
-        font-family: "Roboto Slab", "Times New Roman", Times, serif;
-        font-weight: bold;
-        font-size: 18px; }
-        .info #list-container #zip-list .listing .school-list {
-          border: 1px solid;
-          width: 100%;
-          font-weight: normal; }
-          .info #list-container #zip-list .listing .school-list td, .info #list-container #zip-list .listing .school-list th {
-            border: 1px solid red;
+      border: none;
+      background: #EEE;
+      box-shadow: inset 0px 0px 10px #CCC;
+      border-radius: 3px; }
+    .info #list-container header #srcbox-button {
+      background: transparent url("http://media.miamiherald.com/static/media/projects/2014/school-demographics/img/src.png") no-repeat scroll center center;
+      width: 35px;
+      height: 25px;
+      position: absolute;
+      right: 15%;
+      top: 35px; }
+    .info #list-container header #reset {
+      padding: 4px;
+      position: absolute;
+      right: 7%;
+      top: 78px;
+      display: inline-block;
+      cursor: pointer; }
+  .info #list-container #zip-list {
+    border-top: 2px solid #AAA;
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    box-shadow: inset 0px 0px 10px #CCC; }
+    .info #list-container #zip-list ul {
+      padding: 0px; }
+    .info #list-container #zip-list .active-listing {
+      background: #fff;
+      display: block !important;
+      cursor: default !important; }
+    .info #list-container #zip-list .listing {
+      padding: 20px;
+      list-style-type: none;
+      cursor: pointer;
+      border-bottom: 1px solid #AAA;
+      font-family: "Roboto Slab", "Times New Roman", Times, serif;
+      font-weight: bold;
+      font-size: 18px; }
+      .info #list-container #zip-list .listing .school-list {
+        border: 1px solid;
+        width: 100%;
+        font-weight: normal; }
+        .info #list-container #zip-list .listing .school-list td, .info #list-container #zip-list .listing .school-list th {
+          border: 1px solid red;
+          font-size: 14px;
+          text-align: center; }
+        .info #list-container #zip-list .listing .school-list .name {
+          text-align: left !important; }
+      .info #list-container #zip-list .listing #prices-container {
+        height: 200px;
+        width: 100%;
+        margin-top: 0.75em; }
+        .info #list-container #zip-list .listing #prices-container .price {
+          text-align: center;
+          margin-bottom: 1em; }
+          .info #list-container #zip-list .listing #prices-container .price:last-of-type {
+            border: none; }
+          .info #list-container #zip-list .listing #prices-container .price .hed {
             font-size: 14px;
-            text-align: center; }
-          .info #list-container #zip-list .listing .school-list .name {
-            text-align: left !important; }
-        .info #list-container #zip-list .listing #prices-container {
-          height: 200px;
-          width: 100%;
-          margin-top: 0.75em; }
-          .info #list-container #zip-list .listing #prices-container .price {
-            text-align: center;
-            margin-bottom: 1em; }
-            .info #list-container #zip-list .listing #prices-container .price:last-of-type {
+            display: block; }
+          .info #list-container #zip-list .listing #prices-container .price .num {
+            margin: 0.5em auto;
+            border-right: 1px dashed #ccc; }
+            .info #list-container #zip-list .listing #prices-container .price .num:last-of-type {
               border: none; }
-            .info #list-container #zip-list .listing #prices-container .price .hed {
+            .info #list-container #zip-list .listing #prices-container .price .num .year {
+              font-family: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
               font-size: 14px;
-              display: block; }
-            .info #list-container #zip-list .listing #prices-container .price .num {
-              margin: 0.5em auto;
-              border-right: 1px dashed #ccc; }
-              .info #list-container #zip-list .listing #prices-container .price .num:last-of-type {
-                border: none; }
-              .info #list-container #zip-list .listing #prices-container .price .num .year {
-                font-family: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
-                font-size: 14px;
-                font-weight: bold; }
-              .info #list-container #zip-list .listing #prices-container .price .num .price-num {
-                display: block;
-                font-family: "Roboto Slab", "Times New Roman", Times, serif;
-                font-size: 22px;
-                font-weight: 300; }
-  .info .income {
-    font-weight: bold;
-    color: #2ca25f; }
+              font-weight: bold; }
+            .info #list-container #zip-list .listing #prices-container .price .num .price-num {
+              display: block;
+              font-family: "Roboto Slab", "Times New Roman", Times, serif;
+              font-size: 22px;
+              font-weight: 300; }
+
+.info .income {
+  font-weight: bold;
+  color: #2ca25f; }
 
 .map-section {
   display: block;
@@ -455,6 +460,44 @@ hr {
 
 #map-container {
   height: 602px; }
+  #map-container #interface-container {
+    position: absolute;
+    bottom: 50px;
+    background: #fff;
+    left: 30px;
+    max-width: 300px;
+    z-index: 99999; }
+  #map-container .map-interface {
+    width: 260px;
+    display: block;
+    padding: 15px;
+    background: #FFF;
+    border-top: 1px solid #BBB;
+    border-right: 1px solid #BBB;
+    border-bottom: 2px solid #AAA;
+    border-left: 1px solid #BBB;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; }
+  #map-container .key-holder {
+    clear: both;
+    margin: 1em 0; }
+  #map-container .explainer {
+    font-family: "Roboto Slab", "Times New Roman", Times, serif; }
+  #map-container .label {
+    font-family: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    padding: 0px;
+    float: left;
+    text-transform: uppercase;
+    color: #aaa;
+    margin: 0.5em 0; }
+    #map-container .label:last-of-type {
+      float: right; }
+  #map-container .legend-block {
+    width: 20%;
+    float: left;
+    border: 5px solid; }
 
 .section:nth-child(2) {
   margin-top: 2em; }
