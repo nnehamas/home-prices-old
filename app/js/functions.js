@@ -1,7 +1,10 @@
 'use strict';
-	
-		var income;
 
+
+		var income;
+		var $houseLayer = null;
+		var $condoLayer = null;
+	
 		// MAKE TILE LAYER FOR ZOOMED IN VIEW
 		var tiles = new L.StamenTileLayer('toner-lite');
 
@@ -40,10 +43,11 @@
 		var $defaultLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: defaultStyle });
 
 			// ADD DEFAULT LAYER TO MAP
-			map.addLayer($defaultLayer)
+		map.addLayer($defaultLayer)
 
 
-		function getHouseColor (d, income) {
+		function getHouseColor (d) {
+
 
 			if (income > d) {
 				return '#006d2c';
@@ -68,8 +72,9 @@
 
 
 		function houseStyle (features, layer) {
+			debugger;
 		    return {
-		        fillColor: getHouseColor(features.properties.house_price_fifteen, income),
+		        fillColor: getHouseColor(features.properties.house_price_fifteen),
 		        weight: 2,
 		        opacity: 1,
 		        color: 'white',
@@ -79,7 +84,6 @@
 		};
 
 		
-		var $houseLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: houseStyle });
 
 		function getCondoColor (d,income) {
 
@@ -115,7 +119,6 @@
 		    };
 		};
 
-		var $condoLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: condoStyle });
 
 
 	//====================================
@@ -403,14 +406,11 @@
 	};
 
 
-
 	function setDefaultMap() {
-
 		map.removeLayer($houseLayer)
 		map.removeLayer($condoLayer)
 		map.addLayer($defaultLayer)
 	}
-
 
 	// BUILD HOUSE MAP
 	function buildHouseMap() {
@@ -654,3 +654,6 @@
 			flagSelectionError();
 		}
 	};
+
+
+

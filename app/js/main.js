@@ -1,3 +1,6 @@
+// SCOPE
+// ORGANIZE PUBLIC OBJECTS
+
 'use strict';
 
 (function () {
@@ -83,8 +86,14 @@
 	$('#button-container').on('click', '.income-button', function() {
 		
 		let incomeInput = $('.income-box').val();
-	
+
+		console.log(income)
+
 		income = getIncome(incomeInput);
+
+		$houseLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: houseStyle });
+		$condoLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: condoStyle });
+
 
 		console.log(income)
 
@@ -92,7 +101,7 @@
 	
 	});
 
-	$('#button-container').on('click', '.reset',function () {
+	$('#button-container').on('click', '.reset', function () {
 
 		$('.income-box').val('');
 
