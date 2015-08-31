@@ -669,7 +669,7 @@
 
 			$.each(data, function(i, val) {
 
-				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + ' data-zipcode=\''+ data[i].zipcode'\'  data-house-fourteen=\''+data[i].house_price_fourteen+'\' data-house-fifteen=\''+data[i].house_price_fifteen+'\' data-house-percent=\''+data[i].house_pct+'\' data-condo-fourteen=\''+data[i].condo_price_fourteen+'\' data-condo-fifteen=\''+data[i].condo_price_fifteen+'\' data-condo-percent=\''+data[i].condo_pct+'\'><span class =\'hed\'>' + data[i].zipcode + ' – ' + data[i].city + '</span></li>')
+				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + ' data-zipcode=\''+ data[i].zipcode + '\' data-house-fourteen=\''+data[i].house_price_fourteen+'\' data-house-fifteen=\''+data[i].house_price_fifteen+'\' data-house-percent=\''+data[i].house_pct+'\' data-condo-fourteen=\''+data[i].condo_price_fourteen+'\' data-condo-fifteen=\''+data[i].condo_price_fifteen+'\' data-condo-percent=\''+data[i].condo_pct+'\'><span class =\'hed\'>' + data[i].zipcode + ' – ' + data[i].city + '</span></li>')
 				 
 				
 				$('#zip-list').on('click', '.listing', function(event) {
@@ -735,7 +735,107 @@
 					};
 				});
 	  		});
+		
+			// var $items = [];
+
+			// $.each(data, function(i) {
+			// 	var tmp = {};
+			// 	tmp.id = i;
+			// 	tmp.number = data[i].zipcode;
+			// 	$items.push(tmp);
+			// });
+
+			// var $matches = [];
+			// var $misses = [];
+
+			// function delegateSearch(kwd) {
+			// 	$('.listing .miss').removeClass('miss');
+			// 	// $('#noMatches').hide();
+			// 	$matches = [];
+			// 	$misses = [];
+
+			// 	if ((kwd != '') && (kwd.length >= 2)) {
+					
+			// 		$.each($items, function(i) {
+			// 			if ($items[i].number.indexOf(kwd) == 0) {
+							
+			// 				$matches.push($('#' + $items[i].id));
+			// 			} 
+
+			// 			else {
+			// 				$misses.push($('#' + $items[i].id));
+			// 			}
+			// 		});
+					
+			// 		$.each($matches, function(i) {
+			// 			$($matches[i]).addClass('match');
+			// 		});
+
+			// 		$.each($misses, function(i) {
+			// 			$($misses[i]).removeClass('match').addClass('miss');
+			// 		});
+			// 	} 
+
+
+			// 	else {
+			// 		$('.listing').removeClass('miss').addClass('match');
+			// 	}
+
+			// 	console.log($matches)
+
+			// }
+
+			// // BIND KEYBOARD
+			// $('#srcbox').bind('keyup', function() {
+
+			// 	console.log($(this).val())
+				
+			// 	delegateSearch($(this).val());
+				
+			// 	if ( $('.listing .match').length === 1) {
+			// 		$('.listing .match').trigger('click')
+			// 	}
+				
+			// 	if ( $('.listing .match').length === 0) {
+			// 		$('#none-message').show()
+			// 	} 
+
+			// 	else {
+			// 		$('#none-message').hide()
+			// 	}
+			// });
+
+			// $('#srcbox-button').click(function() {
+			// 	$('#srcbox').blur()
+			// })
+
+			// $('#reset').click(function() {
+			// 	$('#srcbox').val('')
+			// 	$('.miss').removeClass('miss')
+			// })
+
+
+			// $(document).keydown(function(e){
+			// 	if (e.keyCode === 37) { 
+			// 		$('#srcbox').val('')
+			// 		$('.miss').removeClass('miss')
+			// 	$('.active-listing').prev().trigger('click');
+			// 	}
+			// 	if (e.keyCode === 39) { 
+			// 		$('#srcbox').val('')
+			// 		$('.miss').removeClass('miss')
+			// 		$('.active-listing').next().trigger('click');
+			//   }
+			// });
+			
+
+
+
+
+
+
 		});
+			
 	}
 
 
@@ -791,82 +891,21 @@
 	//====================================
 
 	// BUILD SEARCH LIST
-	var $items = [];
-	
-	$('.listing').each(function() {
-		var tmp = {};
-		tmp.id = $(this).attr('data-index');
-		tmp.name = ($items[tmp.id].info.name).toLowerCase();
-		$items.push(tmp);
-	});
-
-	console.log($items)
-
-	// var $matches = [];
-	// var $misses = [];
-
-	// function delegateSearch(kwd) {
-	// 	$('.listing.miss').removeClass('miss');
-	// 	$('#noMatches').hide();
-	// 	$matches = [];
-	// 	$misses = [];
-
-	// 	if ((kwd != '') && (kwd.length >= 2)) {
-	// 		$.each($items, function(i) {
-	// 			if ($items[i].name.indexOf(kwd) !== -1) {
-	// 				$matches.push($('#' + $items[i].id));
-	// 			} else {
-	// 				$misses.push($('#' + $items[i].id));
-	// 			}
-	// 		});
-	// 		$.each($matches, function(i) {
-	// 			$($matches[i]).addClass('match');
-	// 		});
-	// 		$.each($misses, function(i) {
-	// 			$($misses[i]).removeClass('match').addClass('miss');
-	// 		});
-	// 	} else {
-	// 		$('.listing').removeClass('miss').addClass('match');
-	// 	}
-
-	// }
-
-	// // BIND KEYBOARD
-	// $('#srcbox').bind('keyup', function() {
-	// 	delegateSearch($(this).val().toLowerCase());
-	// 	if ( $('.listing.match').length === 1) {
-	// 		$('.listing.match').trigger('click')
-	// 	}
-		
-	// 	if ( $('.listing.match').length === 0) {
-	// 		$('#none-message').show()
-	// 	} else {
-	// 		$('#none-message').hide()
-	// 	}
-	// });
-
-	// $('#srcbox-button').click(function() {
-	// 	$('#srcbox').blur()
-	// })
-
-	// $('#reset').click(function() {
-	// 	$('#srcbox').val('')
-	// 	$('.miss').removeClass('miss')
-	// })
 
 
-	// $(document).keydown(function(e){
-	// 	if (e.keyCode === 37) { 
-	// 		$('#srcbox').val('')
-	// 		$('.miss').removeClass('miss')
-	// 	$('.active-listing').prev().trigger('click');
-	// 	}
-	// 	if (e.keyCode === 39) { 
-	// 		$('#srcbox').val('')
-	// 		$('.miss').removeClass('miss')
-	// 		$('.active-listing').next().trigger('click');
-	//   }
-	// });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
