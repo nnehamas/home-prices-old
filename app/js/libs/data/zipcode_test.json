@@ -82,7 +82,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 119,
         "school_grade": "",
         "school" : [
@@ -135,9 +134,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 119
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33012,
@@ -777,7 +773,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 143,
         "school_grade": "",
         "school" : [
@@ -837,9 +832,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 143
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33024,
@@ -852,7 +844,6 @@
         "condo_price_fourteen": 103800,
         "condo_price_fifteen": 109000,
         "condo_pct": 0.05,
-<<<<<<< HEAD
         "crime": 120,
         "school_grade": "",
         "school" : [
@@ -954,9 +945,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 120
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33025,
@@ -1175,7 +1163,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 94,
         "school_grade": "",
         "school" : [
@@ -1207,9 +1194,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 94
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33029,
@@ -1222,7 +1206,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 74,
         "school_grade": "",
         "school" : [
@@ -1296,9 +1279,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 74
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33030,
@@ -1462,7 +1442,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 213,
         "school_grade": "",
         "school" : [
@@ -1543,9 +1522,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 213
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33033,
@@ -1615,7 +1591,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 230,
         "school_grade": "",
          "school" : [
@@ -1661,9 +1636,6 @@
             "grade2013" : "C"
           }
       ]
-=======
-        "crime": 230
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33035,
@@ -1712,7 +1684,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 308,
         "school_grade": "",
          "school" : [
@@ -1786,9 +1757,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 308
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33055,
@@ -1801,7 +1769,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 110,
         "school_grade": "",
          "school" : [
@@ -1861,9 +1828,6 @@
             "grade2013" : "B"
           }
       ]
-=======
-        "crime": 110
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33056,
@@ -1876,7 +1840,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 149,
         "school_grade": "",
         "school" : [
@@ -1936,9 +1899,6 @@
             "grade2013" : "C"
           }
       ]
-=======
-        "crime": 149
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33060,
@@ -2279,7 +2239,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 83,
         "school_grade": "",
         "school" : [
@@ -2325,9 +2284,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 83
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33068,
@@ -2504,7 +2460,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 135,
         "school_grade": "",
         "school" : [
@@ -2536,9 +2491,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 135
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33076,
@@ -2551,7 +2503,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 81,
         "school_grade": "",
          "school" : [
@@ -2618,9 +2569,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 81
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33109,
@@ -2634,7 +2582,6 @@
         "condo_price_fifteen": 3102400,
         "condo_pct": 0.07,
         "crime": "N/A"
-<<<<<<< HEAD
     "school_grade": "",},
 
      {
@@ -2658,8 +2605,6 @@
             "grade2013" : "A"
           }
       ]
-=======
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33125,
@@ -2758,7 +2703,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 252,
         "school_grade": "",
          "school" : [
@@ -2846,9 +2790,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 252
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33128,
@@ -3596,7 +3537,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 248,
         "school_grade": "",
          "school" : [
@@ -3621,9 +3561,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 248
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33145,
@@ -3708,7 +3645,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 334,
         "school_grade": "",
          "school" : [
@@ -3789,9 +3725,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 334
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33149,
@@ -3833,7 +3766,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 244,
         "school_grade": "",
          "school" : [
@@ -3893,9 +3825,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 244
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33154,
@@ -4349,7 +4278,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 221,
         "school_grade": "",
          "school" : [
@@ -4444,9 +4372,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 221
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33166,
@@ -4523,7 +4448,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 276,
         "school_grade": "",
          "school" : [
@@ -4548,9 +4472,6 @@
             "grade2013" : "C"
           }
       ]
-=======
-        "crime": 276
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33168,
@@ -4563,7 +4484,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 330,
         "school_grade": "",
          "school" : [
@@ -4602,9 +4522,6 @@
             "grade2013" : "C"
           }
       ]
-=======
-        "crime": 330
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33169,
@@ -4688,7 +4605,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 294,
         "school_grade": "",
         "school" : [
@@ -4727,9 +4643,6 @@
             "grade2013" : "D"
           }
       ]
-=======
-        "crime": 294
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33172,
@@ -5077,7 +4990,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 99,
         "school_grade": "",
         "school" : [
@@ -5130,9 +5042,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 99
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33178,
@@ -5588,7 +5497,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 278,
         "school_grade": "",
          "school" : [
@@ -5620,9 +5528,6 @@
             "grade2013" : "C"
           }
       ]
-=======
-        "crime": 278
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33193,
@@ -5921,7 +5826,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 184,
         "school_grade": "",
          "school" : [
@@ -6044,9 +5948,6 @@
             "grade2013" : "C"
           }
       ]
-=======
-        "crime": 184
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33312,
@@ -6244,7 +6145,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 336,
         "school_grade": "",
         "school" : [
@@ -6255,9 +6155,6 @@
             "grade2013" : "B"
           }
       ]
-=======
-        "crime": 336
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33316,
@@ -6270,7 +6167,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 184,
         "school_grade": "",
         "school" : [
@@ -6288,9 +6184,6 @@
             "grade2013" : "B"
           }
       ]
-=======
-        "crime": 184
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33317,
@@ -6581,7 +6474,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 117,
         "school_grade": "",
         "school" : [
@@ -6606,9 +6498,6 @@
             "grade2013" : "A"
           }
       ]
-=======
-        "crime": 117
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33326,
@@ -6664,7 +6553,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 42,
         "school_grade": "",
          "school" : [
@@ -6689,9 +6577,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 42
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33328,
@@ -6754,7 +6639,6 @@
         "condo_price_fourteen": "N/A",
         "condo_price_fifteen": "N/A",
         "condo_pct": "N/A",
-<<<<<<< HEAD
         "crime": 92,
         "school_grade": "",
          "school" : [
@@ -6779,9 +6663,6 @@
             "grade2013" : "N/A"
           }
       ]
-=======
-        "crime": 92
->>>>>>> 507e1f800cd3a37802b0aa740cb4e62e6ee6e0e9
     },
     {
         "zipcode": 33331,
