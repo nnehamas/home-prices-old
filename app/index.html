@@ -18,7 +18,7 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 <meta name="keywords" content="">
 <meta name="copyright" content="&copy; 2015 Miami Herald">
 <meta name="robots" content="index,follow">
-<meta property="og:title" content="Graphic: Finding affordable housing in Miami-Dade County"/>
+<meta property="og:title" content="Graphic: Finding affordable housing in Miami-Dade and Broward"/>
 <meta property="og:type" content="article"/> 
 <meta property="og:description" content=""/>
 <meta property="og:image" content=""/>
@@ -27,7 +27,7 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@MiamiHerald">
 <meta name="twitter:creator" content="@MiamiHerald">
-<meta name="twitter:title" content="Graphic: Finding affordable housing in Miami-Dade County">
+<meta name="twitter:title" content="Graphic: Finding affordable housing in Miami-Dade and Broward">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
 
@@ -41,7 +41,7 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 
 <link rel="stylesheet" href="css/styles.css">
 
-    <title>Finding affordable housing in Miami-Dade County | Miami Herald</title>
+    <title>Finding affordable housing in Miami-Dade and Broward | Miami Herald</title>
   </head>
   <body>
       <!-- NAVBAR -->
@@ -52,12 +52,12 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
         
 	<!-- HEADLINE AND BYLINE -->
 		<span class="graphic-label">The housing market</span>
-		<div class="headline">Finding affordable housing in Miami-Dade County</div>
+		<div class="headline">Finding affordable housing in Miami-Dade and Broward</div>
 		
 		<div class="byline">
 			<span class="name">By <span class="upper">Chris Alcantara</span> and <span class="upper">Nicolas Nehamas </span></span>
 			<a href="mailto:calcantara"><span class="email">calcantara@MiamiHerald.com</span></a>
-			<span class="date">Published: August 1, 2015</span>
+			<span class="date">Published: Sept. 20, 2015</span>
 		</div>
 
 		<!-- READOUT -->
@@ -66,6 +66,8 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloribus ipsum saepe ex aperiam maxime reiciendis doloremque cum voluptatem tempora laudantium itaque iste repellat eaque et, numquam, nobis, nam. Nisi.</p>
 
 		</div>
+
+
 		<div class="row">
 			<div class='col-sm-6' id="house-choice">
 				
@@ -119,6 +121,61 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 	
 		<div class="map col-sm-6">
 			<div id="map-container">
+
+				<div id="interface-container">
+					
+					<ul>
+						<li class="house-select interface-selector selected-interface">House</li>
+						
+						<li class="condo-select interface-selector">Condo</li>
+					</ul>
+
+					
+					<div class="map-interface-default">
+						<div class="explainer">
+							<p><span class="housing"></span> in Miami-Dade and Broward counties shaded by price.</p>
+						</div>
+											
+						<div class="key-holder">
+							<div class="key-default"></div>
+
+							<div class="clearfix"></div>	
+
+							<span class="label label-left">Least Expensive</span>
+							<span class="label label-right"> Most Expensive</span>
+						
+						</div>
+						
+						<div class="clearfix"></div>
+
+					 </div>
+				
+
+					<div class="map-interface">					
+
+						<div class="explainer">
+							<p>With <span class="income"></span>, you can afford a <span class="housing"></span> in <span class="zip-count"></span> ZIP codes.</p>
+						</div>
+											
+						<div class="key-holder">
+							<div class="key"></div>
+
+							<div class="clearfix"></div>	
+
+							<span class="label label-left"></span>
+							<span class="label label-right"></span>
+						
+						</div>
+						
+						<div class="clearfix"></div>
+						
+					  </div>
+				
+				</div>
+
+
+
+
 				<div id="hover-box">
 					<span class="zip-code"></span> – <span class="city"></span>, Fla.
 					
@@ -127,15 +184,15 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 						<span class="table-label">Average house price</span>
 						
 						<div class="house-row">
-							<span class="float-left">'14</span><span class="float-right house-price-fourteen">$500,200</span>
+							<span class="float-left">'14</span><span class="float-right house-price-fourteen"></span>
 						</div>
 						
 						<div class="house-row">
-							<span class="float-left">'15</span><span class="float-right house-price-fifteen">$500,200</span>
+							<span class="float-left">'15</span><span class="float-right house-price-fifteen"></span>
 						</div>
 						
 						<div class="house-row">
-							<span class="float-left">Pct.</span><span class="float-right house-precent">-50%</span>
+							<span class="float-left">Pct.</span><span class="float-right house-percent"></span>
 						</div>
 					</div>
 
@@ -144,15 +201,15 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 						<span class="table-label">Average condo price</span>
 						
 						<div class="house-row">
-							<span class="float-left">'14</span><span class="float-right condo-price-fourteen">$500,200</span>
+							<span class="float-left">'14</span><span class="float-right condo-price-fourteen"></span>
 						</div>
 						
 						<div class="house-row">
-							<span class="float-left">'15</span><span class="float-right condo-price-fifteen">$500,200</span>
+							<span class="float-left">'15</span><span class="float-right condo-price-fifteen"></span>
 						</div>
 						
 						<div class="house-row">
-							<span class="float-left">Pct.</span><span class="float-right condo-percent">-50%</span>
+							<span class="float-left">Pct.</span><span class="float-right condo-percent"></span>
 						</div>
 					</div>
 	
@@ -179,7 +236,7 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 	
 
         <div id="sources">
-	<p>Sources: </p>
+	<p>Sources: Zillow, Miami-Dade County Public Schools, Broward County Schools and ESRI</p>
 </div>
         <!-- <h3 class="comments">Comments</h3>
 <div id="fb-root"></div><div class="fb-comments" data-href="" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
@@ -192,11 +249,13 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 <script src="js/libs/modernizr/modernizr.js"></script>
 <script src="js/libs/bootstrap/bootstrap.min.js"></script>
 <script src="js/libs/sinclair.js"></script>
+<script src="js/libs/data/zipdata.js"></script>
 <script src="js/libs/leaflet/leaflet.js"></script>
 <script src="js/libs/leaflet/tile.stamen.js"></script>
+<script src="js/functions.js"></script>
 <script src="js/main.js"></script>
       <!-- ANALYTICS -->
-      <!-- <div id="mistatstag" style="display:none"><script type="text/javascript" src="http://media.miamiherald.com/misites/mia/miamiherald.js"></script><script type="text/javascript" src="http://media.miamiherald.com/mistats/products/pubsys_s_code.js"></script><script type="text/javascript">mistats.pagename="Static: Finding affordable housing in Miami-Dade County",mistats.pagelevel="Static",mistats.channel="Static: News",mistats.contentsource=mistats.sitename+": Static: Miami Herald",mistats.taxonomy="News|National|GovtPolitics|Elections|";</script><script type="text/javascript" src="http://media.miamiherald.com/mistats/products/pubsys.js"></script><script type="text/javascript" src="http://media.miamiherald.com/mistats/finalizestats.js"></script></div> -->
+      <!-- <div id="mistatstag" style="display:none"><script type="text/javascript" src="http://media.miamiherald.com/misites/mia/miamiherald.js"></script><script type="text/javascript" src="http://media.miamiherald.com/mistats/products/pubsys_s_code.js"></script><script type="text/javascript">mistats.pagename="Static: Finding affordable housing in Miami-Dade and Broward",mistats.pagelevel="Static",mistats.channel="Static: News",mistats.contentsource=mistats.sitename+": Static: Miami Herald",mistats.taxonomy="News|National|GovtPolitics|Elections|";</script><script type="text/javascript" src="http://media.miamiherald.com/mistats/products/pubsys.js"></script><script type="text/javascript" src="http://media.miamiherald.com/mistats/finalizestats.js"></script></div> -->
       
   </body>
 </html>

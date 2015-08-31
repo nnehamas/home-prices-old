@@ -39,6 +39,12 @@
 		font-size: $lg;
 		font-family:  $sans-serif-condensed;
 		font-weight: bold;
+
+		&:hover {
+	    	-webkit-box-shadow: 0px 1px 1px $shade;
+			-moz-box-shadow: 0px 1px 1px $shade;
+			box-shadow: 0px 1px 1px $shade;
+	    }
 	}
 
 	.income-box {
@@ -105,7 +111,9 @@
 	    display: inline-block;
 
 	    &:hover {
-	    	background: red;
+	    	-webkit-box-shadow: 0px 1px 1px $shade;
+			-moz-box-shadow: 0px 1px 1px $shade;
+			box-shadow: 0px 1px 1px $shade;
 	    }
 
 	    & label {
@@ -125,8 +133,8 @@
 				display: none;
 
 				&:checked + span {
-					background-color: #911;
-	    			color: #fff;
+					background-color: #aaa;
+	    			color: #000;
 				}
 			}
 	    }
@@ -145,9 +153,7 @@
 }
 
 .info {
-	padding: 0em 0 0 1.25em; 
 
-	
 	#list-container {
 		background: #f8f5f2;
 		height: 600px;
@@ -233,14 +239,52 @@
 
 				}
 
+				#prices-container {
+					height: 200px;
+					width: 100%;
+
+					margin-top: 0.75em;
+
+					.price {
+						text-align: center;
+						margin-bottom: 1em;
+	
+						&:last-of-type {
+							border: none;
+						}
+
+						.hed {
+							font-size: $sm;
+							display: block;
+						}
+
+						.num {
+							margin: 0.5em auto;
+							border-right: 1px dashed #ccc;
+
+							&:last-of-type {
+								border: none;
+							}
+
+							
+							.year {
+								font-family: $sans-serif-condensed;
+								font-size: $sm;
+								font-weight: bold;
+							}
+
+							.price-num {
+								display: block;
+								font-family: $serif;
+								font-size: $lg;
+								font-weight: 300;
+							}
+						}	
+					}						
+				}
 		    }
 		}
-
 	}
-
-
-
-
 
 	.income {
 		font-weight: bold;	
@@ -253,7 +297,6 @@
 }
 
 
-
 .map-section {
 	display: block;
 	margin-top: 1em;
@@ -264,6 +307,92 @@
 
 #map-container {
 	height: 602px;
+
+	#interface-container {
+	    position: absolute;
+	    bottom: 50px;
+	    left: 30px;
+	    max-width: 300px;
+	    z-index: 99999;
+
+		ul {
+		    position: relative;
+		    top: 11px;
+		    right: 40px;
+		    z-index: 2;
+		}
+	}
+
+	.interface-selector {
+	    background: #EEE;
+	    font-family: $sans-serif-condensed;
+	    text-transform: uppercase;
+	    display: inline-block;
+	    padding: 5px 7px;
+	    margin: 0 !important;
+	    cursor: pointer;
+	    border-top: 1px solid #CCC;
+	    border-right: 1px solid #BBB;
+	    border-bottom: 1px solid #BBB;
+	    border-left: 1px solid #BBB;
+	}
+
+	.selected-interface {
+		background: #fff;
+		border-bottom: none;
+		padding-bottom: 6px;
+	}
+
+	.map-interface, .map-interface-default {
+	    width: 260px;
+	    z-index: 9999;
+	    padding: 15px;
+	    background: #FFF;
+	    border-top: 1px solid #BBB;
+	    border-right: 1px solid #BBB;
+	    border-bottom: 2px solid #AAA;
+	    border-left: 1px solid #BBB;
+	    border-bottom-left-radius: 4px;
+	    border-bottom-right-radius: 4px;
+	}
+
+	.map-interface {
+		display: none;
+	}
+
+	.map-interface-default {
+		display: block;
+	}
+
+	.key-holder {
+		clear: both;
+		margin: 1em 0;
+	}
+
+	.explainer {
+		font-family: $serif;
+	}
+
+	.label {
+		font-family: $sans-serif-condensed;
+		font-size: $xxs;
+		display: inline-block;
+		padding: 0px;
+		float: left;
+		text-transform: uppercase;
+		color: #aaa;
+		margin: 0.5em 0;
+
+		&:last-of-type {
+			float: right;
+		}
+	}
+
+	.legend-block {
+		width: 20%;
+	    float: left;
+	    border: 5px solid;
+	}
 }
 
 

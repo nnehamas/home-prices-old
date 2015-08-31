@@ -1,183 +1,45 @@
-/* TO DO
-1. Duplicate buildHouseMap() to show
-*/
-
+// SCOPE
+// ORGANIZE PUBLIC OBJECTS
 'use strict';
 
 (function () {
 
-	//GLOBALS
-	var $buttonContainer = $('#button-container'),
-		$errorMessage = $('.error'),
-		$hoverBox = $('#hover-box'),
-		$incomeBox = $('.income-box'),
-		$mapContainer = $('#map-container'),
-		$resetButton = $('.reset');
-
-	// MAKE TILE LAYER FOR ZOOMED IN VIEW
-	var tiles = new L.StamenTileLayer('toner-lite');
-
-	// BUILD MAP
-	var map = new L.Map('map-container', {
-		center: new L.LatLng(25.85, -80.33),
-		zoom: 10,
-		minZoom: 10,
-		maxZoom: 16,
-		zoomControl: false,
-		doubleClickZoom: false,
-		VML: true,
-		scrollWheelZoom: false
-	}).addLayer(tiles);
-
-	// BUILD AND ADD CONTROLS
-	var control = L.control.zoom({'position' : 'topleft'});
-		
-	control.addTo(map);
-
-
-	//HELPER FUNCTIONS
-	 $incomeBox.keyup(function(event){
-	      
+	 $('.income-box').keyup(function(event){	      
 	      // skip for arrow keys
 	      if(event.which >= 37 && event.which <= 40){
 	          event.preventDefault();
 	      }
-
-	      var $this = $(this);
 	      
-	      var num = $this.val().replace(/,/gi, '');
-	      
-	      var num2 = num.split(/(?=(?:\d{3})+$)/).join(',');
-	      
-		  $this.val(num2);
+	      let inputNumber = $(this).val().replace(/,/gi, '');
+   
+	      let newNumber = inputNumber.split(/(?=(?:\d{3})+$)/).join(',');
+	 
+		  $(this).val(newNumber);
 	  });
-
-
-	var getPos = function(event) {
-		var w = $('#map-container').width(),
-			h = $('#map-container').height(),
-			posX = event.pageX + 20,
-			posY = event.pageY - 150,
-			x = 0,
-			y = 0;
-
-		if (posX < w) {
-
-			x = posX - 250;
-		}
-
-		else {
-			x = posX - ($('#hover-box').outerWidth(true) + 100)
-		}
-
-		
-		if (posY > h) {
-			y = (posY - $('#hover-box').outerHeight(true) - 350)
-		}
-
-		else {
-			y = posY - 250
-		}
-			
-		$('#hover-box').css({
-			'left': x,
-			'top': y - 75
-		});
-	}
-
-
-	var initHover = function() {
-		$hoverBox.show();
-		
-		$(document).bind('mousemove', getPos);
-	}
-
-	var endHover = function() {
-		$hoverBox.hide();
-
-		$(document).unbind('mousemove', getPos);
-	}
-
-
-	var onEachFeature = function(feature, layer) {
-		
-		layer.on({
-
-			mouseover: function(e) {
-				var layer = e.target;
-				
-				layer.setStyle({
-					'color': '#666'
-				});
-
-				layer.bringToFront();
-				
-				initHover();
-
-				var zip = parseInt(layer.feature.properties.zipcode),
-					city = layer.feature.properties.cities,
-					housePriceFourteen = layer.feature.properties.house_price_fourteen,
-					housePriceFifteen = layer.feature.properties.house_price_fifteen,
-					housePercent = layer.feature.properties.house_pct,
-					condoFourteen = layer.feature.properties.condo_price_fourteen,
-					condoFifteen = layer.feature.properties.condo_price_fifteen,
-					condoPercent = layer.feature.properties.condo_pct;
-
-				$('.zip-code').html(zip)
-				$('.city').html(city)
-
-				$('.house-price-fourteen').html(housePriceFourteen)
-				$('.house-price-fifteen').html(housePriceFifteen)
-				$('.house-percent').html(housePercent)
-
-				$('.condo-price-fourteen').html(condoPriceFourteen)
-				$('.condo-price-fifteen').html(condoPriceFifteen)
-				$('.condo-percent').html(condoPercent)
-
-			},
-
-			mouseout: function(e) {
-				var layer = e.target;
-				
-				layer.setStyle({
-					color: '#fff'
-				});
-								
-				endHover();
-			},
-			click: function(e) {
-				$('#selected-crimevg').removeAttr('id');
-				
-				// var layer = e.target;
-				
-				// changeZIP(layer);
-			},
-			tap: function(e) {}
-		});
-	};
-
 
 
 	$('#check-button-house').on('change', '.house:checkbox', function(e) {
 
-		var attr = $(this).attr('checked')
-
-		console.log('hello')
+		let attr = $(this).attr('checked')
 		
 		if (typeof attr !== typeof undefined && attr !== false) {
 			
 			$(this).removeAttr('checked')
 			
-			$('.condo:checkbox').attr('disabled', false).closest('#check-button-condo').removeClass('disabled');
+			$('.condo:checkbox')
+				.attr('disabled', false)
+				.closest('#check-button-condo')
+				.removeClass('disabled');
 		}
 
 		else {
-
 			$(this).attr('checked','checked')
-			
-			$('.condo:checkbox').attr('disabled', true).closest('#check-button-condo').addClass('disabled');
+			$('.condo:checkbox')
+				.attr('disabled', true)
+				.closest('#check-button-condo')
+				.addClass('disabled');
 		}
-		
+
 		removeError();
 		removeSelectionError();
 	});
@@ -185,276 +47,152 @@
 
 	$('#check-button-condo').on('change', '.condo:checkbox', function(e) {
 
-		var attr = $(this).attr('checked')
-
-		console.log('hello')
+		let attr = $(this).attr('checked')
 		
 		if (typeof attr !== typeof undefined && attr !== false) {
 			
 			$(this).removeAttr('checked')
 			
-			$('.house:checkbox').attr('disabled', false).closest('#check-button-house').removeClass('disabled');
+			$('.house:checkbox')
+				.attr('disabled', false)
+				.closest('#check-button-house')
+				.removeClass('disabled');
 		}
 
 		else {
 
 			$(this).attr('checked','checked')
 			
-			$('.house:checkbox').attr('disabled', true).closest('#check-button-house').addClass('disabled');
+			$('.house:checkbox')
+				.attr('disabled', true)
+				.closest('#check-button-house')
+				.addClass('disabled');
 		}
 		
 		removeError();
 		removeSelectionError();
 	});
 
-
-	$buttonContainer.on('click', '.income-button', function() {
-		
-		checkInput();
-	
-	});
-
-	$resetButton.click(function ($dataLayer) {
-
-		$incomeBox.val('');
-
-		$('path.leaflet-interactive').css({
-			'fill': '#ccc',
-			'fillOpacity': 0.3
-		});
-
-		$('.income-button').removeAttr('disabled');
-
-		$('.section:first-of-type').after('<br class=\'stop-scroll\'>');
-
-		$('.house:checkbox').removeAttr('checked');
-
-		removeError();
-
-	});
-
-
-	$incomeBox.focus(function() {
-		 
+	$('.income-box').focus(function() {
 		 $(this).val('');
-		 
 		 $('.income-button').removeAttr('disabled');
-
 		 $('.section:first-of-type').after('<br class=\'stop-scroll\'>');
 	});
 
+	$('#interface-container').on('click', '.house-select', function(event) {
 
-	var getNumber = function (num) {
-
-		var income = parseFloat(num.replace(',','') * 3.5);
-
-		$('.income').html('$' + num);
+		$('.condo-select').removeClass('selected-interface')		
+		$(this).addClass('selected-interface')
 		
-		return income;
-	};
+		let house = 'house';
+		var incomeInput = $('.income-box').val();
+		var house_checkbox = $('.house:checkbox');
+		var condo_checkbox = $('.condo:checkbox');
+		var houseCheck = (house_checkbox.is(':checked'));
+		var condoCheck = (condo_checkbox.is(':checked'));
+		var inputEmpty = (incomeInput === '');
 
+		if ((houseCheck === true && condoCheck === false) && (inputEmpty === false)) {
+			buildHouseMap();
+			console.log('build house map')
+		} 
 
-	var checkInput = function() {
-
-		var incomeInput = $incomeBox.val();
-
-		var income = getNumber(incomeInput);
-
-		var checkbox = $('.house:checkbox');
-
-		
-		if ( (isNaN(income) || incomeInput === '')) {
-
-			flagError();
+		else if ((houseCheck === false && condoCheck === true) && (inputEmpty === false)) {
+			buildHouseMap();
+			console.log('build house map')
 		}
-
-		else if (!(checkbox.is(':checked') )) {
-			
-			flagSelectionError();
-		}
-
 
 		else {
-			removeError();
-			buildHouseMap();
+			buildKey(house)
+			buildDefaultHouse();
+			console.log('build default house map')
+		}
+	});
+
+
+	$('#interface-container').on('click', '.condo-select', function(event) {
+		
+		$('.house-select').removeClass('selected-interface')		
+		$(this).addClass('selected-interface');
+
+		let condo = 'condo';
+
+		var incomeInput = $('.income-box').val();
+		var house_checkbox = $('.house:checkbox');
+		var condo_checkbox = $('.condo:checkbox');
+		var houseCheck = (house_checkbox.is(':checked'));
+		var condoCheck = (condo_checkbox.is(':checked'));
+		var inputEmpty = (incomeInput === '');
+
+		if ((houseCheck === true && condoCheck === false) && (inputEmpty === false)) {
+			buildCondoMap();
+			console.log('build condo map')
+		} 
+
+		else if ((houseCheck === false && condoCheck === true) && (inputEmpty === false)) {
+			buildCondoMap();
+			console.log('build condo map')
 		}
 
-
-	};
-
+		else {
+			buildKey(condo)
+			buildDefaultCondo();
+			console.log('build default condo map')
+		}
+	});
 	
-	var flagError = function() {
-		$errorMessage.slideDown('fast');
 
-		$('.alert').html('<i class=\'fa fa-info-circle\'></i> Error: Please enter a valid number')
-	};
-
-
-	var flagSelectionError = function() {
+	// WHEN EVERYTHING IS GOOD TO GO...
+	// RUN MAP-BUILDING FUNCTIONS
+	$('#button-container').on('click', '.income-button', function() {
 		
-		$errorMessage.slideDown('fast')
+		let incomeInput = $('.income-box').val();
+
+		console.log(income)
+
+		income = getIncome(incomeInput);
+
+		$houseLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: houseStyle });
 		
-		$('.alert').html('<i class=\'fa fa-info-circle\'></i> Error: Please choose a housing type')
-	}
+		$condoLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: condoStyle });
 
+		checkInput(income);
 
-	var removeError = function () {
-		$errorMessage.slideUp('fast');
-	};
+		$('.map-interface').show();
 
-	var removeSelectionError = function () {
-		$errorMessage.slideUp('fast');
-	};
+		$('.map-interface-default').hide();
 
+	});
 
-	var buildHouseMap = function() {
+	$('#button-container').on('click', '.reset', function () {
 
-		$('.income-button').attr('disabled','disabled');
+		$('.income-box').val('');
+		$('.income-button').removeAttr('disabled');
 
-		
-		var incomeInput = $incomeBox.val();
+		$('.house:checkbox').removeAttr('checked');
+		$('.condo:checkbox').removeAttr('checked');
 
-		var income = getNumber(incomeInput);
+		$('.map-interface').hide();
 
-		d3.csv('../js/libs/data/zips.csv', function(data) {
-	  	
-			var count = 0;
+		$('.map-interface-default').show();
 
-	  		data.forEach(function(d) {
+		let defaultOption = $('.housing-option option[value=\'default\']');
 
-	  			if (income >= d.house_price) {		
-	  				return count++;
-	  			}
+		defaultOption.removeAttr('disabled');
 
-	  		});
+		map.removeLayer($houseLayer)
+		map.removeLayer($condoLayer)
 
-	  		$('.zip-count').html(count);
+		setDefaultMap();
+		removeError();
 
-	  		console.log(count)
-
-		});
-
-		var getColor = function (d) {
-	
-			if (income > d) {
-				return '#006d2c';
-			}
-
-			else if (income > (d * 0.75)) {
-				return '#31a354';
-			}
-
-			else if (income > (d * 0.50)) {
-				return '#74c476';
-			}
-
-			else if (income > (d * 0.25)) {
-				return '#bae4b3';
-			}
-
-			else {
-				return '#edf8e9';
-			}
-		};
-
-		var style = function(feature, layer) {
-		    return {
-		        fillColor: getColor(feature.properties.house_price, income),
-		        weight: 2,
-		        opacity: 1,
-		        color: 'white',
-		        dashArray: '3',
-		        fillOpacity: 0.7
-		    };
-		};
-
-		// GET AND COMPILE DATA
-		d3.json('../js/libs/data/zips.geojson', function(data) {
-		  	
-			var $zip = data;
-
-			var $dataLayer = L.geoJson($zip, { onEachFeature: onEachFeature, style: style });
-
-			$dataLayer.addTo(map);
-		});
-	};
-
-	var setDefaultMap = function (){
-
-		var style = function(feature, layer) {
-		    return {
-		        fillColor: '#ccc',
-		        weight: 2,
-		        opacity: 1,
-		        color: 'white',
-		        dashArray: '3',
-		        fillOpacity: 0.7
-		    };
-		};
-
-		// GET AND COMPILE DATA
-		d3.json('../js/libs/data/zips.geojson', function(data) {
-		  	
-			var $zip = data;
-
-			var $dataLayer = L.geoJson($zip, { onEachFeature: onEachFeature, style: style });
-
-			$dataLayer.addTo(map);
-		});
-
-	}
-
-	var buildZipList = function() {
-
-		d3.json('../js/libs/data/zipcode_test.json', function(data) {
-
-			
-			$.each(data, function(i, val) {
-
-				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + '>' + data[i].zipcode + ' – ' + data[i].city + '</li>')
-				 
-				
-				$('#zip-list').on('click', '.listing', function(event) {
-	
-					if ( $(this).hasClass('active-listing') ) {
-						return false
-					}
-
-					var q = $(this).attr('data-index');
-
-					$('.listing .inner').remove();
-					
-					$('.listing').removeClass('active-listing');
-					
-					$(this).addClass('active-listing');
-					
-					$(this).append(
-					'<div class="inner">'
-					+'<table class=\'school-list\'><tr class= \'table-head\'><th class=\'name\'>School</th><th>2014-15</th><th>2013-14</th><th>2012-13</th></tr></table>'+
-					'</div>'
-					)
-
-
-					var schoolData = data[q].school;
-
-					for (var i = 0; i < schoolData.length; i++) {
-						
-						$('.table-head').after('<tr><td class=\'name\'>' + schoolData[i].name + '</td><td>'+ schoolData[i].grade2012 +'</td><td>' + schoolData[i].grade2011 +'</td><td>' + schoolData[i].grade2010+'</td></tr>')
-					};
-
-				});
-	  		});
-	 
-		});
-
-	}
+	});
 
 
 	// LAUNCH PAD
 	var init = function() {
 		setDefaultMap();
 		buildZipList();
-
 	}
 
 	// ACTIVATE!	
