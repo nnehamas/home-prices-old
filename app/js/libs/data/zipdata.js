@@ -1,3 +1,5 @@
+// SCHOOL GRADE = NUM (0-4)
+
 var $zipData = [
     {
         "type": "FeatureCollection",
@@ -13,7 +15,8 @@ var $zipData = [
                     "condo_price_fifteen": "N/A",
                     "condo_price_fourteen": "N/A",
                     "condo_pct": "N/A",
-                    "crime": 149
+                    "crime": 149,
+                    "school_grade" : 4 
                 },
                 "geometry": {
                     "type": "Polygon",
