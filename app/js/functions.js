@@ -1,9 +1,10 @@
 'use strict';
 
-
 		var income;
 		var $houseLayer = null;
 		var $condoLayer = null;
+		var $defaultHouseLayer = null;
+		var $defaultCondoLayer = null;
 	
 		// MAKE TILE LAYER FOR ZOOMED IN VIEW
 		var tiles = new L.StamenTileLayer('toner-lite');
@@ -26,11 +27,34 @@
 		control.addTo(map);
 
 		// BUILD DEFAULT MAP
+		function getDefaultHouseColor (d) {
+
+
+			if (d >= 416325) {
+				return '#006d2c';
+			}
+
+			else if ((d >= 274250 ) && (d <= 416324)) {
+				return '#31a354';
+			}
+
+			else if ((d >= 191975 ) && (d <= 274249)) {
+				return '#74c476';
+			}
+
+			else if ((d >= 1  ) && (d <= 191974)) {
+				return '#bae4b3';
+			}
+
+			else {
+				return '#edf8e9';
+			}
+		};
 
 		// SET DEFAULT STYLES
-		function defaultStyle (feature, layer) {
+		function defaultHouseStyle (features, layer) {
 		    return {
-		        fillColor: '#ccc',
+		        fillColor: getDefaultHouseColor(features.properties.house_price_fifteen),
 		        weight: 2,
 		        opacity: 1,
 		        color: 'white',
@@ -40,10 +64,52 @@
 		};
 
 		// SET DEFAULT LAYER
-		var $defaultLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: defaultStyle });
+		var $defaultHouseLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: defaultHouseStyle });
 
-			// ADD DEFAULT LAYER TO MAP
-		map.addLayer($defaultLayer)
+		// ADD DEFAULT LAYER TO MAP
+		map.addLayer($defaultHouseLayer)
+
+		function getDefaultCondoColor (d) {
+
+
+			if (d >= 3102400) {
+				return '#eff3ff';
+			}
+
+			else if ((d >= 203975 ) && (d <= 3102399)) {
+				return '#bdd7e7';
+			}
+
+			else if ((d >= 114150 ) && (d <= 203974)) {
+				return '#6baed6';
+			}
+
+			else if ((d >= 1  ) && (d <= 191974)) {
+				return '#3182bd';
+			}
+
+			else {
+				return '#08519c';
+			}
+		};
+
+		// SET DEFAULT STYLES
+		function defaultCondoStyle (features, layer) {
+		    return {
+		        fillColor: getDefaultCondoColor(features.properties.condo_price_fifteen),
+		        weight: 2,
+		        opacity: 1,
+		        color: 'white',
+		        dashArray: '3',
+		        fillOpacity: 0.7
+		    };
+		};
+
+		// SET DEFAULT LAYER
+		var $defaultCondoLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: defaultCondoStyle });
+
+		// ADD DEFAULT LAYER TO MAP
+	
 
 
 		function getHouseColor (d) {
@@ -70,9 +136,7 @@
 			}
 		};
 
-
 		function houseStyle (features, layer) {
-			debugger;
 		    return {
 		        fillColor: getHouseColor(features.properties.house_price_fifteen),
 		        weight: 2,
@@ -82,8 +146,6 @@
 		        fillOpacity: 0.7
 		    };
 		};
-
-		
 
 		function getCondoColor (d,income) {
 
@@ -208,7 +270,7 @@
 				return "N/A"
 			}
 			else if (percent == 0) {
-				return 0
+				return 0 + "%"
 			}
 			else {
 				return percent + "%"				
@@ -224,7 +286,7 @@
 				return "N/A"				
 			}
 			else if (percent == 0) {
-				return 0
+				return 0 + "%"
 			}
 			else {
 				return percent + "%"
@@ -262,6 +324,30 @@
 	//====================================
 	// 				MAPS
 	//====================================
+
+
+	function buildKey (housing) {
+
+		$('.legend-block').remove();
+
+		if (housing === 'house') {
+			var legendColors = ['#edf8e9', '#bae4b3', '#74c476', '#31a354', '#006d2c'];
+
+			for (var i = 0; i < legendColors.length; i++) {	
+				$('.key-default').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>')
+			};
+		}
+
+		else {
+			var legendColors = ['#eff3ff','#bdd7e7','#6baed6','#3182bd','#08519c'];
+
+			for (var i = 0; i < legendColors.length; i++) {
+				
+				$('.key-default').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>')
+			};
+		}
+	}
+
 
 	// BUILD BASE
 	function onEachFeature (feature, layer) {
@@ -407,10 +493,42 @@
 
 
 	function setDefaultMap() {
-		map.removeLayer($houseLayer)
-		map.removeLayer($condoLayer)
-		map.addLayer($defaultLayer)
+		buildDefaultHouse();
 	}
+
+
+	function buildDefaultCondo() {
+		map.removeLayer($defaultHouseLayer)
+		map.addLayer($defaultCondoLayer)
+
+		let condo = 'condo';
+		buildKey(condo)		
+
+		$('.housing')
+			.html('Condos')
+			.css({
+				'color': '#08519c',
+				'font-weight': 'bold'
+			})				
+	}
+
+
+	function buildDefaultHouse() {
+		map.removeLayer($defaultHouseLayer)
+		map.removeLayer($defaultCondoLayer)
+		map.addLayer($defaultHouseLayer)
+
+		let house = 'house';
+		buildKey(house);
+
+		$('.housing')
+			.html('Single-family houses')
+			.css({
+				'color': '#006d2c',
+				'font-weight': 'bold'
+			})					
+	}
+
 
 	// BUILD HOUSE MAP
 	function buildHouseMap() {
@@ -419,6 +537,8 @@
 		var income = getIncome(incomeInput);
 
 		$('.income-button').attr('disabled','disabled');
+		$('.house-select').addClass('selected-interface');
+		$('.condo-select').removeClass('selected-interface');
 
 
 		d3.csv('../js/libs/data/zips.csv', function(data) {
@@ -430,6 +550,8 @@
 	  				return count++;
 	  			}
 	  		});
+
+	  		console.log('Houses:' + count)
 
 	  		$('.income').html("$" + $.number(income));
 	  		$('.housing').html('house');
@@ -460,17 +582,24 @@
 			$('.key').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>')
 		};
 
+		$('.label-left').html('Least affordable');
+		$('.label-right').html('Most affordable');
 
-		map.removeLayer($defaultLayer)
+
+		map.removeLayer($defaultHouseLayer)
+		map.removeLayer($defaultCondoLayer)
 		map.removeLayer($condoLayer)
 		map.addLayer($houseLayer)
 	};
 
 
 	// BUILD CONDO MAP
-	var buildCondoMap = function() {
+	function buildCondoMap () {
 
 		$('.income-button').attr('disabled','disabled');
+
+		$('.condo-select').addClass('selected-interface');
+		$('.house-select').removeClass('selected-interface');
 
 		var incomeInput = $('.income-box').val();
 		var income = getIncome(incomeInput);
@@ -493,7 +622,7 @@
 	  		$('.housing').html('condo');
 	  		$('.zip-count').html(count);
 
-	  		console.log(count)
+	  		console.log('Condos: ' + count)
 
 		});
 
@@ -518,7 +647,11 @@
 			$('.key').append('<div class=\'legend-block\' style=\'border-color:' + legendColors[i] + '\'</div>')
 		};
 
-		map.removeLayer($defaultLayer)
+		$('.label-left').html('Least affordable');
+		$('.label-right').html('Most affordable');
+
+		map.removeLayer($defaultCondoLayer)
+		map.removeLayer($defaultHouseLayer)
 		map.removeLayer($houseLayer)
 		map.addLayer($condoLayer)
 
@@ -536,7 +669,7 @@
 
 			$.each(data, function(i, val) {
 
-				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + '  data-house-fourteen=\''+data[i].house_price_fourteen+'\' data-house-fifteen=\''+data[i].house_price_fifteen+'\' data-house-percent=\''+data[i].house_pct+'\' data-condo-fourteen=\''+data[i].condo_price_fourteen+'\' data-condo-fifteen=\''+data[i].condo_price_fifteen+'\' data-condo-percent=\''+data[i].condo_pct+'\'><span class =\'hed\'>' + data[i].zipcode + ' – ' + data[i].city + '</span></li>')
+				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + ' data-zipcode=\''+ data[i].zipcode'\'  data-house-fourteen=\''+data[i].house_price_fourteen+'\' data-house-fifteen=\''+data[i].house_price_fifteen+'\' data-house-percent=\''+data[i].house_pct+'\' data-condo-fourteen=\''+data[i].condo_price_fourteen+'\' data-condo-fifteen=\''+data[i].condo_price_fifteen+'\' data-condo-percent=\''+data[i].condo_pct+'\'><span class =\'hed\'>' + data[i].zipcode + ' – ' + data[i].city + '</span></li>')
 				 
 				
 				$('#zip-list').on('click', '.listing', function(event) {
@@ -606,8 +739,6 @@
 	}
 
 
-
-
 	//====================================
 	// INCOME INPUT AND HOUSING SELECTION
 	//====================================
@@ -625,7 +756,6 @@
 		var houseCheck = (house_checkbox.is(':checked'));
 
 		var condoCheck = (condo_checkbox.is(':checked'))
-
 
 		// ERROR HANDLING
 		if (( inputBoxError === false ) && ( houseCheck === true )) {
@@ -654,6 +784,93 @@
 			flagSelectionError();
 		}
 	};
+
+
+	//====================================
+	// 			KEYBOARD SEARCH
+	//====================================
+
+	// BUILD SEARCH LIST
+	var $items = [];
+	
+	$('.listing').each(function() {
+		var tmp = {};
+		tmp.id = $(this).attr('data-index');
+		tmp.name = ($items[tmp.id].info.name).toLowerCase();
+		$items.push(tmp);
+	});
+
+	console.log($items)
+
+	// var $matches = [];
+	// var $misses = [];
+
+	// function delegateSearch(kwd) {
+	// 	$('.listing.miss').removeClass('miss');
+	// 	$('#noMatches').hide();
+	// 	$matches = [];
+	// 	$misses = [];
+
+	// 	if ((kwd != '') && (kwd.length >= 2)) {
+	// 		$.each($items, function(i) {
+	// 			if ($items[i].name.indexOf(kwd) !== -1) {
+	// 				$matches.push($('#' + $items[i].id));
+	// 			} else {
+	// 				$misses.push($('#' + $items[i].id));
+	// 			}
+	// 		});
+	// 		$.each($matches, function(i) {
+	// 			$($matches[i]).addClass('match');
+	// 		});
+	// 		$.each($misses, function(i) {
+	// 			$($misses[i]).removeClass('match').addClass('miss');
+	// 		});
+	// 	} else {
+	// 		$('.listing').removeClass('miss').addClass('match');
+	// 	}
+
+	// }
+
+	// // BIND KEYBOARD
+	// $('#srcbox').bind('keyup', function() {
+	// 	delegateSearch($(this).val().toLowerCase());
+	// 	if ( $('.listing.match').length === 1) {
+	// 		$('.listing.match').trigger('click')
+	// 	}
+		
+	// 	if ( $('.listing.match').length === 0) {
+	// 		$('#none-message').show()
+	// 	} else {
+	// 		$('#none-message').hide()
+	// 	}
+	// });
+
+	// $('#srcbox-button').click(function() {
+	// 	$('#srcbox').blur()
+	// })
+
+	// $('#reset').click(function() {
+	// 	$('#srcbox').val('')
+	// 	$('.miss').removeClass('miss')
+	// })
+
+
+	// $(document).keydown(function(e){
+	// 	if (e.keyCode === 37) { 
+	// 		$('#srcbox').val('')
+	// 		$('.miss').removeClass('miss')
+	// 	$('.active-listing').prev().trigger('click');
+	// 	}
+	// 	if (e.keyCode === 39) { 
+	// 		$('#srcbox').val('')
+	// 		$('.miss').removeClass('miss')
+	// 		$('.active-listing').next().trigger('click');
+	//   }
+	// });
+
+
+
+
 
 
 

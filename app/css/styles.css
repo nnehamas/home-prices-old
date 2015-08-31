@@ -463,13 +463,33 @@ hr {
   #map-container #interface-container {
     position: absolute;
     bottom: 50px;
-    background: #fff;
     left: 30px;
     max-width: 300px;
     z-index: 99999; }
-  #map-container .map-interface {
+    #map-container #interface-container ul {
+      position: relative;
+      top: 11px;
+      right: 40px;
+      z-index: 2; }
+  #map-container .interface-selector {
+    background: #EEE;
+    font-family: "Roboto Condensed", "Helvetica Nueue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 7px;
+    margin: 0 !important;
+    cursor: pointer;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+    border-left: 1px solid #BBB; }
+  #map-container .selected-interface {
+    background: #fff;
+    border-bottom: none;
+    padding-bottom: 6px; }
+  #map-container .map-interface, #map-container .map-interface-default {
     width: 260px;
-    display: block;
+    z-index: 9999;
     padding: 15px;
     background: #FFF;
     border-top: 1px solid #BBB;
@@ -478,6 +498,10 @@ hr {
     border-left: 1px solid #BBB;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px; }
+  #map-container .map-interface {
+    display: none; }
+  #map-container .map-interface-default {
+    display: block; }
   #map-container .key-holder {
     clear: both;
     margin: 1em 0; }

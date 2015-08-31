@@ -123,8 +123,35 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 			<div id="map-container">
 
 				<div id="interface-container">
-					<div class="map-interface">
+					
+					<ul>
+						<li class="house-select interface-selector selected-interface">House</li>
 						
+						<li class="condo-select interface-selector">Condo</li>
+					</ul>
+
+					
+					<div class="map-interface-default">
+						<div class="explainer">
+							<p><span class="housing"></span> in Miami-Dade and Broward counties shaded by price.</p>
+						</div>
+											
+						<div class="key-holder">
+							<div class="key-default"></div>
+
+							<div class="clearfix"></div>	
+
+							<span class="label label-left">Least Expensive</span>
+							<span class="label label-right"> Most Expensive</span>
+						
+						</div>
+						
+						<div class="clearfix"></div>
+
+					 </div>
+				
+
+					<div class="map-interface">					
 
 						<div class="explainer">
 							<p>With <span class="income"></span>, you can afford a <span class="housing"></span> in <span class="zip-count"></span> ZIP codes.</p>
@@ -141,14 +168,7 @@ Greetings. I'm @ChrisAlcantara. I code for the @MiamiHerald.
 						</div>
 						
 						<div class="clearfix"></div>
-
-						<select class ='housing-option' name="housing">
-						    <option value="default">Change housing option...</option>
-						    <option value="house">House</option>
-						    <option value="condo">Condo</option>
-						    <option value="none">None</option>
-						</select>
-
+						
 					  </div>
 				
 				</div>
