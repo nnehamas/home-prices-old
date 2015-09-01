@@ -1,0 +1,6926 @@
+// CRIME = HIGH, LOW or MEDIUM
+
+[
+    {
+        "zipcode": 33004,
+        "city": "Dania Beach",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 214100,
+        "house_price_fifteen": 222900,
+        "house_pct": 0.04,
+        "condo_price_fourteen": 135000,
+        "condo_price_fifteen": 138100,
+        "condo_pct": 0.02,
+        "crime": "High",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Dania Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "F"
+          },
+
+          {
+            "name" : "Collins Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Olsen Middle",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33009,
+        "city": "Hallandale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 170200,
+        "house_price_fifteen": 177700,
+        "house_pct": 0.04,
+        "condo_price_fourteen": 190400,
+        "condo_price_fifteen": 203500,
+        "condo_pct": 0.07,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Hallandale Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Gulfstream Middle",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Hallandale High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33010,
+        "city": "Hialeah",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 174900,
+        "house_price_fifteen": 201100,
+        "house_pct": 0.15,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Imater Academy Middle School",
+            "grade2015" : "B",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+           {
+            "name" : "James H. Bright Elementary/J.W. Johnson Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Hialeah Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Excelsior Language Academy Of Hialeah (K - 8th)",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "South Hialeah Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Imater Preparatory Academy High School",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Imater Academy (K - 8th)",
+            "grade2015" : "B",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33012,
+        "city": "Hialeah",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 223300,
+        "house_price_fifteen": 240600,
+        "house_pct": 0.08,
+        "condo_price_fourteen": 95200,
+        "condo_price_fifteen": 102100,
+        "condo_pct": 0.07,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "John G. Dupuis Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Meadowlane Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Marcus A. Milam K-8 Center",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Twin Lakes Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Mae M. Walters Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Henry H. Filer Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Palm Springs Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Westland Hialeah Senior High School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33013,
+        "city": "Hialeah",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 191200,
+        "house_price_fifteen": 212500,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 91000,
+        "condo_price_fifteen": 107200,
+        "condo_pct": 0.18,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Amelia Earhart Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Flamingo Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "North Hialeah Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Palm Springs Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hialeah Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Hialeah Senior High School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33014,
+        "city": "Hialeah",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 280900,
+        "house_price_fifteen": 298100,
+        "house_pct": 0.06,
+        "condo_price_fourteen": 131100,
+        "condo_price_fifteen": 138700,
+        "condo_pct": 0.06,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Miami Lakes K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "North Twin Lakes Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Palm Lakes Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Miami Lakes Middle School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Hialeah-Miami Lakes Senior High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Miami Lakes Educational Center (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Secondary Student Success Center 801 (6th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "",
+            "grade2013" : ""
+          }
+      ]
+        
+    },
+    {
+        "zipcode": 33015,
+        "city": "Country Club",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 251000,
+        "house_price_fifteen": 278200,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 127300,
+        "condo_price_fifteen": 139200,
+        "condo_pct": 0.09,
+        "crime": "Low",
+"school_grade": "",
+
+         "school" : [
+          {
+            "name" : "Highly Inquisitive And Versatile Education (Hive) Preparatory School (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Joella Good Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Spanish Lake Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Palm Springs North Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Mater Academy Lakes Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Lawton Chiles Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+           {
+            "name" : "Country Club Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "American Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Mater Academy Lakes High School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33016,
+        "city": "Hialeah",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 240300,
+        "house_price_fifteen": 246700,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 103000,
+        "condo_price_fifteen": 117800,
+        "condo_pct": 0.14,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Mater Performing Arts & Entertainment Academy (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Youth Co-Op Preparatory High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Mater Academy Charter High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "City Of Hialeah Education Academy",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Jose Marti MAST 6-12 Academy",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Bob Graham Education Center (Pre-K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Mater Academy",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Youth Co-Op Charter School (Pre-K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Ben Sheppard Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Mater Academy Charter Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33018,
+        "city": "Hialeah",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 232200,
+        "house_price_fifteen": 258200,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 125800,
+        "condo_price_fifteen": 145800,
+        "condo_pct": 0.16,
+        "crime": "Low",
+"school_grade": "",
+
+         "school" : [
+          {
+            "name" : "Mater Gardens Academy Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hialeah Gardens Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Latin Builders Association Construction And Business Management Academy (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Hialeah Gardens Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Barbara Goleman Senior High",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Mater Gardens Academy (Pre-K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hialeah Gardens Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "West Hialeah Gardens Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Lincoln-Marti Charter School Hialeah Campus (k - 12th)",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Ernest R. Graham K-8 Academy",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33019,
+        "city": "Hollywood",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 494400,
+        "house_price_fifteen": 502500,
+        "house_pct": 0.02,
+        "condo_price_fourteen": 284200,
+        "condo_price_fifteen": 299300,
+        "condo_pct": 0.05,
+        "crime": "Low",
+    "school_grade": ""},
+
+    {
+        "zipcode": 33020,
+        "city": "Hollywood",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 163800,
+        "house_price_fifteen": 179100,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 85700,
+        "condo_price_fifteen": 91600,
+        "condo_pct": 0.07,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Beachside Montessori Villa (Pre-K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hollywood Central Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Hollywood Academy Of Arts & Science (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Sunshine Elementary Charter",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Colbert Elementary",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Mary M. Bethune Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Oakridge Elementary",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Attucks Middle",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "McNicol Middle",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Hollywood Academy Of Arts & Science Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Paragon Academy of Technology (6th - 8th)",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "South Broward High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Ben Gamla Charter High School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Somerset Academy Hollywood (K - 5th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33021,
+        "city": "Hollywood",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 278100,
+        "house_price_fifteen": 285300,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 92800,
+        "condo_price_fifteen": 103400,
+        "condo_pct": 0.11,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Hollywood Hills Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Stirling Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Orange Brook Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Championship Academy Of Distinction - Hollywood (K - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Sheridan Hills Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hollywood Hills High",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33023,
+        "city": "Miramar",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 146900,
+        "house_price_fifteen": 163600,
+        "house_pct": 0.11,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Annabel C. Perry Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pembroke Pines Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Watkins Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Miramar Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Lake Forest Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Sunshine Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Fairway Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Henry D. Perry Middle",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33024,
+        "city": "Pembroke Pines",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 183800,
+        "house_price_fifteen": 203200,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 103800,
+        "condo_price_fifteen": 109000,
+        "condo_pct": 0.05,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Driftwood Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Charter Sch Of Excellence - Davie (K - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Kidz Choice Charter School (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "West Hollywood Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Boulevard Heights Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Sheridan Park Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hollywood Park Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pasadena Lakes Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Charter School of Excellence - Davie 2 (K - 1st)",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Driftwood Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Apollo Middle",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pines Middle",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "International Sch Of Broward (6th - 12th)",
+            "grade2015" : "I",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "McArthur High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33025,
+        "city": "Miramar",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 205300,
+        "house_price_fifteen": 223800,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 102100,
+        "condo_price_fifteen": 114500,
+        "condo_pct": 0.12,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Sea Castle Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Neighborhood Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "City Of Pembroke Pines Charter Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Palm Cove Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "New Renaissance Middle",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Preparatory Middle",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Preparatory Middle",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Academy Charter High School Miramar",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miramar High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33026,
+        "city": "Pembroke Pines",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 256200,
+        "house_price_fifteen": 270300,
+        "house_pct": 0.06,
+        "condo_price_fourteen": 92600,
+        "condo_price_fifteen": 105500,
+        "condo_pct": 0.14,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Renaissance Charter School At Cooper City (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Pembroke Lakes Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Embassy Creek Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pines Lakes Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33027,
+        "city": "Miramar",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 343400,
+        "house_price_fifteen": 353700,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 95900,
+        "condo_price_fifteen": 107500,
+        "condo_pct": 0.12,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Coconut Palm Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Academy East Prepatory (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Academy - Miramar Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Cove Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Silver Lakes Elementary",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Silver Shores Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Dolphin Bay Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Glades Middle",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Acad - Miramar Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Everglades High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33028,
+        "city": "Pembroke Pines",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 340100,
+        "house_price_fifteen": 354600,
+        "house_pct": 0.04,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Silver Palms Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Lakeside Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Walter C. Young Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Charles W. Flanagan High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33029,
+        "city": "Pembroke Pines",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 350000,
+        "house_price_fifteen": 363600,
+        "house_pct": 0.04,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Franklin Academy (K - 7th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Panther Run Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Academy Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Chapel Trail Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Sunset Lakes Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pembroke Pines Charter Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Somerset Academy Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Academy High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Conservatory (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "West Broward High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33030,
+        "city": "Homestead",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 132100,
+        "house_price_fifteen": 149200,
+        "house_pct": 0.13,
+        "condo_price_fourteen": 81500,
+        "condo_price_fifteen": 99100,
+        "condo_pct": 0.22,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Avocado Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "",
+            "grade2013" : ""
+          },
+
+          {
+            "name" : "Somerset Academy Charter Elementary School (South Homestead)",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Arts Academy (K - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Laura C. Saunders Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Redondo Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "South Dade Middle School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "West Homestead K-8 Center",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Academy Charter Middle School (South Homestead)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Academy Charter Middle School (Country Palms)",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Homestead Middle School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Somerset Academy Charter High School (South Homestead)",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Medical Academy For Science And Technology (M.A.S.T.) @ Homestead",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "South Dade Senior High School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33029,
+        "city": "Homestead",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "N/A",
+        "school_grade": "",
+        } 
+      ]
+    },
+    {
+        "zipcode": 33031,
+        "city": "Redland",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Redland Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Redland Middle School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          }
+      ]
+    },
+    {
+        "zipcode": 33032,
+        "city": "Princeton",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 139300,
+        "house_price_fifteen": 158700,
+        "house_pct": 0.14,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Air Base K-8 Center For International Education",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Summerville Advantage Academy (1st - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Mandarin Lakes K-8 Academy",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Goulds Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Somerset Academy Silver Palms (6th - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Dr. William A. Chapman Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+            {
+            "name" : "Coconut Palm K-8 Academy",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Somerset Academy At Silver Palms (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Academy Charter High School (South Campus)",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Somerset Academy Charter High School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami MacArthur South (6th - 12th)",
+            "grade2015" : "I",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33033,
+        "city": "Homestead",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 139300,
+        "house_price_fifteen": 151900,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 106800,
+        "condo_price_fifteen": 113800,
+        "condo_pct": 0.07,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Campbell Drive K-8 Center",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "The Charter School At Waterstone",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Leisure City K-8 Center",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Everglades Preparatory Academy (6th - 8th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Aspira Leadership And College Preparatory Academy (K - 8th)",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Everglades Preparatory Academy High School",
+            "grade2015" : "B",
+            "grade2014" : "D",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33034,
+        "city": "Florida City",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 91800,
+        "house_price_fifteen": 106000,
+        "house_pct": 0.15,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Miami Community Charter School (Pre-K - 5th)",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Florida City Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Lincoln-Marti Schools International Campus (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "D",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Miami Community Charter Middle School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Miami Community Charter High School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Homestead Senior High School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33035,
+        "city": "Homestead",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 172400,
+        "house_price_fifteen": 193600,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 87200,
+        "condo_price_fifteen": 94800,
+        "condo_pct": 0.09,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Keys Gate Charter School (K - 8th)",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Gateway Environmental K-8 Learning Center",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Keys Gate Charter High School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33054,
+        "city": "Miami Gardens",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 93700,
+        "house_price_fifteen": 101600,
+        "house_pct": 0.08,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Bunche Park Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Richard Allen Leadership Academy (Pre-K - 5th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Golden Glades Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Dr. Robert B. Ingram/Opa-Locka Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Rainbow Park Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "N Dade Center For Modern Language (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Nathan B. Young Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Florida International Academy (6th - 8th)",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "North Dade Middle School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Jan Mann Opportunity School (5th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33055,
+        "city": "Miami Gardens",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 140400,
+        "house_price_fifteen": 169300,
+        "house_pct": 0.21,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Carol City Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Lake Stevens Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Miami Gardens Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+            {
+            "name" : "North Glade Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Dr. Frederica S. Wilson/Skyway Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Charles David Wyche, Jr Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+           {
+            "name" : "Carol City Middle School",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "F"
+          },
+
+          {
+            "name" : "Lake Stevens Middle School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33056,
+        "city": "Miami Gardens",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 133800,
+        "house_price_fifteen": 145500,
+        "house_pct": 0.09,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Miami Carol City Senior High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Brentwood Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Crestview Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Myrtle Grove K-8 Center",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Barbara Hawkins Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "North County K-8 Center",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Parkview Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Excelsior Charter Academy (K - 9th)",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33060,
+        "city": "Pompano Beach",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 228400,
+        "house_price_fifteen": 243000,
+        "house_pct": 0.06,
+        "condo_price_fourteen": 79500,
+        "condo_price_fifteen": 86900,
+        "condo_pct": 0.09,
+        "crime": "Average",
+"school_grade": "",
+
+        "school" : [
+          {
+            "name" : "McNab Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pompano Beach Elementary",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Sanders Park Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          },
+
+           {
+            "name" : "Cypress Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Pompano Beach Middle",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Pompano Beach High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Blanche Ely High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33062,
+        "city": "Pompano Beach",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 502300,
+        "house_price_fifteen": 526100,
+        "house_pct": 0.05,
+        "condo_price_fourteen": 265400,
+        "condo_price_fifteen": 284500,
+        "condo_pct": 0.07,
+        "crime": "Average",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33063,
+        "city": "Margate",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 189500,
+        "house_price_fifteen": 208700,
+        "house_pct": 0.1,
+        "condo_price_fourteen": 53600,
+        "condo_price_fifteen": 56000,
+        "condo_pct": 0.04,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Rise Academy School Of Science & Technology (K - 8th)",
+            "grade2015" : "D",
+            "grade2014" : "F",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Margate Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Atlantic West Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Margate Middle",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Igeneration Empowerment Academy (6th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Liberty Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Atlantic Technical Center (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33064,
+        "city": "Pompano Beach",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 137800,
+        "house_price_fifteen": 153200,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 70200,
+        "condo_price_fifteen": 74400,
+        "condo_pct": 0.06,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Somerset Pines Academy",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Somerset Academy Pompano (K - 5th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Norcrest Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Tedder Elementary",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Cresthaven Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Palmview Elementary",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+           {
+            "name" : "Park Ridge Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Somerset Academy Pompano Middle",
+            "grade2015" : "B",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Crystal Lake Middle",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33065,
+        "city": "Coral Springs",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 274500,
+        "house_price_fifteen": 284100,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 75900,
+        "condo_price_fifteen": 80300,
+        "condo_pct": 0.06,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Coral Springs Elementary",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Westchester Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "James S. Hunt Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Forest Hills Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Parkside Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Sawgrass Springs Middle",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Springs Charter School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Springs High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Glades High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33066,
+        "city": "Coconut Creek",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 212700,
+        "house_price_fifteen": 230000,
+        "house_pct": 0.08,
+        "condo_price_fourteen": 83700,
+        "condo_price_fifteen": 87300,
+        "condo_pct": 0.04,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Coconut Creek Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coconut Creek High",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33067,
+        "city": "Coral Springs",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 399500,
+        "house_price_fifteen": 411000,
+        "house_pct": 0.03,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Renaissance Charter Of Coral Springs (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Imagine Middle School at Broward",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Riverglades Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Park Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Park Springs Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Forest Glen Middle",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33068,
+        "city": "North Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 141200,
+        "house_price_fifteen": 157600,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 63800,
+        "condo_price_fifteen": 71200,
+        "condo_pct": 0.12,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Somerset Charter Academy North Lauderdale (K - 8th)",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "North Lauderdale Elementary",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "North Broward Academy Of Excellence (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Imagine Charter North Lauderdale Elementary",
+            "grade2015" : "B",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Broadview Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Morrow Elementary",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+           {
+            "name" : "Pinewood Elementary",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Silver Lakes Middle",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "North Broward Academy Of Excellence Middle",
+            "grade2015" : "",
+            "grade2014" : "",
+            "grade2013" : ""
+          },
+
+          {
+            "name" : "Somerset Prep Charter High School - Broward",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "F"
+          }
+      ] 
+    },
+    {
+        "zipcode": 33069,
+        "city": "Pompano Beach",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 101700,
+        "house_price_fifteen": 106100,
+        "house_pct": 0.04,
+        "condo_price_fourteen": 127600,
+        "condo_price_fifteen": 128800,
+        "condo_pct": 0.01,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Robert C. Markham Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Charles R. Drew Elementary Magnet",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33071,
+        "city": "Coral Springs",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 341100,
+        "house_price_fifteen": 347800,
+        "house_pct": 0.02,
+        "condo_price_fourteen": 114800,
+        "condo_price_fifteen": 118600,
+        "condo_pct": 0.03,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Ramblewood Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Maplewood Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Riverside Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Ramblewood Middle",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "J. P. Taravella High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33073,
+        "city": "Coconut Creek",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 296800,
+        "house_price_fifteen": 309300,
+        "house_pct": 0.04,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Winston Park Elementary",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Tradewinds Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Lyons Creek Middle",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Monarch High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33076,
+        "city": "Coral Springs",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 438600,
+        "house_price_fifteen": 450100,
+        "house_pct": 0.03,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Country Hills Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Broward Community Charter West",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Eagle Ridge Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Park Trails Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Heron Heights Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Westglades Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Discovery Middle Charter School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Coral Springs Middle",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Stoneman Douglas High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33109,
+        "city": "Fisher Island",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": 2890700,
+        "condo_price_fifteen": 3102400,
+        "condo_pct": 0.07,
+        "crime": "N/A",
+        "school_grade": ""
+    },
+    {
+        "zipcode": 33122,
+        "city": "Doral",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Renaissance Middle Charter School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33125,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 185000,
+        "house_price_fifteen": 200900,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 99600,
+        "condo_price_fifteen": 109200,
+        "condo_pct": 0.10,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Citrus Grove Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Kensington Park Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Ramz Academy K-5 Miami Campus",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Citrus Grove Middle School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          }
+      ]
+    },
+    {
+        "zipcode": 33126,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 215300,
+        "house_price_fifteen": 241100,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 125500,
+        "condo_price_fifteen": 140100,
+        "condo_pct": 0.12,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Henry M. Flagler Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Charles R. Hadley Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Kinloch Park Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Kinloch Park Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33127,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 87500,
+        "house_price_fifteen": 98600,
+        "house_pct": 0.13,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Lenora Braynon Smith Elementary",
+            "grade2015" : "C",
+            "grade2014" : "F",
+            "grade2013" : "F"
+          },
+
+          {
+            "name" : "Mater Academy Of International Studies (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Paul Laurence Dunbar K-8 Center",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Eneida M. Hartner Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Santa Clara Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Shadowlawn Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Mater Academy Middle School Of International Studies",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Jose de Diego Middle School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Mater Academy High School Of International Studies",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Young Men'S Preparatory Academy (9th - 12th)",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Edison Senior High School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Secondary Student Success Center 802",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33128,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": 95700,
+        "condo_price_fifteen": 119900,
+        "condo_pct": 0.25,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Downtown Miami Charter School (Pre-K - 6th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Law Enforcement Officers Memorial High School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33129,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 503000,
+        "house_price_fifteen": 584800,
+        "house_pct": 0.16,
+        "condo_price_fourteen": 370200,
+        "condo_price_fifteen": 391300,
+        "condo_pct": 0.06,
+        "crime": "High"
+    },
+    {
+        "zipcode": 33130,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": 307200,
+        "condo_price_fifteen": 302400,
+        "condo_pct": -0.02,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Mater Academy East Charter (Pre-K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Ada Merritt K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Riverside Elementary Community School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Lincoln-Marti Charter School Little Havana Campus (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Southside Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Mater East Academy Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Mater Academy East Charter High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Young Womens Preparatory Academy (6th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Charter High School Of The Americas",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33131,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": 438500,
+        "condo_price_fifteen": 435600,
+        "condo_pct": -0.01,
+        "crime": "High",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33132,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": 395600,
+        "condo_price_fifteen": 394500,
+        "condo_pct": 0.00,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Bridgeprep Academy Of Greater Miami (K - 5th)",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Miami Children'S Museum Charter School (Pre-K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Aspira Arts Deco Charter (6th - 8th)",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+            {
+            "name" : "I Preparatory Academy (Pre-K - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "New World School of The Arts (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33133,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 655000,
+        "house_price_fifteen": 731100,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 379800,
+        "condo_price_fifteen": 404000,
+        "condo_pct": 0.06,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "George W. Carver Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Coconut Grove Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Silver Bluff Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Mater Grove Academy (1st - 6th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Mater Brickell Preparatory Academy (K - 6th)",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Frances S. Tucker Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "George Washington Carver Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Academy Of Arts & Minds (9th - 12th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33134,
+        "city": "Coral Gables",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 499100,
+        "house_price_fifteen": 528500,
+        "house_pct": 0.06,
+        "condo_price_fourteen": 331900,
+        "condo_price_fifteen": 342700,
+        "condo_pct": 0.03,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Coral Gables Preparatory Academy (Pre-K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Gables Academy (K - 4th)",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33135,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 231200,
+        "house_price_fifteen": 260300,
+        "house_pct": 0.13,
+        "condo_price_fourteen": 92200,
+        "condo_price_fifteen": 102100,
+        "condo_pct": 0.11,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Auburndale Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Shenandoah Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Bridgeprep Academy Interamerican Campus (K - 8th)",
+            "grade2015" : "B",
+            "grade2014" : "F",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Alpha Charter Of Excellence (K - 5th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "International Studies Charter Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "International Studies Charter High School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Senior High School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33136,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": "N/A",
+        "house_price_fifteen": "N/A",
+        "house_pct": "N/A",
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Frederick R. Douglass Elementary",
+            "grade2015" : "D",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Theodore R. And Thelma A. Gibson Charter School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Phyllis Wheatley Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Sports Leadership And Management (Slam) Charter Middle School",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Sports Leadership Of Miami Charter High School",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Booker T. Washington Senior High",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33137,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 539700,
+        "house_price_fifteen": 663000,
+        "house_pct": 0.23,
+        "condo_price_fourteen": 292700,
+        "condo_price_fifteen": 301100,
+        "condo_pct": 0.03,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Toussaint L'Ouverture Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Miami Arts Charter (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Design & Architecture Senior High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33138,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 462000,
+        "house_price_fifteen": 504700,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 194600,
+        "condo_price_fifteen": 223700,
+        "condo_pct": 0.15,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Miami Shores Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Phyllis R. Miller Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Morningside K-8 Academy",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33139,
+        "city": "Miami Beach",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 2535300,
+        "house_price_fifteen": 3229000,
+        "house_pct": 0.27,
+        "condo_price_fourteen": 343100,
+        "condo_price_fifteen": 367400,
+        "condo_pct": 0.07,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Fienberg/Fisher K-8 Center",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "South Pointe Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Beach Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33140,
+        "city": "Miami Beach",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 1248800,
+        "house_price_fifteen": 1533600,
+        "house_pct": 0.23,
+        "condo_price_fourteen": 377800,
+        "condo_price_fifteen": 408300,
+        "condo_pct": 0.08,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "North Beach Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Nautilus Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33141,
+        "city": "Miami Beach",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 742100,
+        "house_price_fifteen": 815400,
+        "house_pct": 0.1,
+        "condo_price_fourteen": 222900,
+        "condo_price_fifteen": 236200,
+        "condo_pct": 0.06,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Biscayne Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Mater Academy Miami Beach (K - 8th)",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Treasure Island Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33142,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 85300,
+        "house_price_fifteen": 97100,
+        "house_pct": 0.14,
+        "condo_price_fourteen": 90300,
+        "condo_price_fifteen": 87500,
+        "condo_pct": -0.03,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Maya Angelou Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Comstock Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Charles R. Drew K-8 Center",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Earlington Heights Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Lorah Park Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Melrose Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Agenoria S Paschal/Olinda Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Orchard Villa Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Kelsey L. Pharr Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+           {
+            "name" : "Georgia Jones Ayers Middle School",
+            "grade2015" : "D",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Brownsville Middle School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Miami Jackson Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33143,
+        "city": "Glenvar Heights",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 664300,
+        "house_price_fifteen": 750600,
+        "house_pct": 0.13,
+        "condo_price_fourteen": 139700,
+        "condo_price_fifteen": 144300,
+        "condo_pct": 0.03,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Somerset Academy Elementary School South Miami Campus",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Ludlam Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "South Miami K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Sunset Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Academy Charter Middle School South Miami Campus",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "South Miami Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33144,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 250900,
+        "house_price_fifteen": 265600,
+        "house_pct": 0.06,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Fairlawn Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Flagami Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Seminole Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33145,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 312100,
+        "house_price_fifteen": 360800,
+        "house_pct": 0.16,
+        "condo_price_fourteen": 228200,
+        "condo_price_fifteen": 235500,
+        "condo_pct": 0.03,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Coral Way K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Shenandoah Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33146,
+        "city": "Coral Gables",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 828800,
+        "house_price_fifteen": 930700,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 292200,
+        "condo_price_fifteen": 299100,
+        "condo_pct": 0.02,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Henry S. West Laboratory School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Ponce De Leon Middle School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Gables Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "International Studies Preparatory Academy (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33147,
+        "city": "West Little River",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 93500,
+        "house_price_fifteen": 106400,
+        "house_pct": 0.14,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Broadmoor Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Lillie C. Evans K-8 Center",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Liberty City Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+           {
+            "name" : "Miami Park Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Poinciana Park Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Dr. Henry W. Mack/West Little River K-8 Center",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+           {
+            "name" : "Madison Middle School",
+            "grade2015" : "D",
+            "grade2014" : "F",
+            "grade2013" : "F"
+          },
+
+          {
+            "name" : "Miami Central Senior High School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "William H. Turner Technical Arts High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Secondary Student Success Center-804 (6th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Cope Center North (6th - 12th)",
+            "grade2015" : "I",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33149,
+        "city": "Key Biscayne",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 2430700,
+        "house_price_fifteen": 2807400,
+        "house_pct": 0.15,
+        "condo_price_fourteen": 847900,
+        "condo_price_fifteen": 907100,
+        "condo_pct": 0.07,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Key Biscayne K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "MAST Academy",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33150,
+        "city": "Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 114700,
+        "house_price_fifteen": 115600,
+        "house_pct": 0.01,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Arcola Lake Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Van E. Blanton Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Edison Park K-8 Center",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Holmes Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Jesse J. Mccrary, Jr. Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Horace Mann Middle School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+           {
+            "name" : "Miami Northwestern Senior High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Academy For Community Education (9th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33154,
+        "city": "Bal Harbour",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 617300,
+        "house_price_fifteen": 682800,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 466100,
+        "condo_price_fifteen": 502600,
+        "condo_pct": 0.08,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Ruth K. Broad Bay Harbor K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33155,
+        "city": "Coral Terrace",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 287000,
+        "house_price_fifteen": 317500,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 154900,
+        "condo_price_fifteen": 151900,
+        "condo_pct": -0.02,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Banyan Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Terrace Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Emerson Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Everglades K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "David Fairchild Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Sylvania Heights Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "West Miami Middle School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "South Miami Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33156,
+        "city": "Pinecrest",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 891500,
+        "house_price_fifteen": 999500,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 177300,
+        "condo_price_fifteen": 203600,
+        "condo_pct": 0.15,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Howard Drive Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Kenwood K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Palmetto Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Pinecrest Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Vineland K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Palmetto Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Miami Palmetto Senior High School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33157,
+        "city": "Village of Palmetto Bay",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 220300,
+        "house_price_fifteen": 238500,
+        "house_pct": 0.08,
+        "condo_price_fourteen": 75300,
+        "condo_price_fifteen": 85900,
+        "condo_pct": 0.14,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Bel-Aire Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Colonial Drive Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Coral Reef Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+            {
+            "name" : "Robert Russa Moton Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Dr. Henry E. Perrine Academy Of The Arts",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pine Lake Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+            {
+            "name" : "Ethel F. Beckford/Richmond Elementary School",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Whispering Pines Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Cutler Bay Middle",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+            {
+            "name" : "Southwood Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Coral Reef Senior High School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Southridge Senior High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+                    {
+            "name" : "Richmond Perrine Optimist Academy (6th - 12th)",
+            "grade2015" : "I",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33158,
+        "city": "Village of Palmetto Bay",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 566300,
+        "house_price_fifteen": 606500,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 1190600,
+        "condo_price_fifteen": 1256400,
+        "condo_pct": 0.06,
+        "crime": "Low",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33160,
+        "city": "Sunny Isles Beach",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 1548800,
+        "house_price_fifteen": 1755300,
+        "house_pct": 0.13,
+        "condo_price_fourteen": 297800,
+        "condo_price_fifteen": 321200,
+        "condo_pct": 0.08,
+        "crime": 97,
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Norman S. Edelcup/Sunny Isles Beach K-8",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Alonzo And Tracy Mourning Senior High Biscayne Bay Campus",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33161,
+        "city": "North Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 176700,
+        "house_price_fifteen": 200100,
+        "house_pct": 0.13,
+        "condo_price_fourteen": 64700,
+        "condo_price_fifteen": 75200,
+        "condo_pct": 0.16,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Archcreek Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "W. J. Bryan Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Linda Lentin K-8 Center",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "North Miami Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Aspira Raul Arnaldo Martinez Charter School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "North Miami Middle School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "North Miami Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33162,
+        "city": "North Miami Beach",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 157000,
+        "house_price_fifteen": 175400,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 70800,
+        "condo_price_fifteen": 76200,
+        "condo_pct": 0.08,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Ben Gamla Charter School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Ben Gamla Charter School North",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Fulford Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Greynolds Park Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Oak Grove Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Gertrude K. Edleman/Sabal Palm Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "John F. Kennedy Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "North Miami Beach Senior High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33165,
+        "city": "University Park",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 264400,
+        "house_price_fifteen": 290300,
+        "house_pct": 0.1,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Blue Lakes Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Cypress K-8 Center",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Bridgeprep Academy South (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Royal Palm Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Olympia Heights Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Rockway Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Pinecrest Cove Academy (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Tropical Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Academir Charter School Middle",
+            "grade2015" : "B",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Riviera Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Rockway Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Coral Park Senior High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Southwest Miami Senior High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33166,
+        "city": "Miami Springs",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 313900,
+        "house_price_fifteen": 340200,
+        "house_pct": 0.08,
+        "condo_price_fourteen": 128100,
+        "condo_price_fifteen": 140500,
+        "condo_pct": 0.10,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Isaac: Integrated Science And Asian Culture Academy (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+           {
+            "name" : "Miami Springs Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Irving & Beatrice Peskoe K-8 Center",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Academy For International Education Charter School (K - 8th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+           {
+            "name" : "Springview Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Springs Middle School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Miami Springs Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33167,
+        "city": "Westview",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 103000,
+        "house_price_fifteen": 109700,
+        "house_pct": 0.07,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Lakeview Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Henry E.S. Reeves Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Carrie P. Meek/Westview K-8 Center",
+            "grade2015" : "B",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33168,
+        "city": "North Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 117800,
+        "house_price_fifteen": 128000,
+        "house_pct": 0.09,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Benjamin Franklin K-8 Center",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Gratigny Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Hubert O. Sibley K-8 Academy",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+            {
+            "name" : "Doctors Charter School Of Miami Shores (6th - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Thomas Jefferson Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33169,
+        "city": "Miami Gardens",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 164300,
+        "house_price_fifteen": 181900,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 77600,
+        "condo_price_fifteen": 85800,
+        "condo_pct": 0.11,
+        "crime": "AVerage",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Biscayne Gardens Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Hibiscus Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Norland Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Norwood Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Parkway Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Scott Lake Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Norland Middle School",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Miami Norland Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33170,
+        "city": "Goulds",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 167100,
+        "house_price_fifteen": 187100,
+        "house_pct": 0.12,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Palm Glades Preparatory Academy (6th - 8th)",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Palm Glades Preparatory Academy High School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Coral Reef Montessori Academy Charter",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pine Villa Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Arthur And Polly Mays Conservatory Of The Arts (6th - 12th)",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "D"
+          }
+      ]
+    },
+    {
+        "zipcode": 33172,
+        "city": "Fountainbleau",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 408000,
+        "house_price_fifteen": 415600,
+        "house_pct": 0.02,
+        "condo_price_fourteen": 129200,
+        "condo_price_fifteen": 142500,
+        "condo_pct": 0.10,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Renaissance Elementary Charter School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Doral Academy Of Technology",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Doral Academy",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "E.W.F. Stirrup Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Doral Academy Charter Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Just Arts And Management Charter Middle School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "N/A"
+          },
+
+           {
+            "name" : "Ruben Dario Middle School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Doral Performing Arts & Entertainment Academy (9th - 12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Doral Academy Charter High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33173,
+        "city": "Kendall",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 306400,
+        "house_price_fifteen": 329200,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 158400,
+        "condo_price_fifteen": 169000,
+        "condo_pct": 0.07,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Snapper Creek Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Sunset Park Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Glades Middle School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Terra Environmental Research Institute (9th -12th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33174,
+        "city": "Fountainbleau",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 258900,
+        "house_price_fifteen": 282400,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 125800,
+        "condo_price_fifteen": 142000,
+        "condo_pct": 0.13,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Coral Park Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pinecrest Academy (North Campus)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Sweetwater Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33175,
+        "city": "Tamiami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 285300,
+        "house_price_fifteen": 303900,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 141500,
+        "condo_price_fifteen": 150400,
+        "condo_pct": 0.06,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Ethel Koger Beckham Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Bent Tree Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pinecrest Preparatory Academy",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Greenglade Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Joe Hall Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Zora Neale Hurston Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Wesley Matthews Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Royal Green Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Village Green Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+
+          {
+            "name" : "W. R. Thomas Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33176,
+        "city": "Kendall",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 420800,
+        "house_price_fifteen": 418500,
+        "house_pct": -0.01,
+        "condo_price_fourteen": 118900,
+        "condo_price_fifteen": 127300,
+        "condo_pct": 0.07,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Somerset Academy Bay Elementary",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Somerset Academy Bay Middle School",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Gloria Floyd Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Leewood K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "William H. Lehman Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Advantage Academy Santa Fe (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Frank Crawford Martin K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Ben Gamla Charter School (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Richmond Heights Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Miami Killian Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Dorothy M. Wallace Cope Center (6th - 12th)",
+            "grade2015" : "I",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33177,
+        "city": "South Miami Heights",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 189900,
+        "house_price_fifteen": 214400,
+        "house_pct": 0.13,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Somerset Academy Charter",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Caribbean Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Miami Heights Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Herbert A. Ammons Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Academy Charter Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Robert Morgan Educational Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Secondary Student Success Center 803 (6th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33178,
+        "city": "Doral",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 490500,
+        "house_price_fifteen": 502800,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 273200,
+        "condo_price_fifteen": 277900,
+        "condo_pct": 0.02,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Eugenia B. Thomas K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Dr. Rolando Espinosa K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "John I. Smith K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+            {
+            "name" : "Ronald W. Reagan/Doral Senior High School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33179,
+        "city": "Ives Estates",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 222100,
+        "house_price_fifteen": 256700,
+        "house_pct": 0.16,
+        "condo_price_fourteen": 94300,
+        "condo_price_fifteen": 100000,
+        "condo_pct": 0.06,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Madie Ives Community Elementary School",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Andover Middle School",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Dr Michael M. Krop Senior High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33180,
+        "city": "Aventura",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 745800,
+        "house_price_fifteen": 796100,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 355100,
+        "condo_price_fifteen": 369300,
+        "condo_pct": 0.04,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Aventura Waterways K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Aventura City Of Excellence School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Virginia A Boone-Highland Oaks School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Ojus Elementary School",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Highland Oaks Middle School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33181,
+        "city": "North Miami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 689000,
+        "house_price_fifteen": 739200,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 150200,
+        "condo_price_fifteen": 158400,
+        "condo_pct": 0.05,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Natural Bridge Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "David Lawrence Jr. K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "MAST @ FIU",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]    
+    },
+    {
+        "zipcode": 33182,
+        "city": "Tamiami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 283000,
+        "house_price_fifteen": 313100,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 164200,
+        "condo_price_fifteen": 178300,
+        "condo_pct": 0.09,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Paul W. Bell Middle School",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33183,
+        "city": "Kendale Lakes",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 275400,
+        "house_price_fifteen": 295800,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 135400,
+        "condo_price_fifteen": 151900,
+        "condo_pct": 0.12,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Archimedean Academy (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Kendale Lakes Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Winston Park K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Archimedean Middle Conservatory",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Howard D. McMillan Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Archimedean Upper Conservatory",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Sunset Senior High School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33184,
+        "city": "Tamiami",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 286200,
+        "house_price_fifteen": 309500,
+        "house_pct": 0.08,
+        "condo_price_fourteen": 144700,
+        "condo_price_fifteen": 157800,
+        "condo_pct": 0.09,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Marjory Stoneman Douglas Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Dr. Carlos J. Finlay Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33185,
+        "city": "Kendall West",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 315600,
+        "house_price_fifteen": 332700,
+        "house_pct": 0.05,
+        "condo_price_fourteen": 208800,
+        "condo_price_fifteen": 225900,
+        "condo_pct": 0.08,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Dr. Manuel C. Barreiro Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Academir Charter School West (K - 5th)",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Jane S. Roberts K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Pinecrest Academy Charter Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Miami Arts Studio 6-12 At Zelda Glazer",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Lamar Louise Curry Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "G. Holmes Braddock Senior High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Pinecrest Preparatory Academy Charter High School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "John A. Ferguson Senior High",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33186,
+        "city": "The Crossings",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 271400,
+        "house_price_fifteen": 293300,
+        "house_pct": 0.08,
+        "condo_price_fourteen": 163900,
+        "condo_price_fifteen": 181500,
+        "condo_pct": 0.11,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Calusa Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Claude Pepper Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Devon Aire K-8 Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Jack David Gordon Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Bridgeprep Academy Of Village Green",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Arvida Middle School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33187,
+        "city": "Richmond West",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 264200,
+        "house_price_fifteen": 294400,
+        "house_pct": 0.11,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33189,
+        "city": "Cutler Bay",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 200700,
+        "house_price_fifteen": 221900,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 101800,
+        "condo_price_fifteen": 109100,
+        "condo_pct": 0.07,
+        "crime": "Average",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33190,
+        "city": "Cutler Bay",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 201200,
+        "house_price_fifteen": 230100,
+        "house_pct": 0.14,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Cutler Ridge Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Gulfstream Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Dr. Edward L. Whigham Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+            {
+            "name" : "Cutler Bay Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33193,
+        "city": "Kendall West",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 274000,
+        "house_price_fifteen": 289500,
+        "house_pct": 0.06,
+        "condo_price_fourteen": 119300,
+        "condo_price_fifteen": 134100,
+        "condo_pct": 0.12,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Pinecrest Academy (South Campus)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Bowman Ashe/Doolin K-8 Academy",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Dante B. Fascell Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33194,
+        "city": "Golden Glades",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 357400,
+        "house_price_fifteen": 378400,
+        "house_pct": 0.06,
+        "condo_price_fourteen": 238700,
+        "condo_price_fifteen": 254800,
+        "condo_pct": 0.07,
+        "crime": "AVerage",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33196,
+        "city": "The Hammocks",
+        "state": "Fla.",
+        "county": "Miami-Dade",
+        "house_price_fourteen": 278000,
+        "house_price_fifteen": 300400,
+        "house_pct": 0.08,
+        "condo_price_fourteen": 140000,
+        "condo_price_fifteen": 152500,
+        "condo_pct": 0.09,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Norma Butler Bossard Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Christina M. Eve Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Oliver Hoover Elementary School",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Dr. Gilbert L. Porter Elementary School",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hammocks Middle School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Jorge Mas Canosa Middle School",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Felix Varela Senior High School",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33301,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 935300,
+        "house_price_fifteen": 1051100,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 325600,
+        "condo_price_fifteen": 332200,
+        "condo_pct": 0.02,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+           {
+            "name" : "Virginia S. Young Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33304,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 420300,
+        "house_price_fifteen": 433500,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 245700,
+        "condo_price_fifteen": 249600,
+        "condo_pct": 0.02,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Bayview Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "North Side Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Bennett Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Sunrise Elementary",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33305,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 432800,
+        "house_price_fifteen": 456300,
+        "house_pct": 0.05,
+        "condo_price_fourteen": 194500,
+        "condo_price_fifteen": 205100,
+        "condo_pct": 0.05,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Wilton Manors Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Fort Lauderdale High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33306,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 562600,
+        "house_price_fifteen": 562700,
+        "house_pct": 0,
+        "condo_price_fourteen": 153200,
+        "condo_price_fifteen": 161800,
+        "condo_pct": 0.06,
+        "crime": "High",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Lloyd Estates Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Oriole Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Lauderdale Lakes Middle",
+            "grade2015" : "D",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "New Generation Prep High School of Performing Arts",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Anderson Boyd High",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33308,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 575900,
+        "house_price_fifteen": 587700,
+        "house_pct": 0.02,
+        "condo_price_fourteen": 289600,
+        "condo_price_fifteen": 297500,
+        "condo_pct": 0.03,
+        "crime": "Average",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33309,
+        "city": "Oakland Park",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 152800,
+        "house_price_fifteen": 170600,
+        "house_pct": 0.12,
+        "condo_price_fourteen": 96800,
+        "condo_price_fifteen": 99900,
+        "condo_pct": 0.03,
+        "crime": "Average",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33311,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 116800,
+        "house_price_fifteen": 122500,
+        "house_pct": 0.05,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Eagles' Nest Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Somerset Village Academy",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Henry McNeal Turner Learning",
+            "grade2015" : "D",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Dillard Elementary",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Walker Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Broward Estates Elementary",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+           {
+            "name" : "Larkdale Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "North Fork Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Martin Luther King Elementary",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+           {
+            "name" : "Thurgood Marshall Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Rock Island Elementary",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Sunland Early Learning Center",
+            "grade2015" : "A",
+            "grade2014" : "D",
+            "grade2013" : "F"
+          },
+
+           {
+            "name" : "Parkway Middle",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "William Dandy Middle",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Eagles' Nest Middle",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Somerset Academy Village Charter Middle",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Dillard (6th - 12th)",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33312,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 184300,
+        "house_price_fifteen": 200600,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 213700,
+        "condo_price_fifteen": 230000,
+        "condo_pct": 0.08,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Riverland Elementary",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Westwood Heights Elementary",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Foster Stephen Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "New River Middle",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Stranahan High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33313,
+        "city": "Lauderhill",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 141800,
+        "house_price_fifteen": 161300,
+        "house_pct": 0.14,
+        "condo_price_fourteen": 46400,
+        "condo_price_fifteen": 47400,
+        "condo_pct": 0.02,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Renaissance Charter Of Plantation",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Ben Gamla South Broward",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "P.T. Lauderhill Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Castle Hill Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Village Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Mirror Lake Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Royal Palm Elementary",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Plantation Middle",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Lauderhill (6th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "F",
+            "grade2013" : "F"
+          },
+
+           {
+            "name" : "Plantation High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33314,
+        "city": "Davie",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 184000,
+        "house_price_fifteen": 197100,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 94700,
+        "condo_price_fifteen": 112800,
+        "condo_pct": 0.19,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Nova Dwight Eisenhower Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Nova Blanche Forman Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Davie Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Nova Middle",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Nova High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33315,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 245300,
+        "house_price_fifteen": 263500,
+        "house_pct": 0.07,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "High",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Croissant Park Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33316,
+        "city": "Fort Lauderdale",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 872300,
+        "house_price_fifteen": 952900,
+        "house_pct": 0.09,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Harbordale Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Charter School Of Excellence (K - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33317,
+        "city": "Plantation",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 291400,
+        "house_price_fifteen": 299500,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 85400,
+        "condo_price_fifteen": 92100,
+        "condo_pct": 0.08,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Tropical Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Meadowbrook Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Peters Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Plantation Elementary",
+            "grade2015" : "F",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Plantation Park Elementary",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Seminole Middle",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "South Plantation High",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "McFatter Technical Center",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33319,
+        "city": "Lauderhill",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 141500,
+        "house_price_fifteen": 153600,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 56800,
+        "condo_price_fifteen": 58200,
+        "condo_pct": 0.02,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Pathways Academy K-8 Center",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Central Charter School (K - 7th)",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Park Lakes Elementary",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "D"
+          }
+      ]
+    },
+    {
+        "zipcode": 33321,
+        "city": "Tamarac",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 156200,
+        "house_price_fifteen": 171600,
+        "house_pct": 0.1,
+        "condo_price_fourteen": 78700,
+        "condo_price_fifteen": 85400,
+        "condo_pct": 0.09,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Excelsior Charter Of Broward (1st - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Renaissance Charter School At University",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Charter School of Excellence Tamarac 1 (K - 5th)",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+           {
+            "name" : "Tamarac Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Challenger Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Millennium Middle",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Everest Charter School",
+            "grade2015" : "B",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Pivot Charter School (6th - 12th)",
+            "grade2015" : "F",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Charter School of Excellence Tamarac 2 (K - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33322,
+        "city": "Sunrise",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 218000,
+        "house_price_fifteen": 232700,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 47500,
+        "condo_price_fifteen": 49500,
+        "condo_pct": 0.04,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Horizon Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Nob Hill Elementary",
+            "grade2015" : "B",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Bair Middle",
+            "grade2015" : "B",
+            "grade2014" : "D",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33323,
+        "city": "Sunrise",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 245400,
+        "house_price_fifteen": 261600,
+        "house_pct": 0.07,
+        "condo_price_fourteen": 283200,
+        "condo_price_fifteen": 292000,
+        "condo_pct": 0.03,
+        "crime": "Average",
+    "school_grade": "",},
+
+    {
+        "zipcode": 33324,
+        "city": "Plantation",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 300400,
+        "house_price_fifteen": 315000,
+        "house_pct": 0.05,
+        "condo_price_fourteen": 122400,
+        "condo_price_fifteen": 130600,
+        "condo_pct": 0.07,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Imagine Schools South Campus (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Central Park Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Fox Trail Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Indian Ridge Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+        ]
+    },
+    {
+        "zipcode": 33325,
+        "city": "Davie",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 332300,
+        "house_price_fifteen": 336200,
+        "house_pct": 0.01,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Flamingo Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Sawgrass Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Western High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33326,
+        "city": "Weston",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 358200,
+        "house_price_fifteen": 370200,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 159800,
+        "condo_price_fifteen": 164000,
+        "condo_pct": 0.03,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Country Isles Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Indian Trace Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Eagle Point Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+            {
+            "name" : "Tequesta Trace Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33327,
+        "city": "Weston",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 458200,
+        "house_price_fifteen": 458000,
+        "house_pct": 0,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Imagine Charter School Weston (K - 5th)",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Gator Run Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Imagine Middle School West",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33328,
+        "city": "Davie",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 317500,
+        "house_price_fifteen": 325600,
+        "house_pct": 0.03,
+        "condo_price_fourteen": 130800,
+        "condo_price_fifteen": 138600,
+        "condo_pct": 0.06,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Championship Acad Of Discovery - Davie (K - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+          {
+            "name" : "Cooper City Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Silver Ridge Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+           {
+            "name" : "Pioneer Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Cooper City High",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33330,
+        "city": "Cooper City",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 516200,
+        "house_price_fifteen": 560700,
+        "house_pct": 0.09,
+        "condo_price_fourteen": "N/A",
+        "condo_price_fifteen": "N/A",
+        "condo_pct": "N/A",
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Franklin Academy E (K - 5th)",
+            "grade2015" : "C",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          },
+
+          {
+            "name" : "Griffin Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Franklin Academy F (6th - 8th)",
+            "grade2015" : "A",
+            "grade2014" : "N/A",
+            "grade2013" : "N/A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33331,
+        "city": "Weston",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 427400,
+        "house_price_fifteen": 432600,
+        "house_pct": 0.01,
+        "condo_price_fourteen": 278400,
+        "condo_price_fifteen": 316400,
+        "condo_pct": 0.14,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Everglades Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Hawkes Bluff Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Silver Trail Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Pembroke Pines Charter High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33332,
+        "city": "Weston",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 547500,
+        "house_price_fifteen": 554200,
+        "house_pct": 0.01,
+        "condo_price_fourteen": 448700,
+        "condo_price_fifteen": 440500,
+        "condo_pct": -0.02,
+        "crime": "Low",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "Manatee Bay Elementary",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Falcon Cove Middle",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Cypress Bay High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          }
+      ]
+    },
+    {
+        "zipcode": 33334,
+        "city": "Oakland Park",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 209700,
+        "house_price_fifteen": 231100,
+        "house_pct": 0.1,
+        "condo_price_fourteen": 92900,
+        "condo_price_fifteen": 101200,
+        "condo_pct": 0.09,
+        "crime": "Average",
+        "school_grade": "",
+         "school" : [
+          {
+            "name" : "North Andrews Gardens Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Oakland Park Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Floranada Elementary",
+            "grade2015" : "B",
+            "grade2014" : "A",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Rickards Middle",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Northeast High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "C"
+          }
+      ]
+    },
+    {
+        "zipcode": 33351,
+        "city": "Sunrise",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 198800,
+        "house_price_fifteen": 216400,
+        "house_pct": 0.09,
+        "condo_price_fourteen": 82500,
+        "condo_price_fifteen": 87100,
+        "condo_pct": 0.06,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Franklin Academy B",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Banyan Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          },
+
+          {
+            "name" : "Welleby Elementary",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Sandpiper Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Discovery Elementary",
+            "grade2015" : "A",
+            "grade2014" : "B",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Westpine Middle",
+            "grade2015" : "B",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Piper High",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]    
+    },
+    {
+        "zipcode": 33441,
+        "city": "Deerfield Beach",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 207300,
+        "house_price_fifteen": 229500,
+        "house_pct": 0.11,
+        "condo_price_fourteen": 108500,
+        "condo_price_fifteen": 117100,
+        "condo_pct": 0.08,
+        "crime": "Average",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Deerfield Beach Elementary",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "B"
+          },
+
+          {
+            "name" : "Deerfield Park Elementary",
+            "grade2015" : "D",
+            "grade2014" : "C",
+            "grade2013" : "D"
+          },
+
+          {
+            "name" : "Deerfield Beach Middle",
+            "grade2015" : "C",
+            "grade2014" : "C",
+            "grade2013" : "C"
+          },
+
+           {
+            "name" : "Deerfield Beach High",
+            "grade2015" : "A",
+            "grade2014" : "A",
+            "grade2013" : "B"
+          }
+      ]
+    },
+    {
+        "zipcode": 33442,
+        "city": "Deerfield Beach",
+        "state": "Fla.",
+        "county": "Broward",
+        "house_price_fourteen": 235800,
+        "house_price_fifteen": 248900,
+        "house_pct": 0.06,
+        "condo_price_fourteen": 52800,
+        "condo_price_fifteen": 54300,
+        "condo_pct": 0.03,
+        "crime": "Low",
+        "school_grade": "",
+        "school" : [
+          {
+            "name" : "Quiet Waters Elementary",
+            "grade2015" : "C",
+            "grade2014" : "B",
+            "grade2013" : "A"
+          }
+      ]
+    }
+]
