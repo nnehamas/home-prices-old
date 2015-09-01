@@ -1,10 +1,10 @@
 'use strict';
 
-		var income;
-		var $houseLayer = null;
-		var $condoLayer = null;
-		var $defaultHouseLayer = null;
-		var $defaultCondoLayer = null;
+		var income,
+			$houseLayer 	   = null,
+			$condoLayer 	   = null,
+			$defaultHouseLayer = null,
+			$defaultCondoLayer = null;
 	
 		// MAKE TILE LAYER FOR ZOOMED IN VIEW
 		var tiles = new L.StamenTileLayer('toner-lite');
@@ -23,14 +23,13 @@
 
 		// ADD CONTROLS
 		var control = L.control.zoom({'position' : 'topleft'});
-			
+
 		control.addTo(map);
 
 		// BUILD DEFAULT MAP
 		function getDefaultHouseColor (d) {
 
-
-			if (d >= 416325) {
+			if ((d >= 416325 ) && (d <= 3229000 )) {
 				return '#006d2c';
 			}
 
@@ -49,7 +48,7 @@
 			else {
 				return '#edf8e9';
 			}
-		};
+		}
 
 		// SET DEFAULT STYLES
 		function defaultHouseStyle (features, layer) {
@@ -61,37 +60,36 @@
 		        dashArray: '3',
 		        fillOpacity: 0.7
 		    };
-		};
+		}
 
 		// SET DEFAULT LAYER
 		var $defaultHouseLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: defaultHouseStyle });
 
 		// ADD DEFAULT LAYER TO MAP
-		map.addLayer($defaultHouseLayer)
+		map.addLayer($defaultHouseLayer);
 
 		function getDefaultCondoColor (d) {
 
-
-			if (d >= 3102400) {
-				return '#eff3ff';
+			if ((d >= 203975 ) && (d <= 3102400)) {
+				return '#08519c';
 			}
 
-			else if ((d >= 203975 ) && (d <= 3102399)) {
-				return '#bdd7e7';
-			}
-
-			else if ((d >= 114150 ) && (d <= 203974)) {
-				return '#6baed6';
-			}
-
-			else if ((d >= 1  ) && (d <= 191974)) {
+			else if  ((d >= 114150 ) && (d <= 203974)) {
 				return '#3182bd';
 			}
 
-			else {
-				return '#08519c';
+			else if ((d >= 55575  ) && (d <= 114159)){
+				return '#6baed6';
 			}
-		};
+
+			else if  ((d >= 1  ) && (d <= 55574)) {
+				return '#bdd7e7';
+			}
+
+			else {
+				return '#eff3ff';
+			}
+		}
 
 		// SET DEFAULT STYLES
 		function defaultCondoStyle (features, layer) {
@@ -103,17 +101,13 @@
 		        dashArray: '3',
 		        fillOpacity: 0.7
 		    };
-		};
+		}
 
 		// SET DEFAULT LAYER
 		var $defaultCondoLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: defaultCondoStyle });
 
 		// ADD DEFAULT LAYER TO MAP
-	
-
-
 		function getHouseColor (d) {
-
 
 			if (income > d) {
 				return '#006d2c';
@@ -134,7 +128,7 @@
 			else {
 				return '#edf8e9';
 			}
-		};
+		}
 
 		function houseStyle (features, layer) {
 		    return {
@@ -145,9 +139,11 @@
 		        dashArray: '3',
 		        fillOpacity: 0.7
 		    };
-		};
+		}
 
-		function getCondoColor (d,income) {
+
+
+		function getCondoColor (d) {
 
 			if (income > d) {
 				return '#08519c';
@@ -168,20 +164,18 @@
 			else {
 				return '#eff3ff';
 			}
-		};
+		}
 
 		function condoStyle (features, layer) {
 		    return {
-		        fillColor: getCondoColor(features.properties.condo_price_fifteen, income),
+		        fillColor: getCondoColor(features.properties.condo_price_fifteen),
 		        weight: 2,
 		        opacity: 1,
 		        color: 'white',
 		        dashArray: '3',
 		        fillOpacity: 0.7
 		    };
-		};
-
-
+		}
 
 	//====================================
 	// 				HOVER BOX
@@ -198,21 +192,20 @@
 
 		// Horizontal conditions
 		if (posX < w) {
-
 			x = posX - 250;
 		}
 
 		else {
-			x = posX - ($('#hover-box').outerWidth(true) + 100)
+			x = posX - ($('#hover-box').outerWidth(true) + 100);
 		}
 
 		// Vertical conditions
 		if (posY > h) {
-			y = (posY - $('#hover-box').outerHeight(true) - 325)
+			y = (posY - $('#hover-box').outerHeight(true) - 375);
 		}
 
 		else {
-			y = posY - 250
+			y = posY - 300;
 		}
 			
 		$('#hover-box').css({
@@ -233,11 +226,9 @@
 		$(document).unbind('mousemove', getPos);
 	}
 
-
 	//====================================
 	// 				NUMBERS
 	//====================================
-
 
 	// Get money that can be spent on housing
 	function getIncome (num) {
@@ -246,15 +237,15 @@
 		$('.income').html('$' + num);
 		
 		return income;
-	};
+	}
 
 	// Change number to dollar
 	function numberChange (number) {
-		if (number === "N/A") {
-			return "N/A";
+		if (number === 'N/A') {
+			return 'N/A';
 		}
 		else {
-			return "$" + $.number(number);
+			return '$' + $.number(number);
 		}
 	}
 
@@ -264,32 +255,32 @@
 		if ((number < 1) && (number >=0)) {		
 			var percent = Math.floor(number * 100);
 			if (percent > 0) {
-				return "+" + percent + "%"
+				return '+' + percent + '%';
 			}
-			else if (number == "N/A") {		
-				return "N/A"
+			else if (number === 'N/A') {		
+				return 'N/A';
 			}
-			else if (percent == 0) {
-				return 0 + "%"
+			else if (percent === 0) {
+				return 0 + '%';
 			}
 			else {
-				return percent + "%"				
+				return percent + '%';				
 			}
 		}
 
 		else {
 			var percent = Math.floor(number);
 			if (percent > 0) {
-				return "+" + percent + "%"
+				return '+' + percent + '%';
 			}
-			else if (number == "N/A") {
-				return "N/A"				
+			else if (number === 'N/A') {
+				return 'N/A';				
 			}
-			else if (percent == 0) {
-				return 0 + "%"
+			else if (percent === 0) {
+				return 0 + '%';
 			}
 			else {
-				return percent + "%"
+				return percent + '%';
 			}
 		}
 	}
@@ -302,29 +293,26 @@
 
 	function flagError () {
 		$('.error').slideDown('fast');
-
-		$('.alert').html('<i class=\'fa fa-info-circle\'></i> Error: Please enter a valid number')
-	};
+		$('.alert').html('<i class=\'fa fa-info-circle\'></i> Error: Please enter a valid number');
+	}
 
 	function flagSelectionError () {
-		$('.error').slideDown('fast')
-		
-		$('.alert').html('<i class=\'fa fa-info-circle\'></i> Error: Please choose a housing type')
+		$('.error').slideDown('fast');
+		$('.alert').html('<i class=\'fa fa-info-circle\'></i> Error: Please choose a housing type');
 	}
 
 	function removeError () {
 		$('.error').slideUp('fast');
-	};
+	}
 
 	function removeSelectionError () {
 		$('.error').slideUp('fast');
-	};
+	}
 
 
 	//====================================
 	// 				MAPS
 	//====================================
-
 
 	function buildKey (housing) {
 
@@ -334,8 +322,8 @@
 			var legendColors = ['#edf8e9', '#bae4b3', '#74c476', '#31a354', '#006d2c'];
 
 			for (var i = 0; i < legendColors.length; i++) {	
-				$('.key-default').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>')
-			};
+				$('.key-default').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>');
+			}
 		}
 
 		else {
@@ -343,8 +331,8 @@
 
 			for (var i = 0; i < legendColors.length; i++) {
 				
-				$('.key-default').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>')
-			};
+				$('.key-default').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>');
+			}
 		}
 	}
 
@@ -365,27 +353,21 @@
 
 				initHover();
 				
-				var zip = parseInt(layer.feature.properties.zipcode),
-					city = layer.feature.properties.cities,
-					
-					housePriceFourteen = layer.feature.properties.house_price_fourteen,
-					
-					housePriceFifteen = layer.feature.properties.house_price_fifteen,
-					
-					housePercent = layer.feature.properties.house_pct,
-					
-					condoPriceFourteen = layer.feature.properties.condo_price_fourteen,
-					
-					condoPriceFifteen = layer.feature.properties.condo_price_fifteen,
-					
-					condoPercent = layer.feature.properties.condo_pct;
+				var zip 				= parseInt(layer.feature.properties.zipcode),
+					city 				= layer.feature.properties.cities,
+					housePriceFourteen 	= layer.feature.properties.house_price_fourteen,
+					housePriceFifteen 	= layer.feature.properties.house_price_fifteen,
+					housePercent 		= layer.feature.properties.house_pct,
+					condoPriceFourteen 	= layer.feature.properties.condo_price_fourteen,
+					condoPriceFifteen 	= layer.feature.properties.condo_price_fifteen,
+					condoPercent 		= layer.feature.properties.condo_pct;
 
 
 				// Change color of house and condo
 				// values by percent
 
 				// Chango condo 2014 color
-				if (condoPriceFourteen == 'N/A') {
+				if (condoPriceFourteen === 'N/A') {
 					$('.condo-price-fourteen').css('color', '#ccc');
 				}
 
@@ -394,7 +376,7 @@
 				}
 
 				// Chango condo 2015 color			
-				if (condoPriceFifteen == 'N/A') {
+				if (condoPriceFifteen === 'N/A') {
 					$('.condo-price-fifteen').css('color', '#ccc');
 				}
 
@@ -455,70 +437,75 @@
 				}
 
 				// Write data from GeoJSON file
-				$('.zip-code').html(zip)
-				$('.city').html(city)
-				$('.house-price-fourteen').html(numberChange(housePriceFourteen))
-				$('.house-price-fifteen').html(numberChange(housePriceFifteen))
-				$('.house-percent').html(percentChange(housePercent))
-				$('.condo-price-fourteen').html(numberChange(condoPriceFourteen))
-				$('.condo-price-fifteen').html(numberChange(condoPriceFifteen))
-				$('.condo-percent').html(percentChange(condoPercent))
+				$('.zip-code').html(zip);
+				$('.city').html(city);
+				$('.house-price-fourteen').html(numberChange(housePriceFourteen));
+				$('.house-price-fifteen').html(numberChange(housePriceFifteen));
+				$('.house-percent').html(percentChange(housePercent));
+				$('.condo-price-fourteen').html(numberChange(condoPriceFourteen));
+				$('.condo-price-fifteen').html(numberChange(condoPriceFifteen));
+				$('.condo-percent').html(percentChange(condoPercent));
 			},
 
 			mouseout: function(e) {
 				var layer = e.target;
-				
 				layer.setStyle({
 					color: '#fff'
 				});
-				
 				endHover();
-
 			},
 
-			mousemove: function(e){
-
-			},
+			mousemove: function(e){},
 
 			click: function(e) {
-				$('#selected-crimevg').removeAttr('id');
-				
-				// var layer = e.target;
-				
-				// changeZIP(layer);
-			},
+				// var $layer = e.target;
+				// map.fitBounds($layer.getBounds(),{
+				// 	padding: [70, 70]
+				// })
+
+				// var currentFeature = $layer.getBounds()
+
+				// console.log(currentFeature)
+
+				// changeZIP($layer)
+				},
 			tap: function(e) {}
 		});
-	};
-
+	}
 
 	function setDefaultMap() {
 		buildDefaultHouse();
 	}
 
-
 	function buildDefaultCondo() {
-		map.removeLayer($defaultHouseLayer)
-		map.addLayer($defaultCondoLayer)
 
-		let condo = 'condo';
-		buildKey(condo)		
+		$('.condo-select').addClass('selected-interface');
+		$('.house-select').removeClass('selected-interface');
+		
+		var condo = 'condo';
+		buildKey(condo);		
 
 		$('.housing')
 			.html('Condos')
 			.css({
 				'color': '#08519c',
 				'font-weight': 'bold'
-			})				
+			});
+
+		$('.label-left').html('Least Expensive');
+		$('.label-right').html('Most Expensive');
+
+		map.removeLayer($defaultHouseLayer);
+		map.addLayer($defaultCondoLayer);				
 	}
 
 
 	function buildDefaultHouse() {
-		map.removeLayer($defaultHouseLayer)
-		map.removeLayer($defaultCondoLayer)
-		map.addLayer($defaultHouseLayer)
+		
+		$('.house-select').addClass('selected-interface');
+		$('.condo-select').removeClass('selected-interface');
 
-		let house = 'house';
+		var house = 'house';
 		buildKey(house);
 
 		$('.housing')
@@ -526,20 +513,27 @@
 			.css({
 				'color': '#006d2c',
 				'font-weight': 'bold'
-			})					
+			});
+
+		$('.label-left').html('Least Expensive');
+		$('.label-right').html('Most Expensive');
+
+		map.removeLayer($defaultHouseLayer);
+		map.removeLayer($defaultCondoLayer);
+		map.addLayer($defaultHouseLayer);					
 	}
 
 
 	// BUILD HOUSE MAP
 	function buildHouseMap() {
 
-		var incomeInput = $('.income-box').val();
-		var income = getIncome(incomeInput);
+		var incomeInput  = $('.income-box').val(),
+			income 		 = getIncome(incomeInput),
+			legendColors = ['#edf8e9', '#bae4b3', '#74c476', '#31a354', '#006d2c'];
 
 		$('.income-button').attr('disabled','disabled');
 		$('.house-select').addClass('selected-interface');
 		$('.condo-select').removeClass('selected-interface');
-
 
 		d3.csv('../js/libs/data/zips.csv', function(data) {
 	  	
@@ -551,9 +545,9 @@
 	  			}
 	  		});
 
-	  		console.log('Houses:' + count)
+	  		console.log('Houses:' + count);
 
-	  		$('.income').html("$" + $.number(income));
+	  		$('.income').html('$' + $.number(income));
 	  		$('.housing').html('house');
 	  		$('.zip-count').html(count);
 		});
@@ -565,7 +559,6 @@
 		$('.explainer')
 			.css('display', 'block')
 			.find('span')
-
 			.each(function() {
 				$(this).css({
 					'color': '#006d2c',
@@ -573,36 +566,32 @@
 				});
 			});
 
-		$('.legend-block').remove()
-
-		var legendColors = ['#edf8e9', '#bae4b3', '#74c476', '#31a354', '#006d2c'];
+		$('.legend-block').remove();
 
 		for (var i = 0; i < legendColors.length; i++) {
-			
-			$('.key').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>')
-		};
+			$('.key').append('<div class=\'legend-block\' style=\'color:' + legendColors[i] + '\'</div>');
+		}
 
 		$('.label-left').html('Least affordable');
 		$('.label-right').html('Most affordable');
 
-
-		map.removeLayer($defaultHouseLayer)
-		map.removeLayer($defaultCondoLayer)
-		map.removeLayer($condoLayer)
-		map.addLayer($houseLayer)
-	};
+		map.removeLayer($defaultHouseLayer);
+		map.removeLayer($defaultCondoLayer);
+		map.removeLayer($condoLayer);
+		map.addLayer($houseLayer);
+	}
 
 
 	// BUILD CONDO MAP
 	function buildCondoMap () {
 
 		$('.income-button').attr('disabled','disabled');
-
 		$('.condo-select').addClass('selected-interface');
 		$('.house-select').removeClass('selected-interface');
 
-		var incomeInput = $('.income-box').val();
-		var income = getIncome(incomeInput);
+		var incomeInput = $('.income-box').val(),
+			income 		= getIncome(incomeInput),
+			legendColors = ['#eff3ff','#bdd7e7','#6baed6','#3182bd','#08519c'];
 
 		d3.csv('../js/libs/data/zips.csv', function(data) {
 	  	
@@ -617,12 +606,11 @@
 	  		});
 
 	  		$('#interface-container').show();
-
-	  		$('.income').html("$" + $.number(income));
+	  		$('.income').html('$' + $.number(income));
 	  		$('.housing').html('condo');
 	  		$('.zip-count').html(count);
 
-	  		console.log('Condos: ' + count)
+	  		console.log('Condos: ' + count);
 
 		});
 
@@ -638,27 +626,21 @@
 				});
 			});
 
-		$('.legend-block').remove()
+		$('.legend-block').remove();
 
-		var legendColors = ['#eff3ff','#bdd7e7','#6baed6','#3182bd','#08519c'];
-		
-		for (var i = 0; i < legendColors.length; i++) {
-			
-			$('.key').append('<div class=\'legend-block\' style=\'border-color:' + legendColors[i] + '\'</div>')
-		};
+		for (var i = 0; i < legendColors.length; i++) {	
+			$('.key').append('<div class=\'legend-block\' style=\'border-color:' + legendColors[i] + '\'</div>');
+		}
 
 		$('.label-left').html('Least affordable');
 		$('.label-right').html('Most affordable');
 
-		map.removeLayer($defaultCondoLayer)
-		map.removeLayer($defaultHouseLayer)
-		map.removeLayer($houseLayer)
-		map.addLayer($condoLayer)
+		map.removeLayer($defaultCondoLayer);
+		map.removeLayer($defaultHouseLayer);
+		map.removeLayer($houseLayer);
+		map.addLayer($condoLayer);
 
-	};
-
-
-
+	}
 
 	//====================================
 	// 			MAP LIST
@@ -669,28 +651,23 @@
 
 			$.each(data, function(i, val) {
 
-				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + ' data-zipcode=\''+ data[i].zipcode + '\' data-house-fourteen=\''+data[i].house_price_fourteen+'\' data-house-fifteen=\''+data[i].house_price_fifteen+'\' data-house-percent=\''+data[i].house_pct+'\' data-condo-fourteen=\''+data[i].condo_price_fourteen+'\' data-condo-fifteen=\''+data[i].condo_price_fifteen+'\' data-condo-percent=\''+data[i].condo_pct+'\'><span class =\'hed\'>' + data[i].zipcode + ' – ' + data[i].city + '</span></li>')
+				$('#zip-list ul').append('<li class=\'listing\' data-index=' + i + ' data-zipcode=\''+ data[i].zipcode + '\' data-house-fourteen=\''+data[i].house_price_fourteen+'\' data-house-fifteen=\''+data[i].house_price_fifteen+'\' data-house-percent=\''+data[i].house_pct+'\' data-condo-fourteen=\''+data[i].condo_price_fourteen+'\' data-condo-fifteen=\''+data[i].condo_price_fifteen+'\' data-condo-percent=\''+data[i].condo_pct+'\'><span class =\'hed\'>' + data[i].zipcode + ' – ' + data[i].city + '</span></li>');
 				 
 				
 				$('#zip-list').on('click', '.listing', function(event) {
 
 					if ( $(this).hasClass('active-listing') ) {
-						return false
+						return false;
 					}
 
 					$('.hed').css('text-align', 'center');
 
 					var houseFourteen = $(this).attr('data-house-fourteen'),
-						
-						houseFifteen = $(this).attr('data-house-fifteen'),
-
-						housePercent = $(this).attr('data-house-percent'),
-
+						houseFifteen  = $(this).attr('data-house-fifteen'),
+						housePercent  = $(this).attr('data-house-percent'),
 						condoFourteen = $(this).attr('data-condo-fourteen'),
-						
-						condoFifteen = $(this).attr('data-condo-fifteen'),
-
-						condoPercent = $(this).attr('data-condo-percent');
+						condoFifteen  = $(this).attr('data-condo-fifteen'),
+						condoPercent  = $(this).attr('data-condo-percent');
 
 					$('.listing .inner').remove();
 					
@@ -722,122 +699,33 @@
 					'<div class=\'num col-sm-4 col-xs-4\'>' +
 					'<span class=\'year\'>Pct.</span>' +
 					'<span class=\'price-num\'>'+ percentChange(condoPercent) + '</span></div></div></div>'+'<table class=\'school-list\'><tr class= \'table-head\'><th class=\'name\'>School</th><th>2014-15</th><th>2013-14</th><th>2012-13</th></tr></table>'+'</div>'
-					)
+					);
 
-					var q = $(this).attr('data-index');
-					var schoolData = data[q].school;
+					var q = $(this).attr('data-index'),
+						schoolData = data[q].school;
 
-					console.log(q)
+
+
+
 
 					for (var i = 0; i < schoolData.length; i++) {
 						
-						$('.table-head').after('<tr><td class=\'name\'>' + schoolData[i].name + '</td><td>'+ schoolData[i].grade2012 +'</td><td>' + schoolData[i].grade2011 +'</td><td>' + schoolData[i].grade2010+'</td></tr>')
-					};
+						$('.table-head').after('<tr><td class=\'name\'>' + schoolData[i].name + '</td><td>'+ schoolData[i].grade2012 +'</td><td>' + schoolData[i].grade2011 +'</td><td>' + schoolData[i].grade2010+'</td></tr>');
+					}
 				});
 	  		});
-		
-			// var $items = [];
 
-			// $.each(data, function(i) {
-			// 	var tmp = {};
-			// 	tmp.id = i;
-			// 	tmp.number = data[i].zipcode;
-			// 	$items.push(tmp);
-			// });
-
-			// var $matches = [];
-			// var $misses = [];
-
-			// function delegateSearch(kwd) {
-			// 	$('.listing .miss').removeClass('miss');
-			// 	// $('#noMatches').hide();
-			// 	$matches = [];
-			// 	$misses = [];
-
-			// 	if ((kwd != '') && (kwd.length >= 2)) {
-					
-			// 		$.each($items, function(i) {
-			// 			if ($items[i].number.indexOf(kwd) == 0) {
-							
-			// 				$matches.push($('#' + $items[i].id));
-			// 			} 
-
-			// 			else {
-			// 				$misses.push($('#' + $items[i].id));
-			// 			}
-			// 		});
-					
-			// 		$.each($matches, function(i) {
-			// 			$($matches[i]).addClass('match');
-			// 		});
-
-			// 		$.each($misses, function(i) {
-			// 			$($misses[i]).removeClass('match').addClass('miss');
-			// 		});
-			// 	} 
-
-
-			// 	else {
-			// 		$('.listing').removeClass('miss').addClass('match');
-			// 	}
-
-			// 	console.log($matches)
-
-			// }
-
-			// // BIND KEYBOARD
-			// $('#srcbox').bind('keyup', function() {
-
-			// 	console.log($(this).val())
-				
-			// 	delegateSearch($(this).val());
-				
-			// 	if ( $('.listing .match').length === 1) {
-			// 		$('.listing .match').trigger('click')
-			// 	}
-				
-			// 	if ( $('.listing .match').length === 0) {
-			// 		$('#none-message').show()
-			// 	} 
-
-			// 	else {
-			// 		$('#none-message').hide()
-			// 	}
-			// });
-
-			// $('#srcbox-button').click(function() {
-			// 	$('#srcbox').blur()
-			// })
-
-			// $('#reset').click(function() {
-			// 	$('#srcbox').val('')
-			// 	$('.miss').removeClass('miss')
-			// })
-
-
-			// $(document).keydown(function(e){
-			// 	if (e.keyCode === 37) { 
-			// 		$('#srcbox').val('')
-			// 		$('.miss').removeClass('miss')
-			// 	$('.active-listing').prev().trigger('click');
-			// 	}
-			// 	if (e.keyCode === 39) { 
-			// 		$('#srcbox').val('')
-			// 		$('.miss').removeClass('miss')
-			// 		$('.active-listing').next().trigger('click');
-			//   }
-			// });
-			
-
-
-
-
+			$('#srcbox').quicksearch('.listing', 'data-zipcode');
+	
+			$('#reset').click(function() {
+				$('#srcbox').val('')
+				$('.listing').removeClass('selected-interface')
+			})
 
 
 		});
 			
 	}
-
 
 	//====================================
 	// INCOME INPUT AND HOUSING SELECTION
@@ -845,17 +733,12 @@
 
 	function checkInput (income) {
 
-		var incomeInput = $('.income-box').val();
-
-		var house_checkbox = $('.house:checkbox');
-
-		var condo_checkbox = $('.condo:checkbox');
-
-		var inputBoxError = (isNaN(income)) || (incomeInput === '');
-
-		var houseCheck = (house_checkbox.is(':checked'));
-
-		var condoCheck = (condo_checkbox.is(':checked'))
+		var incomeInput 	= $('.income-box').val(),
+			house_checkbox 	= $('.house:checkbox'),
+			condo_checkbox 	= $('.condo:checkbox'),
+			inputBoxError 	= (isNaN(income)) || (incomeInput === ''),
+			houseCheck 		= (house_checkbox.is(':checked')),
+			condoCheck 		= (condo_checkbox.is(':checked'));
 
 		// ERROR HANDLING
 		if (( inputBoxError === false ) && ( houseCheck === true )) {
@@ -883,7 +766,7 @@
 		else if (( inputBoxError === false ) && ( condoCheck === false )) {
 			flagSelectionError();
 		}
-	};
+	}
 
 
 	//====================================
@@ -891,25 +774,3 @@
 	//====================================
 
 	// BUILD SEARCH LIST
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

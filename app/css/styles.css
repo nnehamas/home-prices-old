@@ -268,6 +268,9 @@ hr {
 .dollar-sign {
   font-size: 35px; }
 
+.miss {
+  display: none; }
+
 #button-container {
   margin: 1em 0;
   text-align: left;
@@ -412,6 +415,8 @@ hr {
       font-family: "Roboto Slab", "Times New Roman", Times, serif;
       font-weight: bold;
       font-size: 18px; }
+      .info #list-container #zip-list .listing:hover {
+        background: #fff; }
       .info #list-container #zip-list .listing .school-list {
         border: 1px solid;
         width: 100%;

@@ -10,9 +10,8 @@
 	          event.preventDefault();
 	      }
 	      
-	      let inputNumber = $(this).val().replace(/,/gi, '');
-   
-	      let newNumber = inputNumber.split(/(?=(?:\d{3})+$)/).join(',');
+	      var inputNumber = $(this).val().replace(/,/gi, ''),
+	      	  newNumber   = inputNumber.split(/(?=(?:\d{3})+$)/).join(',');
 	 
 		  $(this).val(newNumber);
 	  });
@@ -20,11 +19,11 @@
 
 	$('#check-button-house').on('change', '.house:checkbox', function(e) {
 
-		let attr = $(this).attr('checked')
+		var attr = $(this).attr('checked');
 		
 		if (typeof attr !== typeof undefined && attr !== false) {
 			
-			$(this).removeAttr('checked')
+			$(this).removeAttr('checked');
 			
 			$('.condo:checkbox')
 				.attr('disabled', false)
@@ -33,7 +32,7 @@
 		}
 
 		else {
-			$(this).attr('checked','checked')
+			$(this).attr('checked','checked');
 			$('.condo:checkbox')
 				.attr('disabled', true)
 				.closest('#check-button-condo')
@@ -47,11 +46,11 @@
 
 	$('#check-button-condo').on('change', '.condo:checkbox', function(e) {
 
-		let attr = $(this).attr('checked')
+		var attr = $(this).attr('checked');
 		
 		if (typeof attr !== typeof undefined && attr !== false) {
 			
-			$(this).removeAttr('checked')
+			$(this).removeAttr('checked');
 			
 			$('.house:checkbox')
 				.attr('disabled', false)
@@ -61,7 +60,7 @@
 
 		else {
 
-			$(this).attr('checked','checked')
+			$(this).attr('checked','checked');
 			
 			$('.house:checkbox')
 				.attr('disabled', true)
@@ -81,31 +80,31 @@
 
 	$('#interface-container').on('click', '.house-select', function(event) {
 
-		$('.condo-select').removeClass('selected-interface')		
-		$(this).addClass('selected-interface')
+		$('.condo-select').removeClass('selected-interface');		
+		$(this).addClass('selected-interface');
 		
-		let house = 'house';
-		var incomeInput = $('.income-box').val();
-		var house_checkbox = $('.house:checkbox');
-		var condo_checkbox = $('.condo:checkbox');
-		var houseCheck = (house_checkbox.is(':checked'));
-		var condoCheck = (condo_checkbox.is(':checked'));
-		var inputEmpty = (incomeInput === '');
+		var house 		   = 'house',
+			incomeInput    = $('.income-box').val(),
+			house_checkbox = $('.house:checkbox'),
+			condo_checkbox = $('.condo:checkbox'),
+			houseCheck 	   = (house_checkbox.is(':checked')),
+			condoCheck 	   = (condo_checkbox.is(':checked')),
+			inputEmpty 	   = (incomeInput === '');
 
 		if ((houseCheck === true && condoCheck === false) && (inputEmpty === false)) {
 			buildHouseMap();
-			console.log('build house map')
+			console.log('build house map');
 		} 
 
 		else if ((houseCheck === false && condoCheck === true) && (inputEmpty === false)) {
 			buildHouseMap();
-			console.log('build house map')
+			console.log('build house map');
 		}
 
 		else {
-			buildKey(house)
+			buildKey(house);
 			buildDefaultHouse();
-			console.log('build default house map')
+			console.log('build default house map');
 		}
 	});
 
@@ -115,29 +114,28 @@
 		$('.house-select').removeClass('selected-interface')		
 		$(this).addClass('selected-interface');
 
-		let condo = 'condo';
-
-		var incomeInput = $('.income-box').val();
-		var house_checkbox = $('.house:checkbox');
-		var condo_checkbox = $('.condo:checkbox');
-		var houseCheck = (house_checkbox.is(':checked'));
-		var condoCheck = (condo_checkbox.is(':checked'));
-		var inputEmpty = (incomeInput === '');
+		var condo 		   = 'condo',
+			incomeInput    = $('.income-box').val(),
+			house_checkbox = $('.house:checkbox'),
+			condo_checkbox = $('.condo:checkbox'),
+			houseCheck 	   = (house_checkbox.is(':checked')),
+			condoCheck 	   = (condo_checkbox.is(':checked')),
+			inputEmpty 	   = (incomeInput === '');
 
 		if ((houseCheck === true && condoCheck === false) && (inputEmpty === false)) {
 			buildCondoMap();
-			console.log('build condo map')
+			console.log('build condo map');
 		} 
 
 		else if ((houseCheck === false && condoCheck === true) && (inputEmpty === false)) {
 			buildCondoMap();
-			console.log('build condo map')
+			console.log('build condo map');
 		}
 
 		else {
 			buildKey(condo)
 			buildDefaultCondo();
-			console.log('build default condo map')
+			console.log('build default condo map');
 		}
 	});
 	
@@ -146,14 +144,11 @@
 	// RUN MAP-BUILDING FUNCTIONS
 	$('#button-container').on('click', '.income-button', function() {
 		
-		let incomeInput = $('.income-box').val();
-
-		console.log(income)
-
+		var incomeInput = $('.income-box').val();
+		
 		income = getIncome(incomeInput);
 
-		$houseLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: houseStyle });
-		
+		$houseLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: houseStyle });	
 		$condoLayer = L.geoJson($zipData, { onEachFeature: onEachFeature, style: condoStyle });
 
 		checkInput(income);
@@ -176,8 +171,8 @@
 
 		$('.map-interface-default').show();
 
-		let defaultOption = $('.housing-option option[value=\'default\']');
-
+		var defaultOption = $('.housing-option option[value=\'default\']');
+		
 		defaultOption.removeAttr('disabled');
 
 		map.removeLayer($houseLayer)

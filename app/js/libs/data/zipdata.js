@@ -1861,7 +1861,7 @@ var $zipData = [
                     "house_price_fourteen": 1248800,
                     "house_pct": 0.228,
                     "condo_price_fifteen": 408300,
-                    "condo_price_fourteen": 408300,
+                    "condo_price_fourteen": 377800,
                     "condo_pct": 0.081,
                     "crime": 297
                 },
@@ -1919,11 +1919,11 @@ var $zipData = [
                     "zipcode": 33177,
                     "cities": "South Miami Heights",
                     "house_price_fifteen": 214400,
-                    "house_price_fourteen": 0,
-                    "house_pct": 0,
+                    "house_price_fourteen": 189900,
+                    "house_pct": 0.13,
                     "condo_price_fifteen": "N/A",
-                    "condo_price_fourteen": 0,
-                    "condo_pct": 0,
+                    "condo_price_fourteen": "N/A",
+                    "condo_pct": "N/A",
                     "crime": 98
                 },
                 "geometry": {
@@ -2732,14 +2732,14 @@ var $zipData = [
                 "type": "Feature",
                 "properties": {
                     "zipcode": 33162,
-                    "cities": "North Miami Beach",
-                    "house_price_fifteen": 175400,
-                    "house_price_fourteen": 15700,
-                    "house_pct": 0.117,
-                    "condo_price_fifteen": 76200,
+                    "cities" : "North Miami Beach",
+                    "house_price_fifteen" : 175400,
+                    "house_price_fourteen" : 157000,
+                    "house_pct" : 0.12,
+                    "condo_price_fifteen" : 76200,
                     "condo_price_fourteen": 70800,
-                    "condo_pct": 0.076,
-                    "crime": 192
+                    "condo_pct": 0.08,
+                    "crime" : 192
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -3514,15 +3514,15 @@ var $zipData = [
             {
                 "type": "Feature",
                 "properties": {
-                    "zipcode": 33010,
-                    "cities": "Hialeah",
-                    "house_price_fifteen": 201100,
-                    "house_price_fourteen": 174900,
-                    "house_pct": 0.15,
-                    "condo_price_fifteen": "N/A",
-                    "condo_price_fourteen": 0,
-                    "condo_pct": 0,
-                    "crime": 119
+                   "zipcode": 33010,
+                    "cities" : "Hialeah",
+                    "house_price_fifteen" : 201100,
+                    "house_price_fourteen" : 174900,
+                    "house_pct" : 0.15,
+                    "condo_price_fifteen" : "N/A",
+                    "condo_price_fourteen": "N/A",
+                    "condo_pct": "N/A",
+                    "crime" : 119
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -4329,14 +4329,14 @@ var $zipData = [
                 "type": "Feature",
                 "properties": {
                     "zipcode": 33176,
-                    "cities": "Kendall",
-                    "house_price_fifteen": 418500,
-                    "house_price_fourteen": 0,
-                    "house_pct": 0,
-                    "condo_price_fifteen": 127300,
-                    "condo_price_fourteen": 0,
-                    "condo_pct": 0,
-                    "crime": 125
+                    "cities" : "Kendall",
+                    "house_price_fifteen" : 418500,
+                    "house_price_fourteen" : 420800,
+                    "house_pct" : -0.01,
+                    "condo_price_fifteen" : 127300,
+                    "condo_price_fourteen": 118900,
+                    "condo_pct": 0.07,
+                    "crime" : 125
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -5021,14 +5021,14 @@ var $zipData = [
                 "type": "Feature",
                 "properties": {
                     "zipcode": 33069,
-                    "cities": "Pompano Beach",
-                    "house_price_fifteen": 106100,
-                    "house_price_fourteen": 101700,
-                    "house_pct": 0.002,
-                    "condo_price_fifteen": 128800,
+                    "cities" : "Pompano Beach",
+                    "house_price_fifteen" : 106100,
+                    "house_price_fourteen" : 101700,
+                    "house_pct" : 0.043,
+                    "condo_price_fifteen" : 128800,
                     "condo_price_fourteen": 127600,
-                    "condo_pct": 0.09,
-                    "crime": 195
+                    "condo_pct": 0.01,
+                    "crime" : 195
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -5253,14 +5253,14 @@ var $zipData = [
                 "type": "Feature",
                 "properties": {
                     "zipcode": 33071,
-                    "cities": "Coral Springs",
-                    "house_price_fifteen": 347800,
-                    "house_price_fourteen": 341100,
-                    "house_pct": 0.002,
-                    "condo_price_fifteen": 118600,
+                    "cities" : "Coral Springs",
+                    "house_price_fifteen" : 347800,
+                    "house_price_fourteen" : 341100,
+                    "house_pct" : 0.020,
+                    "condo_price_fifteen" : 118600,
                     "condo_price_fourteen": 114800,
                     "condo_pct": 0.033,
-                    "crime": 66
+                    "crime" : 66
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -5636,14 +5636,14 @@ var $zipData = [
                 "type": "Feature",
                 "properties": {
                     "zipcode": 33351,
-                    "cities": "Sunrise",
-                    "house_price_fifteen": 216400,
-                    "house_price_fourteen": 19800,
-                    "house_pct": 0.089,
-                    "condo_price_fifteen": 87100,
+                    "cities" : "Sunrise",
+                    "house_price_fifteen" : 216400,
+                    "house_price_fourteen" : 198800,
+                    "house_pct" : 0.09,
+                    "condo_price_fifteen" : 87100,
                     "condo_price_fourteen": 82500,
-                    "condo_pct": 0.056,
-                    "crime": 136
+                    "condo_pct": 0.06,
+                    "crime" : 136
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -5885,14 +5885,14 @@ var $zipData = [
                 "type": "Feature",
                 "properties": {
                     "zipcode": 33322,
-                    "cities": "Sunrise",
-                    "house_price_fifteen": 232700,
-                    "house_price_fourteen": 21800,
-                    "house_pct": 0.067,
-                    "condo_price_fifteen": 49500,
+                    "cities" : "Sunrise",
+                    "house_price_fifteen" : 232700,
+                    "house_price_fourteen" : 218000,
+                    "house_pct" : 0.07,
+                    "condo_price_fifteen" : 49500,
                     "condo_price_fourteen": 47500,
-                    "condo_pct": 0.042,
-                    "crime": 76
+                    "condo_pct": 0.04,
+                    "crime" : 76
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -6723,14 +6723,14 @@ var $zipData = [
                 "type": "Feature",
                 "properties": {
                     "zipcode": 33314,
-                    "cities": "Davie",
-                    "house_price_fifteen": 197100,
-                    "house_price_fourteen": 18400,
-                    "house_pct": 0.071,
-                    "condo_price_fifteen": 112800,
+                    "cities" : "Davie",
+                    "house_price_fifteen" : 197100,
+                    "house_price_fourteen" : 184000,
+                    "house_pct" : 0.07,
+                    "condo_price_fifteen" : 112800,
                     "condo_price_fourteen": 94700,
-                    "condo_pct": 0.191,
-                    "crime": 171
+                    "condo_pct": 0.19,
+                    "crime" : 171
                 },
                 "geometry": {
                     "type": "Polygon",
